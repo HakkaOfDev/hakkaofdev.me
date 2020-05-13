@@ -1,0 +1,104 @@
+.projects {
+    .container {
+        padding: 0;
+        .item-container {
+            display: flex;
+            flex: 1;
+            flex-direction: column;
+            padding-bottom: 5rem;
+            @media screen and (min-width: 1024px) {
+                flex: 2;
+                flex-direction: row;
+                min-height: 75vh;
+                max-height: 75vh;
+                padding-bottom: 0;
+            }
+            .text {
+                flex: 1;
+                .container {
+                    height: 100%;
+                    padding: .5rem 1rem;
+                    
+                    @media screen and (min-width: 1024px) {
+                        padding: 3rem 2rem 3rem 2rem;
+                        width: 90%;
+                    }
+                    .call-to-action {
+                        margin-top: 3rem;
+                        margin-bottom: 2rem;
+                        
+                        @media screen and (min-width: 1024px) {
+                            margin-bottom: 0;
+                        }
+                    }
+                    .nav {
+                        .nav-item {
+                            list-style-type: disc;
+                            margin-left: 2rem;
+                            a {
+                                font-size: 1rem;
+                                font-weight: 300;
+                                cursor: default;
+                                &:hover {
+                                    color: inherit;
+                                }
+                            }
+                        }
+                    }
+                }
+                .item-describes {
+                    font-size: 1rem;
+                    font-weight: 300;
+                }
+            }
+            .image {
+                flex: 1;
+                @media screen and (min-width: 1024px) {
+                    padding-top: 0;
+                }
+                img {
+                    height: 100%;
+                }
+            }
+            &:nth-child(odd) {
+                .text {
+                    order: 2;
+                    padding-top: .5rem;
+                    @media screen and (min-width: 1024px) {
+                        order: 1;
+                        padding-top: 0;
+                    }
+                    .container {
+                        margin: 0;
+                        @media screen and (min-width: 1024px) {
+                            margin-right: 0;
+                            margin-left: auto;
+                        }
+                    }
+                }
+                .image {
+                    order: 1;
+                    @media screen and (min-width: 1024px) {
+                        order: 2;
+                        img {
+                            clip-path: polygon(0% 0%, 100% 0%, 100% 100%, 0% 100%, 0% 58%, 5% 50%, 0% 42%);
+                        }
+                    }
+                }
+            }
+            &:nth-child(even) {
+                .text {
+                    order: 2;
+                }
+                .image {
+                    order: 1;
+                    @media screen and (min-width: 1024px) {
+                        img {
+                            clip-path: polygon(0% 0%, 100% 0%, 100% 42%, 95% 50%, 100% 58%, 100% 100%, 0% 100%);
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
