@@ -3,6 +3,7 @@ import initialize from '../utils/initialize'
 import Layout from '../components/Layout'
 import Project from "../components/Projects/Project";
 import React, {Fragment} from "react";
+import './i18n';
 
 const Index = () => {
 

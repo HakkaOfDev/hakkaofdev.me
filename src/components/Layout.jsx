@@ -6,7 +6,6 @@ import Navbar from './Navbar/Navbar';
 
 const Layout = ({ children, title = '', image = '', describe = '', isAuthenticated, deauthenticate }) => {
 
-
     return (
         <>
             <Head>
