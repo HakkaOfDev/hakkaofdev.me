@@ -1,4 +1,3 @@
-@import url("https://fonts.googleapis.com/css?family=Roboto&display=swap");
 /*! normalize.css v8.0.1 | MIT License | github.com/necolas/normalize.css */
 /* Document
    ========================================================================== */
@@ -338,28 +337,414 @@ template {
   display: none;
 }
 
-h1, .h1 {
-  font-size: 2.5rem;
+@keyframes navbar-toggle-on {
+  from {
+    left: -100vw;
+  }
+  to {
+    left: 0;
+  }
+}
+@keyframes navbar-toggle-off {
+  from {
+    left: 0;
+  }
+  to {
+    left: -100vw;
+  }
+}
+@keyframes opacity-on {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+@keyframes opacity-off {
+  from {
+    opacity: 1;
+  }
+  to {
+    opacity: 0;
+  }
+}
+body {
+  margin: 0;
+  padding: 0;
+  max-width: 100%;
+  height: 100vh;
+  max-height: 100vh;
+  min-height: 100vh;
+  font-family: -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", sans-serif;
+  overflow-x: hidden;
+  box-sizing: border-box;
+}
+body p {
+  line-height: 1.5rem;
+  color: rgba(0, 0, 0, 0.7);
+  font-size: 1.4rem;
+  line-height: 1.8rem;
+}
+@media (min-width: 768px) {
+  body p {
+    font-size: 1.8rem;
+    line-height: 2.4rem;
+  }
+}
+@media (min-width: 1024px) {
+  body p {
+    font-size: 1.4rem;
+    line-height: 2rem;
+  }
 }
 
-h2, .h2 {
-  font-size: 2rem;
+.border\:white {
+  border: 1px solid white;
 }
 
-h3, .h3 {
-  font-size: 1.75rem;
+.border\:pink {
+  border: 1px solid #e91e63;
 }
 
-h4, .h4 {
-  font-size: 1.5rem;
+.border\:pink-1 {
+  border: 1px solid #d81b60;
 }
 
-h5, .h5 {
-  font-size: 1.25rem;
+.border\:pink-2 {
+  border: 1px solid #c2185b;
 }
 
-h6, .h6 {
-  font-size: 1rem;
+.border\:pink-3 {
+  border: 1px solid #ad1457;
+}
+
+.border\:pink-4 {
+  border: 1px solid #880e4f;
+}
+
+.border\:purple {
+  border: 1px solid #9c27b0;
+}
+
+.border\:purple-1 {
+  border: 1px solid #8e24aa;
+}
+
+.border\:purple-2 {
+  border: 1px solid #7b1fa2;
+}
+
+.border\:purple-3 {
+  border: 1px solid #6a1b9a;
+}
+
+.border\:purple-4 {
+  border: 1px solid #4a148c;
+}
+
+.border\:deep-purple {
+  border: 1px solid #4a148c;
+}
+
+.border\:deep-purple-1 {
+  border: 1px solid #5e35b1;
+}
+
+.border\:deep-purple-2 {
+  border: 1px solid #512da8;
+}
+
+.border\:deep-purple-3 {
+  border: 1px solid #4527a0;
+}
+
+.border\:deep-purple-4 {
+  border: 1px solid #311b92;
+}
+
+.border\:blue {
+  border: 1px solid #2196f3;
+}
+
+.border\:blue-1 {
+  border: 1px solid #1e88e5;
+}
+
+.border\:blue-2 {
+  border: 1px solid #1976d2;
+}
+
+.border\:blue-3 {
+  border: 1px solid #1565c0;
+}
+
+.border\:blue-4 {
+  border: 1px solid #0d47a1;
+}
+
+.border\:light-blue {
+  border: 1px solid #03a9f4;
+}
+
+.border\:light-blue-1 {
+  border: 1px solid #039be5;
+}
+
+.border\:light-blue-2 {
+  border: 1px solid #0288d1;
+}
+
+.border\:light-blue-3 {
+  border: 1px solid #0277bd;
+}
+
+.border\:light-blue-4 {
+  border: 1px solid #01579b;
+}
+
+.border\:indigo {
+  border: 1px solid #3f51b5;
+}
+
+.border\:indigo-1 {
+  border: 1px solid #3949ab;
+}
+
+.border\:indigo-2 {
+  border: 1px solid #303f9f;
+}
+
+.border\:indigo-3 {
+  border: 1px solid #283593;
+}
+
+.border\:indigo-4 {
+  border: 1px solid #1a237e;
+}
+
+.border\:teal {
+  border: 1px solid #009688;
+}
+
+.border\:teal-1 {
+  border: 1px solid #00897b;
+}
+
+.border\:teal-2 {
+  border: 1px solid #00796b;
+}
+
+.border\:teal-3 {
+  border: 1px solid #00695c;
+}
+
+.border\:teal-4 {
+  border: 1px solid #004d40;
+}
+
+.border\:cyan {
+  border: 1px solid #00bcd4;
+}
+
+.border\:cyan-1 {
+  border: 1px solid #00acc1;
+}
+
+.border\:cyan-2 {
+  border: 1px solid #0097a7;
+}
+
+.border\:cyan-3 {
+  border: 1px solid #00838f;
+}
+
+.border\:cyan-4 {
+  border: 1px solid #006064;
+}
+
+.border\:red {
+  border: 1px solid #b71c1c;
+}
+
+.border\:red-1 {
+  border: 1px solid #e53935;
+}
+
+.border\:red-2 {
+  border: 1px solid #d32f2f;
+}
+
+.border\:red-3 {
+  border: 1px solid #c62828;
+}
+
+.border\:red-4 {
+  border: 1px solid #b71c1c;
+}
+
+.border\:green {
+  border: 1px solid #4caf50;
+}
+
+.border\:green-1 {
+  border: 1px solid #43a047;
+}
+
+.border\:green-2 {
+  border: 1px solid #388e3c;
+}
+
+.border\:green-3 {
+  border: 1px solid #2e7d32;
+}
+
+.border\:green-4 {
+  border: 1px solid #1b5e20;
+}
+
+.border\:light-green {
+  border: 1px solid #8bc34a;
+}
+
+.border\:light-green-1 {
+  border: 1px solid #7cb342;
+}
+
+.border\:light-green-2 {
+  border: 1px solid #689f38;
+}
+
+.border\:light-green-3 {
+  border: 1px solid #558b2f;
+}
+
+.border\:light-green-4 {
+  border: 1px solid #33691e;
+}
+
+.border\:lime {
+  border: 1px solid #cddc39;
+}
+
+.border\:lime-1 {
+  border: 1px solid #c0ca33;
+}
+
+.border\:lime-2 {
+  border: 1px solid #afb42b;
+}
+
+.border\:lime-3 {
+  border: 1px solid #9e9d24;
+}
+
+.border\:lime-4 {
+  border: 1px solid #827717;
+}
+
+.border\:orange {
+  border: 1px solid #ff9800;
+}
+
+.border\:orange-1 {
+  border: 1px solid #fb8c00;
+}
+
+.border\:orange-2 {
+  border: 1px solid #f57c00;
+}
+
+.border\:orange-3 {
+  border: 1px solid #ef6c00;
+}
+
+.border\:orange-4 {
+  border: 1px solid #e65100;
+}
+
+.border\:amber {
+  border: 1px solid #ffc107;
+}
+
+.border\:amber-1 {
+  border: 1px solid #ffb300;
+}
+
+.border\:amber-2 {
+  border: 1px solid #ffa000;
+}
+
+.border\:amber-3 {
+  border: 1px solid #ff8f00;
+}
+
+.border\:amber-4 {
+  border: 1px solid #ff6f00;
+}
+
+.border\:yellow {
+  border: 1px solid #ffeb3b;
+}
+
+.border\:yellow-1 {
+  border: 1px solid #fdd835;
+}
+
+.border\:yellow-2 {
+  border: 1px solid #fbc02d;
+}
+
+.border\:yellow-3 {
+  border: 1px solid #f9a825;
+}
+
+.border\:yellow-4 {
+  border: 1px solid #f57f17;
+}
+
+.border\:light-grey-4 {
+  border: 1px solid #fafafa;
+}
+
+.border\:light-grey-3 {
+  border: 1px solid #f5f5f5;
+}
+
+.border\:light-grey-2 {
+  border: 1px solid #eeeeee;
+}
+
+.border\:light-grey-1 {
+  border: 1px solid #e0e0e0;
+}
+
+.border\:light-grey {
+  border: 1px solid #9e9e9e;
+}
+
+.border\:grey {
+  border: 1px solid #bdbdbd;
+}
+
+.border\:grey-1 {
+  border: 1px solid #757575;
+}
+
+.border\:grey-2 {
+  border: 1px solid #616161;
+}
+
+.border\:grey-3 {
+  border: 1px solid #424242;
+}
+
+.border\:grey-4 {
+  border: 1px solid #212121;
+}
+
+.border\:black {
+  border: 1px solid #000000;
 }
 
 .navbar {
@@ -370,6 +755,7 @@ h6, .h6 {
   display: flex;
   flex-wrap: wrap;
   width: 100vw;
+  z-index: 9999;
 }
 @media (min-width: 768px) {
   .navbar {
@@ -381,6 +767,11 @@ h6, .h6 {
   padding: 0 2rem;
   font-weight: 800;
   letter-spacing: 1px;
+}
+.navbar .navbar-brand a {
+  color: inherit;
+  text-decoration: none;
+  font-size: 1.2rem;
 }
 .navbar .navbar-container {
   position: absolute;
@@ -479,137 +870,81 @@ h6, .h6 {
   transform: scale(0.9);
 }
 
-@keyframes navbar-toggle-on {
-  from {
-    left: -100vw;
-  }
-  to {
-    left: 0;
-  }
-}
-@keyframes navbar-toggle-off {
-  from {
-    left: 0;
-  }
-  to {
-    left: -100vw;
-  }
-}
-@keyframes opacity-on {
-  from {
-    opacity: 0;
-  }
-  to {
-    opacity: 1;
-  }
-}
-@keyframes opacity-off {
-  from {
-    opacity: 1;
-  }
-  to {
-    opacity: 0;
-  }
-}
 .columns {
   display: grid;
   grid-template-columns: repeat(12, 1fr);
 }
-@media (min-width: 0px) {
-  .columns .sm\:col-1 {
-    grid-column: span 1;
-  }
-  .columns .sm\:order-1 {
-    order: 1;
-  }
+.columns .sm\:col-1 {
+  grid-column: span 1;
 }
-@media (min-width: 0px) {
-  .columns .sm\:col-2 {
-    grid-column: span 2;
-  }
-  .columns .sm\:order-2 {
-    order: 2;
-  }
+.columns .sm\:order-1 {
+  order: 1;
 }
-@media (min-width: 0px) {
-  .columns .sm\:col-3 {
-    grid-column: span 3;
-  }
-  .columns .sm\:order-3 {
-    order: 3;
-  }
+.columns .sm\:col-2 {
+  grid-column: span 2;
 }
-@media (min-width: 0px) {
-  .columns .sm\:col-4 {
-    grid-column: span 4;
-  }
-  .columns .sm\:order-4 {
-    order: 4;
-  }
+.columns .sm\:order-2 {
+  order: 2;
 }
-@media (min-width: 0px) {
-  .columns .sm\:col-5 {
-    grid-column: span 5;
-  }
-  .columns .sm\:order-5 {
-    order: 5;
-  }
+.columns .sm\:col-3 {
+  grid-column: span 3;
 }
-@media (min-width: 0px) {
-  .columns .sm\:col-6 {
-    grid-column: span 6;
-  }
-  .columns .sm\:order-6 {
-    order: 6;
-  }
+.columns .sm\:order-3 {
+  order: 3;
 }
-@media (min-width: 0px) {
-  .columns .sm\:col-7 {
-    grid-column: span 7;
-  }
-  .columns .sm\:order-7 {
-    order: 7;
-  }
+.columns .sm\:col-4 {
+  grid-column: span 4;
 }
-@media (min-width: 0px) {
-  .columns .sm\:col-8 {
-    grid-column: span 8;
-  }
-  .columns .sm\:order-8 {
-    order: 8;
-  }
+.columns .sm\:order-4 {
+  order: 4;
 }
-@media (min-width: 0px) {
-  .columns .sm\:col-9 {
-    grid-column: span 9;
-  }
-  .columns .sm\:order-9 {
-    order: 9;
-  }
+.columns .sm\:col-5 {
+  grid-column: span 5;
 }
-@media (min-width: 0px) {
-  .columns .sm\:col-10 {
-    grid-column: span 10;
-  }
-  .columns .sm\:order-10 {
-    order: 10;
-  }
+.columns .sm\:order-5 {
+  order: 5;
 }
-@media (min-width: 0px) {
-  .columns .sm\:col-11 {
-    grid-column: span 11;
-  }
-  .columns .sm\:order-11 {
-    order: 11;
-  }
+.columns .sm\:col-6 {
+  grid-column: span 6;
 }
-@media (min-width: 0px) {
-  .columns .sm\:col-12 {
-    grid-column: span 12;
-  }
-  .columns .sm\:order-12 {
-    order: 12;
-  }
+.columns .sm\:order-6 {
+  order: 6;
+}
+.columns .sm\:col-7 {
+  grid-column: span 7;
+}
+.columns .sm\:order-7 {
+  order: 7;
+}
+.columns .sm\:col-8 {
+  grid-column: span 8;
+}
+.columns .sm\:order-8 {
+  order: 8;
+}
+.columns .sm\:col-9 {
+  grid-column: span 9;
+}
+.columns .sm\:order-9 {
+  order: 9;
+}
+.columns .sm\:col-10 {
+  grid-column: span 10;
+}
+.columns .sm\:order-10 {
+  order: 10;
+}
+.columns .sm\:col-11 {
+  grid-column: span 11;
+}
+.columns .sm\:order-11 {
+  order: 11;
+}
+.columns .sm\:col-12 {
+  grid-column: span 12;
+}
+.columns .sm\:order-12 {
+  order: 12;
 }
 @media (min-width: 768px) {
   .columns .md\:col-1 {
@@ -906,27 +1241,18 @@ h6, .h6 {
   padding-left: 0.4rem;
   padding-right: 0.4rem;
   width: 100%;
-  max-width: 100%;
 }
-@media (min-width: 0px) {
-  .container.sm\:grid-sm {
-    max-width: 576px;
-  }
+.container.sm\:grid-sm {
+  max-width: 576px;
 }
-@media (min-width: 0px) {
-  .container.sm\:grid-md {
-    max-width: 768px;
-  }
+.container.sm\:grid-md {
+  max-width: 768px;
 }
-@media (min-width: 0px) {
-  .container.sm\:grid-lg {
-    max-width: 1024px;
-  }
+.container.sm\:grid-lg {
+  max-width: 1024px;
 }
-@media (min-width: 0px) {
-  .container.sm\:grid-xl {
-    max-width: 1280px;
-  }
+.container.sm\:grid-xl {
+  max-width: 1280px;
 }
 @media (min-width: 768px) {
   .container.md\:grid-sm {
@@ -989,10 +1315,8 @@ h6, .h6 {
   }
 }
 
-@media (min-width: 0px) {
-  .sm\:hide {
-    display: none;
-  }
+.sm\:hide {
+  display: none;
 }
 @media (min-width: 768px) {
   .sm\:hide {
@@ -1010,10 +1334,8 @@ h6, .h6 {
   }
 }
 
-@media (min-width: 0px) {
-  .sm\:show {
-    display: block;
-  }
+.sm\:show {
+  display: block;
 }
 @media (min-width: 768px) {
   .sm\:show {
@@ -1031,10 +1353,338 @@ h6, .h6 {
   }
 }
 
-@media (min-width: 0px) {
-  .md\:hide {
-    display: block;
-  }
+.sm\:text\:left {
+  text-align: left;
+}
+
+.sm\:text\:center {
+  text-align: center;
+}
+
+.sm\:text\:right {
+  text-align: right;
+}
+
+/**
+ * Padding utils
+*/
+.sm\:py-0 {
+  padding-top: 0;
+  padding-bottom: 0;
+}
+
+.sm\:px-0 {
+  padding-left: 0;
+  padding-right: 0;
+}
+
+.sm\:pt-0 {
+  padding-top: 0;
+}
+
+.sm\:pr-0 {
+  padding-right: 0;
+}
+
+.sm\:pb-0 {
+  padding-bottom: 0;
+}
+
+.sm\:pl-0 {
+  padding-left: 0;
+}
+
+.sm\:py-1 {
+  padding-top: 0.25rem;
+  padding-bottom: 0.25rem;
+}
+
+.sm\:px-1 {
+  padding-left: 0.25rem;
+  padding-right: 0.25rem;
+}
+
+.sm\:pt-1 {
+  padding-top: 0.25rem;
+}
+
+.sm\:pr-1 {
+  padding-right: 0.25rem;
+}
+
+.sm\:pb-1 {
+  padding-bottom: 0.25rem;
+}
+
+.sm\:pl-1 {
+  padding-left: 0.25rem;
+}
+
+.sm\:py-2 {
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+}
+
+.sm\:px-2 {
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
+}
+
+.sm\:pt-2 {
+  padding-top: 0.5rem;
+}
+
+.sm\:pr-2 {
+  padding-right: 0.5rem;
+}
+
+.sm\:pb-2 {
+  padding-bottom: 0.5rem;
+}
+
+.sm\:pl-2 {
+  padding-left: 0.5rem;
+}
+
+.sm\:py-3 {
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+
+.sm\:px-3 {
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+.sm\:pt-3 {
+  padding-top: 1rem;
+}
+
+.sm\:pr-3 {
+  padding-right: 1rem;
+}
+
+.sm\:pb-3 {
+  padding-bottom: 1rem;
+}
+
+.sm\:pl-3 {
+  padding-left: 1rem;
+}
+
+.sm\:py-4 {
+  padding-top: 1.25rem;
+  padding-bottom: 1.25rem;
+}
+
+.sm\:px-4 {
+  padding-left: 1.25rem;
+  padding-right: 1.25rem;
+}
+
+.sm\:pt-4 {
+  padding-top: 1.25rem;
+}
+
+.sm\:pr-4 {
+  padding-right: 1.25rem;
+}
+
+.sm\:pb-4 {
+  padding-bottom: 1.25rem;
+}
+
+.sm\:pl-4 {
+  padding-left: 1.25rem;
+}
+
+.sm\:py-5 {
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+}
+
+.sm\:px-5 {
+  padding-left: 3rem;
+  padding-right: 3rem;
+}
+
+.sm\:pt-5 {
+  padding-top: 3rem;
+}
+
+.sm\:pr-5 {
+  padding-right: 3rem;
+}
+
+.sm\:pb-5 {
+  padding-bottom: 3rem;
+}
+
+.sm\:pl-5 {
+  padding-left: 3rem;
+}
+
+/**
+ * Margin utils
+*/
+.sm\:my-0 {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.sm\:mx-0 {
+  margin-left: 0;
+  margin-right: 0;
+}
+
+.sm\:mt-0 {
+  margin-top: 0;
+}
+
+.sm\:mr-0 {
+  margin-right: 0;
+}
+
+.sm\:mb-0 {
+  margin-bottom: 0;
+}
+
+.sm\:ml-0 {
+  margin-left: 0;
+}
+
+.sm\:my-1 {
+  margin-top: 0.25rem;
+  margin-bottom: 0.25rem;
+}
+
+.sm\:mx-1 {
+  margin-left: 0.25rem;
+  margin-right: 0.25rem;
+}
+
+.sm\:mt-1 {
+  margin-top: 0.25rem;
+}
+
+.sm\:mr-1 {
+  margin-right: 0.25rem;
+}
+
+.sm\:mb-1 {
+  margin-bottom: 0.25rem;
+}
+
+.sm\:ml-1 {
+  margin-left: 0.25rem;
+}
+
+.sm\:my-2 {
+  margin-top: 0.5rem;
+  margin-bottom: 0.5rem;
+}
+
+.sm\:mx-2 {
+  margin-left: 0.5rem;
+  margin-right: 0.5rem;
+}
+
+.sm\:mt-2 {
+  margin-top: 0.5rem;
+}
+
+.sm\:mr-2 {
+  margin-right: 0.5rem;
+}
+
+.sm\:mb-2 {
+  margin-bottom: 0.5rem;
+}
+
+.sm\:ml-2 {
+  margin-left: 0.5rem;
+}
+
+.sm\:my-3 {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+
+.sm\:mx-3 {
+  margin-left: 1rem;
+  margin-right: 1rem;
+}
+
+.sm\:mt-3 {
+  margin-top: 1rem;
+}
+
+.sm\:mr-3 {
+  margin-right: 1rem;
+}
+
+.sm\:mb-3 {
+  margin-bottom: 1rem;
+}
+
+.sm\:ml-3 {
+  margin-left: 1rem;
+}
+
+.sm\:my-4 {
+  margin-top: 1.25rem;
+  margin-bottom: 1.25rem;
+}
+
+.sm\:mx-4 {
+  margin-left: 1.25rem;
+  margin-right: 1.25rem;
+}
+
+.sm\:mt-4 {
+  margin-top: 1.25rem;
+}
+
+.sm\:mr-4 {
+  margin-right: 1.25rem;
+}
+
+.sm\:mb-4 {
+  margin-bottom: 1.25rem;
+}
+
+.sm\:ml-4 {
+  margin-left: 1.25rem;
+}
+
+.sm\:my-5 {
+  margin-top: 3rem;
+  margin-bottom: 3rem;
+}
+
+.sm\:mx-5 {
+  margin-left: 3rem;
+  margin-right: 3rem;
+}
+
+.sm\:mt-5 {
+  margin-top: 3rem;
+}
+
+.sm\:mr-5 {
+  margin-right: 3rem;
+}
+
+.sm\:mb-5 {
+  margin-bottom: 3rem;
+}
+
+.sm\:ml-5 {
+  margin-left: 3rem;
+}
+
+.md\:hide {
+  display: block;
 }
 @media (min-width: 768px) {
   .md\:hide {
@@ -1052,10 +1702,8 @@ h6, .h6 {
   }
 }
 
-@media (min-width: 0px) {
-  .md\:show {
-    display: none;
-  }
+.md\:show {
+  display: none;
 }
 @media (min-width: 768px) {
   .md\:show {
@@ -1073,10 +1721,356 @@ h6, .h6 {
   }
 }
 
-@media (min-width: 0px) {
-  .lg\:hide {
-    display: block;
+@media (min-width: 768px) {
+  .md\:text\:left {
+    text-align: left;
   }
+}
+
+@media (min-width: 768px) {
+  .md\:text\:center {
+    text-align: center;
+  }
+}
+
+@media (min-width: 768px) {
+  .md\:text\:right {
+    text-align: right;
+  }
+}
+
+/**
+ * Padding utils
+*/
+@media (min-width: 768px) {
+  .md\:py-0 {
+    padding-top: 0;
+    padding-bottom: 0;
+  }
+
+  .md\:px-0 {
+    padding-left: 0;
+    padding-right: 0;
+  }
+
+  .md\:pt-0 {
+    padding-top: 0;
+  }
+
+  .md\:pr-0 {
+    padding-right: 0;
+  }
+
+  .md\:pb-0 {
+    padding-bottom: 0;
+  }
+
+  .md\:pl-0 {
+    padding-left: 0;
+  }
+}
+@media (min-width: 768px) {
+  .md\:py-1 {
+    padding-top: 0.25rem;
+    padding-bottom: 0.25rem;
+  }
+
+  .md\:px-1 {
+    padding-left: 0.25rem;
+    padding-right: 0.25rem;
+  }
+
+  .md\:pt-1 {
+    padding-top: 0.25rem;
+  }
+
+  .md\:pr-1 {
+    padding-right: 0.25rem;
+  }
+
+  .md\:pb-1 {
+    padding-bottom: 0.25rem;
+  }
+
+  .md\:pl-1 {
+    padding-left: 0.25rem;
+  }
+}
+@media (min-width: 768px) {
+  .md\:py-2 {
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+  }
+
+  .md\:px-2 {
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+  }
+
+  .md\:pt-2 {
+    padding-top: 0.5rem;
+  }
+
+  .md\:pr-2 {
+    padding-right: 0.5rem;
+  }
+
+  .md\:pb-2 {
+    padding-bottom: 0.5rem;
+  }
+
+  .md\:pl-2 {
+    padding-left: 0.5rem;
+  }
+}
+@media (min-width: 768px) {
+  .md\:py-3 {
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+  }
+
+  .md\:px-3 {
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+
+  .md\:pt-3 {
+    padding-top: 1rem;
+  }
+
+  .md\:pr-3 {
+    padding-right: 1rem;
+  }
+
+  .md\:pb-3 {
+    padding-bottom: 1rem;
+  }
+
+  .md\:pl-3 {
+    padding-left: 1rem;
+  }
+}
+@media (min-width: 768px) {
+  .md\:py-4 {
+    padding-top: 1.25rem;
+    padding-bottom: 1.25rem;
+  }
+
+  .md\:px-4 {
+    padding-left: 1.25rem;
+    padding-right: 1.25rem;
+  }
+
+  .md\:pt-4 {
+    padding-top: 1.25rem;
+  }
+
+  .md\:pr-4 {
+    padding-right: 1.25rem;
+  }
+
+  .md\:pb-4 {
+    padding-bottom: 1.25rem;
+  }
+
+  .md\:pl-4 {
+    padding-left: 1.25rem;
+  }
+}
+@media (min-width: 768px) {
+  .md\:py-5 {
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+  }
+
+  .md\:px-5 {
+    padding-left: 3rem;
+    padding-right: 3rem;
+  }
+
+  .md\:pt-5 {
+    padding-top: 3rem;
+  }
+
+  .md\:pr-5 {
+    padding-right: 3rem;
+  }
+
+  .md\:pb-5 {
+    padding-bottom: 3rem;
+  }
+
+  .md\:pl-5 {
+    padding-left: 3rem;
+  }
+}
+/**
+ * Margin utils
+*/
+@media (min-width: 768px) {
+  .md\:my-0 {
+    margin-top: 0;
+    margin-bottom: 0;
+  }
+
+  .md\:mx-0 {
+    margin-left: 0;
+    margin-right: 0;
+  }
+
+  .md\:mt-0 {
+    margin-top: 0;
+  }
+
+  .md\:mr-0 {
+    margin-right: 0;
+  }
+
+  .md\:mb-0 {
+    margin-bottom: 0;
+  }
+
+  .md\:ml-0 {
+    margin-left: 0;
+  }
+}
+@media (min-width: 768px) {
+  .md\:my-1 {
+    margin-top: 0.25rem;
+    margin-bottom: 0.25rem;
+  }
+
+  .md\:mx-1 {
+    margin-left: 0.25rem;
+    margin-right: 0.25rem;
+  }
+
+  .md\:mt-1 {
+    margin-top: 0.25rem;
+  }
+
+  .md\:mr-1 {
+    margin-right: 0.25rem;
+  }
+
+  .md\:mb-1 {
+    margin-bottom: 0.25rem;
+  }
+
+  .md\:ml-1 {
+    margin-left: 0.25rem;
+  }
+}
+@media (min-width: 768px) {
+  .md\:my-2 {
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+  }
+
+  .md\:mx-2 {
+    margin-left: 0.5rem;
+    margin-right: 0.5rem;
+  }
+
+  .md\:mt-2 {
+    margin-top: 0.5rem;
+  }
+
+  .md\:mr-2 {
+    margin-right: 0.5rem;
+  }
+
+  .md\:mb-2 {
+    margin-bottom: 0.5rem;
+  }
+
+  .md\:ml-2 {
+    margin-left: 0.5rem;
+  }
+}
+@media (min-width: 768px) {
+  .md\:my-3 {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+  }
+
+  .md\:mx-3 {
+    margin-left: 1rem;
+    margin-right: 1rem;
+  }
+
+  .md\:mt-3 {
+    margin-top: 1rem;
+  }
+
+  .md\:mr-3 {
+    margin-right: 1rem;
+  }
+
+  .md\:mb-3 {
+    margin-bottom: 1rem;
+  }
+
+  .md\:ml-3 {
+    margin-left: 1rem;
+  }
+}
+@media (min-width: 768px) {
+  .md\:my-4 {
+    margin-top: 1.25rem;
+    margin-bottom: 1.25rem;
+  }
+
+  .md\:mx-4 {
+    margin-left: 1.25rem;
+    margin-right: 1.25rem;
+  }
+
+  .md\:mt-4 {
+    margin-top: 1.25rem;
+  }
+
+  .md\:mr-4 {
+    margin-right: 1.25rem;
+  }
+
+  .md\:mb-4 {
+    margin-bottom: 1.25rem;
+  }
+
+  .md\:ml-4 {
+    margin-left: 1.25rem;
+  }
+}
+@media (min-width: 768px) {
+  .md\:my-5 {
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+  }
+
+  .md\:mx-5 {
+    margin-left: 3rem;
+    margin-right: 3rem;
+  }
+
+  .md\:mt-5 {
+    margin-top: 3rem;
+  }
+
+  .md\:mr-5 {
+    margin-right: 3rem;
+  }
+
+  .md\:mb-5 {
+    margin-bottom: 3rem;
+  }
+
+  .md\:ml-5 {
+    margin-left: 3rem;
+  }
+}
+.lg\:hide {
+  display: block;
 }
 @media (min-width: 768px) {
   .lg\:hide {
@@ -1094,10 +2088,8 @@ h6, .h6 {
   }
 }
 
-@media (min-width: 0px) {
-  .lg\:show {
-    display: none;
-  }
+.lg\:show {
+  display: none;
 }
 @media (min-width: 768px) {
   .lg\:show {
@@ -1115,10 +2107,356 @@ h6, .h6 {
   }
 }
 
-@media (min-width: 0px) {
-  .xl\:hide {
-    display: block;
+@media (min-width: 1024px) {
+  .lg\:text\:left {
+    text-align: left;
   }
+}
+
+@media (min-width: 1024px) {
+  .lg\:text\:center {
+    text-align: center;
+  }
+}
+
+@media (min-width: 1024px) {
+  .lg\:text\:right {
+    text-align: right;
+  }
+}
+
+/**
+ * Padding utils
+*/
+@media (min-width: 1024px) {
+  .lg\:py-0 {
+    padding-top: 0;
+    padding-bottom: 0;
+  }
+
+  .lg\:px-0 {
+    padding-left: 0;
+    padding-right: 0;
+  }
+
+  .lg\:pt-0 {
+    padding-top: 0;
+  }
+
+  .lg\:pr-0 {
+    padding-right: 0;
+  }
+
+  .lg\:pb-0 {
+    padding-bottom: 0;
+  }
+
+  .lg\:pl-0 {
+    padding-left: 0;
+  }
+}
+@media (min-width: 1024px) {
+  .lg\:py-1 {
+    padding-top: 0.25rem;
+    padding-bottom: 0.25rem;
+  }
+
+  .lg\:px-1 {
+    padding-left: 0.25rem;
+    padding-right: 0.25rem;
+  }
+
+  .lg\:pt-1 {
+    padding-top: 0.25rem;
+  }
+
+  .lg\:pr-1 {
+    padding-right: 0.25rem;
+  }
+
+  .lg\:pb-1 {
+    padding-bottom: 0.25rem;
+  }
+
+  .lg\:pl-1 {
+    padding-left: 0.25rem;
+  }
+}
+@media (min-width: 1024px) {
+  .lg\:py-2 {
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+  }
+
+  .lg\:px-2 {
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+  }
+
+  .lg\:pt-2 {
+    padding-top: 0.5rem;
+  }
+
+  .lg\:pr-2 {
+    padding-right: 0.5rem;
+  }
+
+  .lg\:pb-2 {
+    padding-bottom: 0.5rem;
+  }
+
+  .lg\:pl-2 {
+    padding-left: 0.5rem;
+  }
+}
+@media (min-width: 1024px) {
+  .lg\:py-3 {
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+  }
+
+  .lg\:px-3 {
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+
+  .lg\:pt-3 {
+    padding-top: 1rem;
+  }
+
+  .lg\:pr-3 {
+    padding-right: 1rem;
+  }
+
+  .lg\:pb-3 {
+    padding-bottom: 1rem;
+  }
+
+  .lg\:pl-3 {
+    padding-left: 1rem;
+  }
+}
+@media (min-width: 1024px) {
+  .lg\:py-4 {
+    padding-top: 1.25rem;
+    padding-bottom: 1.25rem;
+  }
+
+  .lg\:px-4 {
+    padding-left: 1.25rem;
+    padding-right: 1.25rem;
+  }
+
+  .lg\:pt-4 {
+    padding-top: 1.25rem;
+  }
+
+  .lg\:pr-4 {
+    padding-right: 1.25rem;
+  }
+
+  .lg\:pb-4 {
+    padding-bottom: 1.25rem;
+  }
+
+  .lg\:pl-4 {
+    padding-left: 1.25rem;
+  }
+}
+@media (min-width: 1024px) {
+  .lg\:py-5 {
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+  }
+
+  .lg\:px-5 {
+    padding-left: 3rem;
+    padding-right: 3rem;
+  }
+
+  .lg\:pt-5 {
+    padding-top: 3rem;
+  }
+
+  .lg\:pr-5 {
+    padding-right: 3rem;
+  }
+
+  .lg\:pb-5 {
+    padding-bottom: 3rem;
+  }
+
+  .lg\:pl-5 {
+    padding-left: 3rem;
+  }
+}
+/**
+ * Margin utils
+*/
+@media (min-width: 1024px) {
+  .lg\:my-0 {
+    margin-top: 0;
+    margin-bottom: 0;
+  }
+
+  .lg\:mx-0 {
+    margin-left: 0;
+    margin-right: 0;
+  }
+
+  .lg\:mt-0 {
+    margin-top: 0;
+  }
+
+  .lg\:mr-0 {
+    margin-right: 0;
+  }
+
+  .lg\:mb-0 {
+    margin-bottom: 0;
+  }
+
+  .lg\:ml-0 {
+    margin-left: 0;
+  }
+}
+@media (min-width: 1024px) {
+  .lg\:my-1 {
+    margin-top: 0.25rem;
+    margin-bottom: 0.25rem;
+  }
+
+  .lg\:mx-1 {
+    margin-left: 0.25rem;
+    margin-right: 0.25rem;
+  }
+
+  .lg\:mt-1 {
+    margin-top: 0.25rem;
+  }
+
+  .lg\:mr-1 {
+    margin-right: 0.25rem;
+  }
+
+  .lg\:mb-1 {
+    margin-bottom: 0.25rem;
+  }
+
+  .lg\:ml-1 {
+    margin-left: 0.25rem;
+  }
+}
+@media (min-width: 1024px) {
+  .lg\:my-2 {
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+  }
+
+  .lg\:mx-2 {
+    margin-left: 0.5rem;
+    margin-right: 0.5rem;
+  }
+
+  .lg\:mt-2 {
+    margin-top: 0.5rem;
+  }
+
+  .lg\:mr-2 {
+    margin-right: 0.5rem;
+  }
+
+  .lg\:mb-2 {
+    margin-bottom: 0.5rem;
+  }
+
+  .lg\:ml-2 {
+    margin-left: 0.5rem;
+  }
+}
+@media (min-width: 1024px) {
+  .lg\:my-3 {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+  }
+
+  .lg\:mx-3 {
+    margin-left: 1rem;
+    margin-right: 1rem;
+  }
+
+  .lg\:mt-3 {
+    margin-top: 1rem;
+  }
+
+  .lg\:mr-3 {
+    margin-right: 1rem;
+  }
+
+  .lg\:mb-3 {
+    margin-bottom: 1rem;
+  }
+
+  .lg\:ml-3 {
+    margin-left: 1rem;
+  }
+}
+@media (min-width: 1024px) {
+  .lg\:my-4 {
+    margin-top: 1.25rem;
+    margin-bottom: 1.25rem;
+  }
+
+  .lg\:mx-4 {
+    margin-left: 1.25rem;
+    margin-right: 1.25rem;
+  }
+
+  .lg\:mt-4 {
+    margin-top: 1.25rem;
+  }
+
+  .lg\:mr-4 {
+    margin-right: 1.25rem;
+  }
+
+  .lg\:mb-4 {
+    margin-bottom: 1.25rem;
+  }
+
+  .lg\:ml-4 {
+    margin-left: 1.25rem;
+  }
+}
+@media (min-width: 1024px) {
+  .lg\:my-5 {
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+  }
+
+  .lg\:mx-5 {
+    margin-left: 3rem;
+    margin-right: 3rem;
+  }
+
+  .lg\:mt-5 {
+    margin-top: 3rem;
+  }
+
+  .lg\:mr-5 {
+    margin-right: 3rem;
+  }
+
+  .lg\:mb-5 {
+    margin-bottom: 3rem;
+  }
+
+  .lg\:ml-5 {
+    margin-left: 3rem;
+  }
+}
+.xl\:hide {
+  display: block;
 }
 @media (min-width: 768px) {
   .xl\:hide {
@@ -1136,10 +2474,8 @@ h6, .h6 {
   }
 }
 
-@media (min-width: 0px) {
-  .xl\:show {
-    display: none;
-  }
+.xl\:show {
+  display: none;
 }
 @media (min-width: 768px) {
   .xl\:show {
@@ -1157,6 +2493,354 @@ h6, .h6 {
   }
 }
 
+@media (min-width: 1280px) {
+  .xl\:text\:left {
+    text-align: left;
+  }
+}
+
+@media (min-width: 1280px) {
+  .xl\:text\:center {
+    text-align: center;
+  }
+}
+
+@media (min-width: 1280px) {
+  .xl\:text\:right {
+    text-align: right;
+  }
+}
+
+/**
+ * Padding utils
+*/
+@media (min-width: 1280px) {
+  .xl\:py-0 {
+    padding-top: 0;
+    padding-bottom: 0;
+  }
+
+  .xl\:px-0 {
+    padding-left: 0;
+    padding-right: 0;
+  }
+
+  .xl\:pt-0 {
+    padding-top: 0;
+  }
+
+  .xl\:pr-0 {
+    padding-right: 0;
+  }
+
+  .xl\:pb-0 {
+    padding-bottom: 0;
+  }
+
+  .xl\:pl-0 {
+    padding-left: 0;
+  }
+}
+@media (min-width: 1280px) {
+  .xl\:py-1 {
+    padding-top: 0.25rem;
+    padding-bottom: 0.25rem;
+  }
+
+  .xl\:px-1 {
+    padding-left: 0.25rem;
+    padding-right: 0.25rem;
+  }
+
+  .xl\:pt-1 {
+    padding-top: 0.25rem;
+  }
+
+  .xl\:pr-1 {
+    padding-right: 0.25rem;
+  }
+
+  .xl\:pb-1 {
+    padding-bottom: 0.25rem;
+  }
+
+  .xl\:pl-1 {
+    padding-left: 0.25rem;
+  }
+}
+@media (min-width: 1280px) {
+  .xl\:py-2 {
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+  }
+
+  .xl\:px-2 {
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+  }
+
+  .xl\:pt-2 {
+    padding-top: 0.5rem;
+  }
+
+  .xl\:pr-2 {
+    padding-right: 0.5rem;
+  }
+
+  .xl\:pb-2 {
+    padding-bottom: 0.5rem;
+  }
+
+  .xl\:pl-2 {
+    padding-left: 0.5rem;
+  }
+}
+@media (min-width: 1280px) {
+  .xl\:py-3 {
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+  }
+
+  .xl\:px-3 {
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+
+  .xl\:pt-3 {
+    padding-top: 1rem;
+  }
+
+  .xl\:pr-3 {
+    padding-right: 1rem;
+  }
+
+  .xl\:pb-3 {
+    padding-bottom: 1rem;
+  }
+
+  .xl\:pl-3 {
+    padding-left: 1rem;
+  }
+}
+@media (min-width: 1280px) {
+  .xl\:py-4 {
+    padding-top: 1.25rem;
+    padding-bottom: 1.25rem;
+  }
+
+  .xl\:px-4 {
+    padding-left: 1.25rem;
+    padding-right: 1.25rem;
+  }
+
+  .xl\:pt-4 {
+    padding-top: 1.25rem;
+  }
+
+  .xl\:pr-4 {
+    padding-right: 1.25rem;
+  }
+
+  .xl\:pb-4 {
+    padding-bottom: 1.25rem;
+  }
+
+  .xl\:pl-4 {
+    padding-left: 1.25rem;
+  }
+}
+@media (min-width: 1280px) {
+  .xl\:py-5 {
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+  }
+
+  .xl\:px-5 {
+    padding-left: 3rem;
+    padding-right: 3rem;
+  }
+
+  .xl\:pt-5 {
+    padding-top: 3rem;
+  }
+
+  .xl\:pr-5 {
+    padding-right: 3rem;
+  }
+
+  .xl\:pb-5 {
+    padding-bottom: 3rem;
+  }
+
+  .xl\:pl-5 {
+    padding-left: 3rem;
+  }
+}
+/**
+ * Margin utils
+*/
+@media (min-width: 1280px) {
+  .xl\:my-0 {
+    margin-top: 0;
+    margin-bottom: 0;
+  }
+
+  .xl\:mx-0 {
+    margin-left: 0;
+    margin-right: 0;
+  }
+
+  .xl\:mt-0 {
+    margin-top: 0;
+  }
+
+  .xl\:mr-0 {
+    margin-right: 0;
+  }
+
+  .xl\:mb-0 {
+    margin-bottom: 0;
+  }
+
+  .xl\:ml-0 {
+    margin-left: 0;
+  }
+}
+@media (min-width: 1280px) {
+  .xl\:my-1 {
+    margin-top: 0.25rem;
+    margin-bottom: 0.25rem;
+  }
+
+  .xl\:mx-1 {
+    margin-left: 0.25rem;
+    margin-right: 0.25rem;
+  }
+
+  .xl\:mt-1 {
+    margin-top: 0.25rem;
+  }
+
+  .xl\:mr-1 {
+    margin-right: 0.25rem;
+  }
+
+  .xl\:mb-1 {
+    margin-bottom: 0.25rem;
+  }
+
+  .xl\:ml-1 {
+    margin-left: 0.25rem;
+  }
+}
+@media (min-width: 1280px) {
+  .xl\:my-2 {
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+  }
+
+  .xl\:mx-2 {
+    margin-left: 0.5rem;
+    margin-right: 0.5rem;
+  }
+
+  .xl\:mt-2 {
+    margin-top: 0.5rem;
+  }
+
+  .xl\:mr-2 {
+    margin-right: 0.5rem;
+  }
+
+  .xl\:mb-2 {
+    margin-bottom: 0.5rem;
+  }
+
+  .xl\:ml-2 {
+    margin-left: 0.5rem;
+  }
+}
+@media (min-width: 1280px) {
+  .xl\:my-3 {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+  }
+
+  .xl\:mx-3 {
+    margin-left: 1rem;
+    margin-right: 1rem;
+  }
+
+  .xl\:mt-3 {
+    margin-top: 1rem;
+  }
+
+  .xl\:mr-3 {
+    margin-right: 1rem;
+  }
+
+  .xl\:mb-3 {
+    margin-bottom: 1rem;
+  }
+
+  .xl\:ml-3 {
+    margin-left: 1rem;
+  }
+}
+@media (min-width: 1280px) {
+  .xl\:my-4 {
+    margin-top: 1.25rem;
+    margin-bottom: 1.25rem;
+  }
+
+  .xl\:mx-4 {
+    margin-left: 1.25rem;
+    margin-right: 1.25rem;
+  }
+
+  .xl\:mt-4 {
+    margin-top: 1.25rem;
+  }
+
+  .xl\:mr-4 {
+    margin-right: 1.25rem;
+  }
+
+  .xl\:mb-4 {
+    margin-bottom: 1.25rem;
+  }
+
+  .xl\:ml-4 {
+    margin-left: 1.25rem;
+  }
+}
+@media (min-width: 1280px) {
+  .xl\:my-5 {
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+  }
+
+  .xl\:mx-5 {
+    margin-left: 3rem;
+    margin-right: 3rem;
+  }
+
+  .xl\:mt-5 {
+    margin-top: 3rem;
+  }
+
+  .xl\:mr-5 {
+    margin-right: 3rem;
+  }
+
+  .xl\:mb-5 {
+    margin-bottom: 3rem;
+  }
+
+  .xl\:ml-5 {
+    margin-left: 3rem;
+  }
+}
 .tooltip {
   position: relative;
 }
@@ -1180,11 +2864,7 @@ h6, .h6 {
   white-space: pre;
   z-index: 300;
   font-size: 0.7rem;
-}
-@media (min-width: 0px) {
-  .tooltip::after {
-    font-size: 0.7rem;
-  }
+  font-size: 0.7rem;
 }
 @media (min-width: 768px) {
   .tooltip::after {
@@ -1246,799 +2926,2367 @@ h6, .h6 {
   line-height: 1;
   text-align: center;
 }
-.badge.badge-rounded {
+.badge.badge\:rounded {
   padding-right: 0.6em;
   padding-left: 0.6em;
   border-radius: 10rem;
 }
-.badge.badge-light {
+.badge.badge\:light {
   font-weight: normal;
 }
 
-.bg-white {
+.background\:white {
   background-color: white !important;
   color: #1a1919 !important;
 }
 
-.text-white {
+.hover\:background\:white:hover {
+  background-color: white !important;
+  color: #1a1919 !important;
+}
+
+.text\:white {
   color: white !important;
 }
 
-.bg-pink {
+.hover\:text\:white:hover {
+  color: white !important;
+}
+
+.background\:pink {
   background-color: #e91e63 !important;
   color: white !important;
 }
 
-.text-pink {
+.hover\:background\:pink:hover {
+  background-color: #e91e63 !important;
+  color: white !important;
+}
+
+.text\:pink {
   color: #e91e63 !important;
 }
 
-.bg-pink-1 {
+.hover\:text\:pink:hover {
+  color: #e91e63 !important;
+}
+
+.background\:pink-1 {
   background-color: #d81b60 !important;
   color: white !important;
 }
 
-.text-pink-1 {
+.hover\:background\:pink-1:hover {
+  background-color: #d81b60 !important;
+  color: white !important;
+}
+
+.text\:pink-1 {
   color: #d81b60 !important;
 }
 
-.bg-pink-2 {
+.hover\:text\:pink-1:hover {
+  color: #d81b60 !important;
+}
+
+.background\:pink-2 {
   background-color: #c2185b !important;
   color: white !important;
 }
 
-.text-pink-2 {
+.hover\:background\:pink-2:hover {
+  background-color: #c2185b !important;
+  color: white !important;
+}
+
+.text\:pink-2 {
   color: #c2185b !important;
 }
 
-.bg-pink-3 {
+.hover\:text\:pink-2:hover {
+  color: #c2185b !important;
+}
+
+.background\:pink-3 {
   background-color: #ad1457 !important;
   color: white !important;
 }
 
-.text-pink-3 {
+.hover\:background\:pink-3:hover {
+  background-color: #ad1457 !important;
+  color: white !important;
+}
+
+.text\:pink-3 {
   color: #ad1457 !important;
 }
 
-.bg-pink-4 {
+.hover\:text\:pink-3:hover {
+  color: #ad1457 !important;
+}
+
+.background\:pink-4 {
   background-color: #880e4f !important;
   color: white !important;
 }
 
-.text-pink-4 {
+.hover\:background\:pink-4:hover {
+  background-color: #880e4f !important;
+  color: white !important;
+}
+
+.text\:pink-4 {
   color: #880e4f !important;
 }
 
-.bg-purple {
+.hover\:text\:pink-4:hover {
+  color: #880e4f !important;
+}
+
+.background\:purple {
   background-color: #9c27b0 !important;
   color: white !important;
 }
 
-.text-purple {
+.hover\:background\:purple:hover {
+  background-color: #9c27b0 !important;
+  color: white !important;
+}
+
+.text\:purple {
   color: #9c27b0 !important;
 }
 
-.bg-purple-1 {
+.hover\:text\:purple:hover {
+  color: #9c27b0 !important;
+}
+
+.background\:purple-1 {
   background-color: #8e24aa !important;
   color: white !important;
 }
 
-.text-purple-1 {
+.hover\:background\:purple-1:hover {
+  background-color: #8e24aa !important;
+  color: white !important;
+}
+
+.text\:purple-1 {
   color: #8e24aa !important;
 }
 
-.bg-purple-2 {
+.hover\:text\:purple-1:hover {
+  color: #8e24aa !important;
+}
+
+.background\:purple-2 {
   background-color: #7b1fa2 !important;
   color: white !important;
 }
 
-.text-purple-2 {
+.hover\:background\:purple-2:hover {
+  background-color: #7b1fa2 !important;
+  color: white !important;
+}
+
+.text\:purple-2 {
   color: #7b1fa2 !important;
 }
 
-.bg-purple-3 {
+.hover\:text\:purple-2:hover {
+  color: #7b1fa2 !important;
+}
+
+.background\:purple-3 {
   background-color: #6a1b9a !important;
   color: white !important;
 }
 
-.text-purple-3 {
+.hover\:background\:purple-3:hover {
+  background-color: #6a1b9a !important;
+  color: white !important;
+}
+
+.text\:purple-3 {
   color: #6a1b9a !important;
 }
 
-.bg-purple-4 {
+.hover\:text\:purple-3:hover {
+  color: #6a1b9a !important;
+}
+
+.background\:purple-4 {
   background-color: #4a148c !important;
   color: white !important;
 }
 
-.text-purple-4 {
-  color: #4a148c !important;
-}
-
-.bg-deep-purple {
+.hover\:background\:purple-4:hover {
   background-color: #4a148c !important;
   color: white !important;
 }
 
-.text-deep-purple {
+.text\:purple-4 {
   color: #4a148c !important;
 }
 
-.bg-deep-purple-1 {
+.hover\:text\:purple-4:hover {
+  color: #4a148c !important;
+}
+
+.background\:deep-purple {
+  background-color: #4a148c !important;
+  color: white !important;
+}
+
+.hover\:background\:deep-purple:hover {
+  background-color: #4a148c !important;
+  color: white !important;
+}
+
+.text\:deep-purple {
+  color: #4a148c !important;
+}
+
+.hover\:text\:deep-purple:hover {
+  color: #4a148c !important;
+}
+
+.background\:deep-purple-1 {
   background-color: #5e35b1 !important;
   color: white !important;
 }
 
-.text-deep-purple-1 {
+.hover\:background\:deep-purple-1:hover {
+  background-color: #5e35b1 !important;
+  color: white !important;
+}
+
+.text\:deep-purple-1 {
   color: #5e35b1 !important;
 }
 
-.bg-deep-purple-2 {
+.hover\:text\:deep-purple-1:hover {
+  color: #5e35b1 !important;
+}
+
+.background\:deep-purple-2 {
   background-color: #512da8 !important;
   color: white !important;
 }
 
-.text-deep-purple-2 {
+.hover\:background\:deep-purple-2:hover {
+  background-color: #512da8 !important;
+  color: white !important;
+}
+
+.text\:deep-purple-2 {
   color: #512da8 !important;
 }
 
-.bg-deep-purple-3 {
+.hover\:text\:deep-purple-2:hover {
+  color: #512da8 !important;
+}
+
+.background\:deep-purple-3 {
   background-color: #4527a0 !important;
   color: white !important;
 }
 
-.text-deep-purple-3 {
+.hover\:background\:deep-purple-3:hover {
+  background-color: #4527a0 !important;
+  color: white !important;
+}
+
+.text\:deep-purple-3 {
   color: #4527a0 !important;
 }
 
-.bg-deep-purple-4 {
+.hover\:text\:deep-purple-3:hover {
+  color: #4527a0 !important;
+}
+
+.background\:deep-purple-4 {
   background-color: #311b92 !important;
   color: white !important;
 }
 
-.text-deep-purple-4 {
+.hover\:background\:deep-purple-4:hover {
+  background-color: #311b92 !important;
+  color: white !important;
+}
+
+.text\:deep-purple-4 {
   color: #311b92 !important;
 }
 
-.bg-blue {
+.hover\:text\:deep-purple-4:hover {
+  color: #311b92 !important;
+}
+
+.background\:blue {
   background-color: #2196f3 !important;
   color: white !important;
 }
 
-.text-blue {
+.hover\:background\:blue:hover {
+  background-color: #2196f3 !important;
+  color: white !important;
+}
+
+.text\:blue {
   color: #2196f3 !important;
 }
 
-.bg-blue-1 {
+.hover\:text\:blue:hover {
+  color: #2196f3 !important;
+}
+
+.background\:blue-1 {
   background-color: #1e88e5 !important;
   color: white !important;
 }
 
-.text-blue-1 {
+.hover\:background\:blue-1:hover {
+  background-color: #1e88e5 !important;
+  color: white !important;
+}
+
+.text\:blue-1 {
   color: #1e88e5 !important;
 }
 
-.bg-blue-2 {
+.hover\:text\:blue-1:hover {
+  color: #1e88e5 !important;
+}
+
+.background\:blue-2 {
   background-color: #1976d2 !important;
   color: white !important;
 }
 
-.text-blue-2 {
+.hover\:background\:blue-2:hover {
+  background-color: #1976d2 !important;
+  color: white !important;
+}
+
+.text\:blue-2 {
   color: #1976d2 !important;
 }
 
-.bg-blue-3 {
+.hover\:text\:blue-2:hover {
+  color: #1976d2 !important;
+}
+
+.background\:blue-3 {
   background-color: #1565c0 !important;
   color: white !important;
 }
 
-.text-blue-3 {
+.hover\:background\:blue-3:hover {
+  background-color: #1565c0 !important;
+  color: white !important;
+}
+
+.text\:blue-3 {
   color: #1565c0 !important;
 }
 
-.bg-blue-4 {
+.hover\:text\:blue-3:hover {
+  color: #1565c0 !important;
+}
+
+.background\:blue-4 {
   background-color: #0d47a1 !important;
   color: white !important;
 }
 
-.text-blue-4 {
+.hover\:background\:blue-4:hover {
+  background-color: #0d47a1 !important;
+  color: white !important;
+}
+
+.text\:blue-4 {
   color: #0d47a1 !important;
 }
 
-.bg-light-blue {
+.hover\:text\:blue-4:hover {
+  color: #0d47a1 !important;
+}
+
+.background\:light-blue {
   background-color: #03a9f4 !important;
   color: white !important;
 }
 
-.text-light-blue {
+.hover\:background\:light-blue:hover {
+  background-color: #03a9f4 !important;
+  color: white !important;
+}
+
+.text\:light-blue {
   color: #03a9f4 !important;
 }
 
-.bg-light-blue-1 {
+.hover\:text\:light-blue:hover {
+  color: #03a9f4 !important;
+}
+
+.background\:light-blue-1 {
   background-color: #039be5 !important;
   color: white !important;
 }
 
-.text-light-blue-1 {
+.hover\:background\:light-blue-1:hover {
+  background-color: #039be5 !important;
+  color: white !important;
+}
+
+.text\:light-blue-1 {
   color: #039be5 !important;
 }
 
-.bg-light-blue-2 {
+.hover\:text\:light-blue-1:hover {
+  color: #039be5 !important;
+}
+
+.background\:light-blue-2 {
   background-color: #0288d1 !important;
   color: white !important;
 }
 
-.text-light-blue-2 {
+.hover\:background\:light-blue-2:hover {
+  background-color: #0288d1 !important;
+  color: white !important;
+}
+
+.text\:light-blue-2 {
   color: #0288d1 !important;
 }
 
-.bg-light-blue-3 {
+.hover\:text\:light-blue-2:hover {
+  color: #0288d1 !important;
+}
+
+.background\:light-blue-3 {
   background-color: #0277bd !important;
   color: white !important;
 }
 
-.text-light-blue-3 {
+.hover\:background\:light-blue-3:hover {
+  background-color: #0277bd !important;
+  color: white !important;
+}
+
+.text\:light-blue-3 {
   color: #0277bd !important;
 }
 
-.bg-light-blue-4 {
+.hover\:text\:light-blue-3:hover {
+  color: #0277bd !important;
+}
+
+.background\:light-blue-4 {
   background-color: #01579b !important;
   color: white !important;
 }
 
-.text-light-blue-4 {
+.hover\:background\:light-blue-4:hover {
+  background-color: #01579b !important;
+  color: white !important;
+}
+
+.text\:light-blue-4 {
   color: #01579b !important;
 }
 
-.bg-indigo {
+.hover\:text\:light-blue-4:hover {
+  color: #01579b !important;
+}
+
+.background\:indigo {
   background-color: #3f51b5 !important;
   color: white !important;
 }
 
-.text-indigo {
+.hover\:background\:indigo:hover {
+  background-color: #3f51b5 !important;
+  color: white !important;
+}
+
+.text\:indigo {
   color: #3f51b5 !important;
 }
 
-.bg-indigo-1 {
+.hover\:text\:indigo:hover {
+  color: #3f51b5 !important;
+}
+
+.background\:indigo-1 {
   background-color: #3949ab !important;
   color: white !important;
 }
 
-.text-indigo-1 {
+.hover\:background\:indigo-1:hover {
+  background-color: #3949ab !important;
+  color: white !important;
+}
+
+.text\:indigo-1 {
   color: #3949ab !important;
 }
 
-.bg-indigo-2 {
+.hover\:text\:indigo-1:hover {
+  color: #3949ab !important;
+}
+
+.background\:indigo-2 {
   background-color: #303f9f !important;
   color: white !important;
 }
 
-.text-indigo-2 {
+.hover\:background\:indigo-2:hover {
+  background-color: #303f9f !important;
+  color: white !important;
+}
+
+.text\:indigo-2 {
   color: #303f9f !important;
 }
 
-.bg-indigo-3 {
+.hover\:text\:indigo-2:hover {
+  color: #303f9f !important;
+}
+
+.background\:indigo-3 {
   background-color: #283593 !important;
   color: white !important;
 }
 
-.text-indigo-3 {
+.hover\:background\:indigo-3:hover {
+  background-color: #283593 !important;
+  color: white !important;
+}
+
+.text\:indigo-3 {
   color: #283593 !important;
 }
 
-.bg-indigo-4 {
+.hover\:text\:indigo-3:hover {
+  color: #283593 !important;
+}
+
+.background\:indigo-4 {
   background-color: #1a237e !important;
   color: white !important;
 }
 
-.text-indigo-4 {
+.hover\:background\:indigo-4:hover {
+  background-color: #1a237e !important;
+  color: white !important;
+}
+
+.text\:indigo-4 {
   color: #1a237e !important;
 }
 
-.bg-teal {
+.hover\:text\:indigo-4:hover {
+  color: #1a237e !important;
+}
+
+.background\:teal {
   background-color: #009688 !important;
   color: white !important;
 }
 
-.text-teal {
+.hover\:background\:teal:hover {
+  background-color: #009688 !important;
+  color: white !important;
+}
+
+.text\:teal {
   color: #009688 !important;
 }
 
-.bg-teal-1 {
+.hover\:text\:teal:hover {
+  color: #009688 !important;
+}
+
+.background\:teal-1 {
   background-color: #00897b !important;
   color: white !important;
 }
 
-.text-teal-1 {
+.hover\:background\:teal-1:hover {
+  background-color: #00897b !important;
+  color: white !important;
+}
+
+.text\:teal-1 {
   color: #00897b !important;
 }
 
-.bg-teal-2 {
+.hover\:text\:teal-1:hover {
+  color: #00897b !important;
+}
+
+.background\:teal-2 {
   background-color: #00796b !important;
   color: white !important;
 }
 
-.text-teal-2 {
+.hover\:background\:teal-2:hover {
+  background-color: #00796b !important;
+  color: white !important;
+}
+
+.text\:teal-2 {
   color: #00796b !important;
 }
 
-.bg-teal-3 {
+.hover\:text\:teal-2:hover {
+  color: #00796b !important;
+}
+
+.background\:teal-3 {
   background-color: #00695c !important;
   color: white !important;
 }
 
-.text-teal-3 {
+.hover\:background\:teal-3:hover {
+  background-color: #00695c !important;
+  color: white !important;
+}
+
+.text\:teal-3 {
   color: #00695c !important;
 }
 
-.bg-teal-4 {
+.hover\:text\:teal-3:hover {
+  color: #00695c !important;
+}
+
+.background\:teal-4 {
   background-color: #004d40 !important;
   color: white !important;
 }
 
-.text-teal-4 {
+.hover\:background\:teal-4:hover {
+  background-color: #004d40 !important;
+  color: white !important;
+}
+
+.text\:teal-4 {
   color: #004d40 !important;
 }
 
-.bg-cyan {
+.hover\:text\:teal-4:hover {
+  color: #004d40 !important;
+}
+
+.background\:cyan {
   background-color: #00bcd4 !important;
   color: white !important;
 }
 
-.text-cyan {
+.hover\:background\:cyan:hover {
+  background-color: #00bcd4 !important;
+  color: white !important;
+}
+
+.text\:cyan {
   color: #00bcd4 !important;
 }
 
-.bg-cyan-1 {
+.hover\:text\:cyan:hover {
+  color: #00bcd4 !important;
+}
+
+.background\:cyan-1 {
   background-color: #00acc1 !important;
   color: white !important;
 }
 
-.text-cyan-1 {
+.hover\:background\:cyan-1:hover {
+  background-color: #00acc1 !important;
+  color: white !important;
+}
+
+.text\:cyan-1 {
   color: #00acc1 !important;
 }
 
-.bg-cyan-2 {
+.hover\:text\:cyan-1:hover {
+  color: #00acc1 !important;
+}
+
+.background\:cyan-2 {
   background-color: #0097a7 !important;
   color: white !important;
 }
 
-.text-cyan-2 {
+.hover\:background\:cyan-2:hover {
+  background-color: #0097a7 !important;
+  color: white !important;
+}
+
+.text\:cyan-2 {
   color: #0097a7 !important;
 }
 
-.bg-cyan-3 {
+.hover\:text\:cyan-2:hover {
+  color: #0097a7 !important;
+}
+
+.background\:cyan-3 {
   background-color: #00838f !important;
   color: white !important;
 }
 
-.text-cyan-3 {
+.hover\:background\:cyan-3:hover {
+  background-color: #00838f !important;
+  color: white !important;
+}
+
+.text\:cyan-3 {
   color: #00838f !important;
 }
 
-.bg-cyan-4 {
+.hover\:text\:cyan-3:hover {
+  color: #00838f !important;
+}
+
+.background\:cyan-4 {
   background-color: #006064 !important;
   color: white !important;
 }
 
-.text-cyan-4 {
+.hover\:background\:cyan-4:hover {
+  background-color: #006064 !important;
+  color: white !important;
+}
+
+.text\:cyan-4 {
   color: #006064 !important;
 }
 
-.bg-red {
+.hover\:text\:cyan-4:hover {
+  color: #006064 !important;
+}
+
+.background\:red {
   background-color: #b71c1c !important;
   color: white !important;
 }
 
-.text-red {
+.hover\:background\:red:hover {
+  background-color: #b71c1c !important;
+  color: white !important;
+}
+
+.text\:red {
   color: #b71c1c !important;
 }
 
-.bg-red-1 {
+.hover\:text\:red:hover {
+  color: #b71c1c !important;
+}
+
+.background\:red-1 {
   background-color: #e53935 !important;
   color: white !important;
 }
 
-.text-red-1 {
+.hover\:background\:red-1:hover {
+  background-color: #e53935 !important;
+  color: white !important;
+}
+
+.text\:red-1 {
   color: #e53935 !important;
 }
 
-.bg-red-2 {
+.hover\:text\:red-1:hover {
+  color: #e53935 !important;
+}
+
+.background\:red-2 {
   background-color: #d32f2f !important;
   color: white !important;
 }
 
-.text-red-2 {
+.hover\:background\:red-2:hover {
+  background-color: #d32f2f !important;
+  color: white !important;
+}
+
+.text\:red-2 {
   color: #d32f2f !important;
 }
 
-.bg-red-3 {
+.hover\:text\:red-2:hover {
+  color: #d32f2f !important;
+}
+
+.background\:red-3 {
   background-color: #c62828 !important;
   color: white !important;
 }
 
-.text-red-3 {
+.hover\:background\:red-3:hover {
+  background-color: #c62828 !important;
+  color: white !important;
+}
+
+.text\:red-3 {
   color: #c62828 !important;
 }
 
-.bg-red-4 {
+.hover\:text\:red-3:hover {
+  color: #c62828 !important;
+}
+
+.background\:red-4 {
   background-color: #b71c1c !important;
   color: white !important;
 }
 
-.text-red-4 {
+.hover\:background\:red-4:hover {
+  background-color: #b71c1c !important;
+  color: white !important;
+}
+
+.text\:red-4 {
   color: #b71c1c !important;
 }
 
-.bg-green {
+.hover\:text\:red-4:hover {
+  color: #b71c1c !important;
+}
+
+.background\:green {
   background-color: #4caf50 !important;
   color: white !important;
 }
 
-.text-green {
+.hover\:background\:green:hover {
+  background-color: #4caf50 !important;
+  color: white !important;
+}
+
+.text\:green {
   color: #4caf50 !important;
 }
 
-.bg-green-1 {
+.hover\:text\:green:hover {
+  color: #4caf50 !important;
+}
+
+.background\:green-1 {
   background-color: #43a047 !important;
   color: white !important;
 }
 
-.text-green-1 {
+.hover\:background\:green-1:hover {
+  background-color: #43a047 !important;
+  color: white !important;
+}
+
+.text\:green-1 {
   color: #43a047 !important;
 }
 
-.bg-green-2 {
+.hover\:text\:green-1:hover {
+  color: #43a047 !important;
+}
+
+.background\:green-2 {
   background-color: #388e3c !important;
   color: white !important;
 }
 
-.text-green-2 {
+.hover\:background\:green-2:hover {
+  background-color: #388e3c !important;
+  color: white !important;
+}
+
+.text\:green-2 {
   color: #388e3c !important;
 }
 
-.bg-green-3 {
+.hover\:text\:green-2:hover {
+  color: #388e3c !important;
+}
+
+.background\:green-3 {
   background-color: #2e7d32 !important;
   color: white !important;
 }
 
-.text-green-3 {
+.hover\:background\:green-3:hover {
+  background-color: #2e7d32 !important;
+  color: white !important;
+}
+
+.text\:green-3 {
   color: #2e7d32 !important;
 }
 
-.bg-green-4 {
+.hover\:text\:green-3:hover {
+  color: #2e7d32 !important;
+}
+
+.background\:green-4 {
   background-color: #1b5e20 !important;
   color: white !important;
 }
 
-.text-green-4 {
+.hover\:background\:green-4:hover {
+  background-color: #1b5e20 !important;
+  color: white !important;
+}
+
+.text\:green-4 {
   color: #1b5e20 !important;
 }
 
-.bg-light-green {
+.hover\:text\:green-4:hover {
+  color: #1b5e20 !important;
+}
+
+.background\:light-green {
   background-color: #8bc34a !important;
   color: white !important;
 }
 
-.text-light-green {
+.hover\:background\:light-green:hover {
+  background-color: #8bc34a !important;
+  color: white !important;
+}
+
+.text\:light-green {
   color: #8bc34a !important;
 }
 
-.bg-light-green-1 {
+.hover\:text\:light-green:hover {
+  color: #8bc34a !important;
+}
+
+.background\:light-green-1 {
   background-color: #7cb342 !important;
   color: white !important;
 }
 
-.text-light-green-1 {
+.hover\:background\:light-green-1:hover {
+  background-color: #7cb342 !important;
+  color: white !important;
+}
+
+.text\:light-green-1 {
   color: #7cb342 !important;
 }
 
-.bg-light-green-2 {
+.hover\:text\:light-green-1:hover {
+  color: #7cb342 !important;
+}
+
+.background\:light-green-2 {
   background-color: #689f38 !important;
   color: white !important;
 }
 
-.text-light-green-2 {
+.hover\:background\:light-green-2:hover {
+  background-color: #689f38 !important;
+  color: white !important;
+}
+
+.text\:light-green-2 {
   color: #689f38 !important;
 }
 
-.bg-light-green-3 {
+.hover\:text\:light-green-2:hover {
+  color: #689f38 !important;
+}
+
+.background\:light-green-3 {
   background-color: #558b2f !important;
   color: white !important;
 }
 
-.text-light-green-3 {
+.hover\:background\:light-green-3:hover {
+  background-color: #558b2f !important;
+  color: white !important;
+}
+
+.text\:light-green-3 {
   color: #558b2f !important;
 }
 
-.bg-light-green-4 {
+.hover\:text\:light-green-3:hover {
+  color: #558b2f !important;
+}
+
+.background\:light-green-4 {
   background-color: #33691e !important;
   color: white !important;
 }
 
-.text-light-green-4 {
+.hover\:background\:light-green-4:hover {
+  background-color: #33691e !important;
+  color: white !important;
+}
+
+.text\:light-green-4 {
   color: #33691e !important;
 }
 
-.bg-lime {
+.hover\:text\:light-green-4:hover {
+  color: #33691e !important;
+}
+
+.background\:lime {
   background-color: #cddc39 !important;
   color: white !important;
 }
 
-.text-lime {
+.hover\:background\:lime:hover {
+  background-color: #cddc39 !important;
+  color: white !important;
+}
+
+.text\:lime {
   color: #cddc39 !important;
 }
 
-.bg-lime-1 {
+.hover\:text\:lime:hover {
+  color: #cddc39 !important;
+}
+
+.background\:lime-1 {
   background-color: #c0ca33 !important;
   color: white !important;
 }
 
-.text-lime-1 {
+.hover\:background\:lime-1:hover {
+  background-color: #c0ca33 !important;
+  color: white !important;
+}
+
+.text\:lime-1 {
   color: #c0ca33 !important;
 }
 
-.bg-lime-2 {
+.hover\:text\:lime-1:hover {
+  color: #c0ca33 !important;
+}
+
+.background\:lime-2 {
   background-color: #afb42b !important;
   color: white !important;
 }
 
-.text-lime-2 {
+.hover\:background\:lime-2:hover {
+  background-color: #afb42b !important;
+  color: white !important;
+}
+
+.text\:lime-2 {
   color: #afb42b !important;
 }
 
-.bg-lime-3 {
+.hover\:text\:lime-2:hover {
+  color: #afb42b !important;
+}
+
+.background\:lime-3 {
   background-color: #9e9d24 !important;
   color: white !important;
 }
 
-.text-lime-3 {
+.hover\:background\:lime-3:hover {
+  background-color: #9e9d24 !important;
+  color: white !important;
+}
+
+.text\:lime-3 {
   color: #9e9d24 !important;
 }
 
-.bg-lime-4 {
+.hover\:text\:lime-3:hover {
+  color: #9e9d24 !important;
+}
+
+.background\:lime-4 {
   background-color: #827717 !important;
   color: white !important;
 }
 
-.text-lime-4 {
+.hover\:background\:lime-4:hover {
+  background-color: #827717 !important;
+  color: white !important;
+}
+
+.text\:lime-4 {
   color: #827717 !important;
 }
 
-.bg-orange {
+.hover\:text\:lime-4:hover {
+  color: #827717 !important;
+}
+
+.background\:orange {
   background-color: #ff9800 !important;
   color: white !important;
 }
 
-.text-orange {
+.hover\:background\:orange:hover {
+  background-color: #ff9800 !important;
+  color: white !important;
+}
+
+.text\:orange {
   color: #ff9800 !important;
 }
 
-.bg-orange-1 {
+.hover\:text\:orange:hover {
+  color: #ff9800 !important;
+}
+
+.background\:orange-1 {
   background-color: #fb8c00 !important;
   color: white !important;
 }
 
-.text-orange-1 {
+.hover\:background\:orange-1:hover {
+  background-color: #fb8c00 !important;
+  color: white !important;
+}
+
+.text\:orange-1 {
   color: #fb8c00 !important;
 }
 
-.bg-orange-2 {
+.hover\:text\:orange-1:hover {
+  color: #fb8c00 !important;
+}
+
+.background\:orange-2 {
   background-color: #f57c00 !important;
   color: white !important;
 }
 
-.text-orange-2 {
+.hover\:background\:orange-2:hover {
+  background-color: #f57c00 !important;
+  color: white !important;
+}
+
+.text\:orange-2 {
   color: #f57c00 !important;
 }
 
-.bg-orange-3 {
+.hover\:text\:orange-2:hover {
+  color: #f57c00 !important;
+}
+
+.background\:orange-3 {
   background-color: #ef6c00 !important;
   color: white !important;
 }
 
-.text-orange-3 {
+.hover\:background\:orange-3:hover {
+  background-color: #ef6c00 !important;
+  color: white !important;
+}
+
+.text\:orange-3 {
   color: #ef6c00 !important;
 }
 
-.bg-orange-4 {
+.hover\:text\:orange-3:hover {
+  color: #ef6c00 !important;
+}
+
+.background\:orange-4 {
   background-color: #e65100 !important;
   color: white !important;
 }
 
-.text-orange-4 {
+.hover\:background\:orange-4:hover {
+  background-color: #e65100 !important;
+  color: white !important;
+}
+
+.text\:orange-4 {
   color: #e65100 !important;
 }
 
-.bg-amber {
+.hover\:text\:orange-4:hover {
+  color: #e65100 !important;
+}
+
+.background\:amber {
   background-color: #ffc107 !important;
   color: white !important;
 }
 
-.text-amber {
+.hover\:background\:amber:hover {
+  background-color: #ffc107 !important;
+  color: white !important;
+}
+
+.text\:amber {
   color: #ffc107 !important;
 }
 
-.bg-amber-1 {
+.hover\:text\:amber:hover {
+  color: #ffc107 !important;
+}
+
+.background\:amber-1 {
   background-color: #ffb300 !important;
   color: white !important;
 }
 
-.text-amber-1 {
+.hover\:background\:amber-1:hover {
+  background-color: #ffb300 !important;
+  color: white !important;
+}
+
+.text\:amber-1 {
   color: #ffb300 !important;
 }
 
-.bg-amber-2 {
+.hover\:text\:amber-1:hover {
+  color: #ffb300 !important;
+}
+
+.background\:amber-2 {
   background-color: #ffa000 !important;
   color: white !important;
 }
 
-.text-amber-2 {
+.hover\:background\:amber-2:hover {
+  background-color: #ffa000 !important;
+  color: white !important;
+}
+
+.text\:amber-2 {
   color: #ffa000 !important;
 }
 
-.bg-amber-3 {
+.hover\:text\:amber-2:hover {
+  color: #ffa000 !important;
+}
+
+.background\:amber-3 {
   background-color: #ff8f00 !important;
   color: white !important;
 }
 
-.text-amber-3 {
+.hover\:background\:amber-3:hover {
+  background-color: #ff8f00 !important;
+  color: white !important;
+}
+
+.text\:amber-3 {
   color: #ff8f00 !important;
 }
 
-.bg-amber-4 {
+.hover\:text\:amber-3:hover {
+  color: #ff8f00 !important;
+}
+
+.background\:amber-4 {
   background-color: #ff6f00 !important;
   color: white !important;
 }
 
-.text-amber-4 {
+.hover\:background\:amber-4:hover {
+  background-color: #ff6f00 !important;
+  color: white !important;
+}
+
+.text\:amber-4 {
   color: #ff6f00 !important;
 }
 
-.bg-yellow {
+.hover\:text\:amber-4:hover {
+  color: #ff6f00 !important;
+}
+
+.background\:yellow {
   background-color: #ffeb3b !important;
   color: white !important;
 }
 
-.text-yellow {
+.hover\:background\:yellow:hover {
+  background-color: #ffeb3b !important;
+  color: white !important;
+}
+
+.text\:yellow {
   color: #ffeb3b !important;
 }
 
-.bg-yellow-1 {
+.hover\:text\:yellow:hover {
+  color: #ffeb3b !important;
+}
+
+.background\:yellow-1 {
   background-color: #fdd835 !important;
   color: white !important;
 }
 
-.text-yellow-1 {
+.hover\:background\:yellow-1:hover {
+  background-color: #fdd835 !important;
+  color: white !important;
+}
+
+.text\:yellow-1 {
   color: #fdd835 !important;
 }
 
-.bg-yellow-2 {
+.hover\:text\:yellow-1:hover {
+  color: #fdd835 !important;
+}
+
+.background\:yellow-2 {
   background-color: #fbc02d !important;
   color: white !important;
 }
 
-.text-yellow-2 {
+.hover\:background\:yellow-2:hover {
+  background-color: #fbc02d !important;
+  color: white !important;
+}
+
+.text\:yellow-2 {
   color: #fbc02d !important;
 }
 
-.bg-yellow-3 {
+.hover\:text\:yellow-2:hover {
+  color: #fbc02d !important;
+}
+
+.background\:yellow-3 {
   background-color: #f9a825 !important;
   color: white !important;
 }
 
-.text-yellow-3 {
+.hover\:background\:yellow-3:hover {
+  background-color: #f9a825 !important;
+  color: white !important;
+}
+
+.text\:yellow-3 {
   color: #f9a825 !important;
 }
 
-.bg-yellow-4 {
+.hover\:text\:yellow-3:hover {
+  color: #f9a825 !important;
+}
+
+.background\:yellow-4 {
   background-color: #f57f17 !important;
   color: white !important;
 }
 
-.text-yellow-4 {
+.hover\:background\:yellow-4:hover {
+  background-color: #f57f17 !important;
+  color: white !important;
+}
+
+.text\:yellow-4 {
   color: #f57f17 !important;
 }
 
-.bg-light-grey-4 {
+.hover\:text\:yellow-4:hover {
+  color: #f57f17 !important;
+}
+
+.background\:light-grey-4 {
   background-color: #fafafa !important;
   color: black !important;
 }
 
-.text-light-grey-4 {
+.hover\:background\:light-grey-4:hover {
+  background-color: #fafafa !important;
+  color: black !important;
+}
+
+.text\:light-grey-4 {
   color: #fafafa !important;
 }
 
-.bg-light-grey-3 {
+.hover\:text\:light-grey-4:hover {
+  color: #fafafa !important;
+}
+
+.background\:light-grey-3 {
   background-color: #f5f5f5 !important;
   color: black !important;
 }
 
-.text-light-grey-3 {
+.hover\:background\:light-grey-3:hover {
+  background-color: #f5f5f5 !important;
+  color: black !important;
+}
+
+.text\:light-grey-3 {
   color: #f5f5f5 !important;
 }
 
-.bg-light-grey-2 {
+.hover\:text\:light-grey-3:hover {
+  color: #f5f5f5 !important;
+}
+
+.background\:light-grey-2 {
   background-color: #eeeeee !important;
   color: black !important;
 }
 
-.text-light-grey-2 {
+.hover\:background\:light-grey-2:hover {
+  background-color: #eeeeee !important;
+  color: black !important;
+}
+
+.text\:light-grey-2 {
   color: #eeeeee !important;
 }
 
-.bg-light-grey-1 {
+.hover\:text\:light-grey-2:hover {
+  color: #eeeeee !important;
+}
+
+.background\:light-grey-1 {
   background-color: #e0e0e0 !important;
   color: black !important;
 }
 
-.text-light-grey-1 {
+.hover\:background\:light-grey-1:hover {
+  background-color: #e0e0e0 !important;
+  color: black !important;
+}
+
+.text\:light-grey-1 {
   color: #e0e0e0 !important;
 }
 
-.bg-light-grey {
+.hover\:text\:light-grey-1:hover {
+  color: #e0e0e0 !important;
+}
+
+.background\:light-grey {
   background-color: #9e9e9e !important;
   color: black !important;
 }
 
-.text-light-grey {
+.hover\:background\:light-grey:hover {
+  background-color: #9e9e9e !important;
+  color: black !important;
+}
+
+.text\:light-grey {
   color: #9e9e9e !important;
 }
 
-.bg-grey {
+.hover\:text\:light-grey:hover {
+  color: #9e9e9e !important;
+}
+
+.background\:grey {
   background-color: #bdbdbd !important;
   color: black !important;
 }
 
-.text-grey {
+.hover\:background\:grey:hover {
+  background-color: #bdbdbd !important;
+  color: black !important;
+}
+
+.text\:grey {
   color: #bdbdbd !important;
 }
 
-.bg-grey-1 {
+.hover\:text\:grey:hover {
+  color: #bdbdbd !important;
+}
+
+.background\:grey-1 {
   background-color: #757575 !important;
   color: white !important;
 }
 
-.text-grey-1 {
+.hover\:background\:grey-1:hover {
+  background-color: #757575 !important;
+  color: white !important;
+}
+
+.text\:grey-1 {
   color: #757575 !important;
 }
 
-.bg-grey-2 {
+.hover\:text\:grey-1:hover {
+  color: #757575 !important;
+}
+
+.background\:grey-2 {
   background-color: #616161 !important;
   color: white !important;
 }
 
-.text-grey-2 {
+.hover\:background\:grey-2:hover {
+  background-color: #616161 !important;
+  color: white !important;
+}
+
+.text\:grey-2 {
   color: #616161 !important;
 }
 
-.bg-grey-3 {
+.hover\:text\:grey-2:hover {
+  color: #616161 !important;
+}
+
+.background\:grey-3 {
   background-color: #424242 !important;
   color: white !important;
 }
 
-.text-grey-3 {
+.hover\:background\:grey-3:hover {
+  background-color: #424242 !important;
+  color: white !important;
+}
+
+.text\:grey-3 {
   color: #424242 !important;
 }
 
-.bg-grey-4 {
+.hover\:text\:grey-3:hover {
+  color: #424242 !important;
+}
+
+.background\:grey-4 {
   background-color: #212121 !important;
   color: white !important;
 }
 
-.text-grey-4 {
+.hover\:background\:grey-4:hover {
+  background-color: #212121 !important;
+  color: white !important;
+}
+
+.text\:grey-4 {
   color: #212121 !important;
 }
 
-body {
-  margin: 0;
-  padding: 0;
+.hover\:text\:grey-4:hover {
+  color: #212121 !important;
+}
+
+.background\:black {
+  background-color: #000000 !important;
+  color: white !important;
+}
+
+.hover\:background\:black:hover {
+  background-color: #000000 !important;
+  color: white !important;
+}
+
+.text\:black {
+  color: #000000 !important;
+}
+
+.hover\:text\:black:hover {
+  color: #000000 !important;
+}
+
+.btn {
+  padding: 0.8rem 1rem;
+  display: inline-block;
+  border-radius: 4px;
+  transition: 0.4s;
+}
+.btn:active, .btn:focus, .btn:hover {
+  cursor: pointer;
+  background-color: rgba(117, 117, 117, 0.2);
+}
+.btn.btn\:rounded {
+  border-radius: 10rem;
+}
+.btn.border\:white:hover {
+  background-color: white !important;
+  color: #1a1919 !important;
+}
+.btn.background\:white:hover {
+  background-color: #e6e6e6 !important;
+  color: #1a1919 !important;
+}
+.btn.border\:pink:hover {
+  background-color: #e91e63 !important;
+  color: white !important;
+}
+.btn.background\:pink:hover {
+  background-color: #c1134e !important;
+  color: white !important;
+}
+.btn.border\:pink-1:hover {
+  background-color: #d81b60 !important;
+  color: white !important;
+}
+.btn.background\:pink-1:hover {
+  background-color: #ab154c !important;
+  color: white !important;
+}
+.btn.border\:pink-2:hover {
+  background-color: #c2185b !important;
+  color: white !important;
+}
+.btn.background\:pink-2:hover {
+  background-color: #951246 !important;
+  color: white !important;
+}
+.btn.border\:pink-3:hover {
+  background-color: #ad1457 !important;
+  color: white !important;
+}
+.btn.background\:pink-3:hover {
+  background-color: #7f0f40 !important;
+  color: white !important;
+}
+.btn.border\:pink-4:hover {
+  background-color: #880e4f !important;
+  color: white !important;
+}
+.btn.background\:pink-4:hover {
+  background-color: #5a0934 !important;
+  color: white !important;
+}
+.btn.border\:purple:hover {
+  background-color: #9c27b0 !important;
+  color: white !important;
+}
+.btn.background\:purple:hover {
+  background-color: #771e86 !important;
+  color: white !important;
+}
+.btn.border\:purple-1:hover {
+  background-color: #8e24aa !important;
+  color: white !important;
+}
+.btn.background\:purple-1:hover {
+  background-color: #6b1b80 !important;
+  color: white !important;
+}
+.btn.border\:purple-2:hover {
+  background-color: #7b1fa2 !important;
+  color: white !important;
+}
+.btn.background\:purple-2:hover {
+  background-color: #5a1777 !important;
+  color: white !important;
+}
+.btn.border\:purple-3:hover {
+  background-color: #6a1b9a !important;
+  color: white !important;
+}
+.btn.background\:purple-3:hover {
+  background-color: #4c136f !important;
+  color: white !important;
+}
+.btn.border\:purple-4:hover {
+  background-color: #4a148c !important;
+  color: white !important;
+}
+.btn.background\:purple-4:hover {
+  background-color: #320e5f !important;
+  color: white !important;
+}
+.btn.border\:deep-purple:hover {
+  background-color: #4a148c !important;
+  color: white !important;
+}
+.btn.background\:deep-purple:hover {
+  background-color: #320e5f !important;
+  color: white !important;
+}
+.btn.border\:deep-purple-1:hover {
+  background-color: #5e35b1 !important;
+  color: white !important;
+}
+.btn.background\:deep-purple-1:hover {
+  background-color: #49298a !important;
+  color: white !important;
+}
+.btn.border\:deep-purple-2:hover {
+  background-color: #512da8 !important;
+  color: white !important;
+}
+.btn.background\:deep-purple-2:hover {
+  background-color: #3e2280 !important;
+  color: white !important;
+}
+.btn.border\:deep-purple-3:hover {
+  background-color: #4527a0 !important;
+  color: white !important;
+}
+.btn.background\:deep-purple-3:hover {
+  background-color: #331d77 !important;
+  color: white !important;
+}
+.btn.border\:deep-purple-4:hover {
+  background-color: #311b92 !important;
+  color: white !important;
+}
+.btn.background\:deep-purple-4:hover {
+  background-color: #231367 !important;
+  color: white !important;
+}
+.btn.border\:blue:hover {
+  background-color: #2196f3 !important;
+  color: white !important;
+}
+.btn.background\:blue:hover {
+  background-color: #0c7cd5 !important;
+  color: white !important;
+}
+.btn.border\:blue-1:hover {
+  background-color: #1e88e5 !important;
+  color: white !important;
+}
+.btn.background\:blue-1:hover {
+  background-color: #166dba !important;
+  color: white !important;
+}
+.btn.border\:blue-2:hover {
+  background-color: #1976d2 !important;
+  color: white !important;
+}
+.btn.background\:blue-2:hover {
+  background-color: #145ca4 !important;
+  color: white !important;
+}
+.btn.border\:blue-3:hover {
+  background-color: #1565c0 !important;
+  color: white !important;
+}
+.btn.background\:blue-3:hover {
+  background-color: #104d92 !important;
+  color: white !important;
+}
+.btn.border\:blue-4:hover {
+  background-color: #0d47a1 !important;
+  color: white !important;
+}
+.btn.background\:blue-4:hover {
+  background-color: #093272 !important;
+  color: white !important;
+}
+.btn.border\:light-blue:hover {
+  background-color: #03a9f4 !important;
+  color: white !important;
+}
+.btn.background\:light-blue:hover {
+  background-color: #0286c2 !important;
+  color: white !important;
+}
+.btn.border\:light-blue-1:hover {
+  background-color: #039be5 !important;
+  color: white !important;
+}
+.btn.background\:light-blue-1:hover {
+  background-color: #0279b3 !important;
+  color: white !important;
+}
+.btn.border\:light-blue-2:hover {
+  background-color: #0288d1 !important;
+  color: white !important;
+}
+.btn.background\:light-blue-2:hover {
+  background-color: #02679e !important;
+  color: white !important;
+}
+.btn.border\:light-blue-3:hover {
+  background-color: #0277bd !important;
+  color: white !important;
+}
+.btn.background\:light-blue-3:hover {
+  background-color: #01578b !important;
+  color: white !important;
+}
+.btn.border\:light-blue-4:hover {
+  background-color: #01579b !important;
+  color: white !important;
+}
+.btn.background\:light-blue-4:hover {
+  background-color: #013b68 !important;
+  color: white !important;
+}
+.btn.border\:indigo:hover {
+  background-color: #3f51b5 !important;
+  color: white !important;
+}
+.btn.background\:indigo:hover {
+  background-color: #32408f !important;
+  color: white !important;
+}
+.btn.border\:indigo-1:hover {
+  background-color: #3949ab !important;
+  color: white !important;
+}
+.btn.background\:indigo-1:hover {
+  background-color: #2c3985 !important;
+  color: white !important;
+}
+.btn.border\:indigo-2:hover {
+  background-color: #303f9f !important;
+  color: white !important;
+}
+.btn.background\:indigo-2:hover {
+  background-color: #242f78 !important;
+  color: white !important;
+}
+.btn.border\:indigo-3:hover {
+  background-color: #283593 !important;
+  color: white !important;
+}
+.btn.background\:indigo-3:hover {
+  background-color: #1d276b !important;
+  color: white !important;
+}
+.btn.border\:indigo-4:hover {
+  background-color: #1a237e !important;
+  color: white !important;
+}
+.btn.background\:indigo-4:hover {
+  background-color: #111754 !important;
+  color: white !important;
+}
+.btn.border\:teal:hover {
+  background-color: #009688 !important;
+  color: white !important;
+}
+.btn.background\:teal:hover {
+  background-color: #00635a !important;
+  color: white !important;
+}
+.btn.border\:teal-1:hover {
+  background-color: #00897b !important;
+  color: white !important;
+}
+.btn.background\:teal-1:hover {
+  background-color: #00564d !important;
+  color: white !important;
+}
+.btn.border\:teal-2:hover {
+  background-color: #00796b !important;
+  color: white !important;
+}
+.btn.background\:teal-2:hover {
+  background-color: #00463e !important;
+  color: white !important;
+}
+.btn.border\:teal-3:hover {
+  background-color: #00695c !important;
+  color: white !important;
+}
+.btn.background\:teal-3:hover {
+  background-color: #00362f !important;
+  color: white !important;
+}
+.btn.border\:teal-4:hover {
+  background-color: #004d40 !important;
+  color: white !important;
+}
+.btn.background\:teal-4:hover {
+  background-color: #001a16 !important;
+  color: white !important;
+}
+.btn.border\:cyan:hover {
+  background-color: #00bcd4 !important;
+  color: white !important;
+}
+.btn.background\:cyan:hover {
+  background-color: #008fa1 !important;
+  color: white !important;
+}
+.btn.border\:cyan-1:hover {
+  background-color: #00acc1 !important;
+  color: white !important;
+}
+.btn.background\:cyan-1:hover {
+  background-color: #007f8e !important;
+  color: white !important;
+}
+.btn.border\:cyan-2:hover {
+  background-color: #0097a7 !important;
+  color: white !important;
+}
+.btn.background\:cyan-2:hover {
+  background-color: #006974 !important;
+  color: white !important;
+}
+.btn.border\:cyan-3:hover {
+  background-color: #00838f !important;
+  color: white !important;
+}
+.btn.background\:cyan-3:hover {
+  background-color: #00545c !important;
+  color: white !important;
+}
+.btn.border\:cyan-4:hover {
+  background-color: #006064 !important;
+  color: white !important;
+}
+.btn.background\:cyan-4:hover {
+  background-color: #002f31 !important;
+  color: white !important;
+}
+.btn.border\:red:hover {
+  background-color: #b71c1c !important;
+  color: white !important;
+}
+.btn.background\:red:hover {
+  background-color: #8b1515 !important;
+  color: white !important;
+}
+.btn.border\:red-1:hover {
+  background-color: #e53935 !important;
+  color: white !important;
+}
+.btn.background\:red-1:hover {
+  background-color: #cd1e1a !important;
+  color: white !important;
+}
+.btn.border\:red-2:hover {
+  background-color: #d32f2f !important;
+  color: white !important;
+}
+.btn.background\:red-2:hover {
+  background-color: #ab2424 !important;
+  color: white !important;
+}
+.btn.border\:red-3:hover {
+  background-color: #c62828 !important;
+  color: white !important;
+}
+.btn.background\:red-3:hover {
+  background-color: #9c1f1f !important;
+  color: white !important;
+}
+.btn.border\:red-4:hover {
+  background-color: #b71c1c !important;
+  color: white !important;
+}
+.btn.background\:red-4:hover {
+  background-color: #8b1515 !important;
+  color: white !important;
+}
+.btn.border\:green:hover {
+  background-color: #4caf50 !important;
+  color: white !important;
+}
+.btn.background\:green:hover {
+  background-color: #3d8b40 !important;
+  color: white !important;
+}
+.btn.border\:green-1:hover {
+  background-color: #43a047 !important;
+  color: white !important;
+}
+.btn.background\:green-1:hover {
+  background-color: #347c37 !important;
+  color: white !important;
+}
+.btn.border\:green-2:hover {
+  background-color: #388e3c !important;
+  color: white !important;
+}
+.btn.background\:green-2:hover {
+  background-color: #2a692d !important;
+  color: white !important;
+}
+.btn.border\:green-3:hover {
+  background-color: #2e7d32 !important;
+  color: white !important;
+}
+.btn.background\:green-3:hover {
+  background-color: #205823 !important;
+  color: white !important;
+}
+.btn.border\:green-4:hover {
+  background-color: #1b5e20 !important;
+  color: white !important;
+}
+.btn.background\:green-4:hover {
+  background-color: #103613 !important;
+  color: white !important;
+}
+.btn.border\:light-green:hover {
+  background-color: #8bc34a !important;
+  color: white !important;
+}
+.btn.background\:light-green:hover {
+  background-color: #71a436 !important;
+  color: white !important;
+}
+.btn.border\:light-green-1:hover {
+  background-color: #7cb342 !important;
+  color: white !important;
+}
+.btn.background\:light-green-1:hover {
+  background-color: #628e34 !important;
+  color: white !important;
+}
+.btn.border\:light-green-2:hover {
+  background-color: #689f38 !important;
+  color: white !important;
+}
+.btn.background\:light-green-2:hover {
+  background-color: #4f792b !important;
+  color: white !important;
+}
+.btn.border\:light-green-3:hover {
+  background-color: #558b2f !important;
+  color: white !important;
+}
+.btn.background\:light-green-3:hover {
+  background-color: #3e6522 !important;
+  color: white !important;
+}
+.btn.border\:light-green-4:hover {
+  background-color: #33691e !important;
+  color: white !important;
+}
+.btn.background\:light-green-4:hover {
+  background-color: #204113 !important;
+  color: white !important;
+}
+.btn.border\:lime:hover {
+  background-color: #cddc39 !important;
+  color: white !important;
+}
+.btn.background\:lime:hover {
+  background-color: #b2c022 !important;
+  color: white !important;
+}
+.btn.border\:lime-1:hover {
+  background-color: #c0ca33 !important;
+  color: white !important;
+}
+.btn.background\:lime-1:hover {
+  background-color: #99a129 !important;
+  color: white !important;
+}
+.btn.border\:lime-2:hover {
+  background-color: #afb42b !important;
+  color: white !important;
+}
+.btn.background\:lime-2:hover {
+  background-color: #878b21 !important;
+  color: white !important;
+}
+.btn.border\:lime-3:hover {
+  background-color: #9e9d24 !important;
+  color: white !important;
+}
+.btn.background\:lime-3:hover {
+  background-color: #74741b !important;
+  color: white !important;
+}
+.btn.border\:lime-4:hover {
+  background-color: #827717 !important;
+  color: white !important;
+}
+.btn.background\:lime-4:hover {
+  background-color: #574f0f !important;
+  color: white !important;
+}
+.btn.border\:orange:hover {
+  background-color: #ff9800 !important;
+  color: white !important;
+}
+.btn.background\:orange:hover {
+  background-color: #cc7a00 !important;
+  color: white !important;
+}
+.btn.border\:orange-1:hover {
+  background-color: #fb8c00 !important;
+  color: white !important;
+}
+.btn.background\:orange-1:hover {
+  background-color: #c87000 !important;
+  color: white !important;
+}
+.btn.border\:orange-2:hover {
+  background-color: #f57c00 !important;
+  color: white !important;
+}
+.btn.background\:orange-2:hover {
+  background-color: #c26200 !important;
+  color: white !important;
+}
+.btn.border\:orange-3:hover {
+  background-color: #ef6c00 !important;
+  color: white !important;
+}
+.btn.background\:orange-3:hover {
+  background-color: #bc5500 !important;
+  color: white !important;
+}
+.btn.border\:orange-4:hover {
+  background-color: #e65100 !important;
+  color: white !important;
+}
+.btn.background\:orange-4:hover {
+  background-color: #b33f00 !important;
+  color: white !important;
+}
+.btn.border\:amber:hover {
+  background-color: #ffc107 !important;
+  color: white !important;
+}
+.btn.background\:amber:hover {
+  background-color: #d39e00 !important;
+  color: white !important;
+}
+.btn.border\:amber-1:hover {
+  background-color: #ffb300 !important;
+  color: white !important;
+}
+.btn.background\:amber-1:hover {
+  background-color: #cc8f00 !important;
+  color: white !important;
+}
+.btn.border\:amber-2:hover {
+  background-color: #ffa000 !important;
+  color: white !important;
+}
+.btn.background\:amber-2:hover {
+  background-color: #cc8000 !important;
+  color: white !important;
+}
+.btn.border\:amber-3:hover {
+  background-color: #ff8f00 !important;
+  color: white !important;
+}
+.btn.background\:amber-3:hover {
+  background-color: #cc7200 !important;
+  color: white !important;
+}
+.btn.border\:amber-4:hover {
+  background-color: #ff6f00 !important;
+  color: white !important;
+}
+.btn.background\:amber-4:hover {
+  background-color: #cc5900 !important;
+  color: white !important;
+}
+.btn.border\:yellow:hover {
+  background-color: #ffeb3b !important;
+  color: white !important;
+}
+.btn.background\:yellow:hover {
+  background-color: #ffe608 !important;
+  color: white !important;
+}
+.btn.border\:yellow-1:hover {
+  background-color: #fdd835 !important;
+  color: white !important;
+}
+.btn.background\:yellow-1:hover {
+  background-color: #fdce03 !important;
+  color: white !important;
+}
+.btn.border\:yellow-2:hover {
+  background-color: #fbc02d !important;
+  color: white !important;
+}
+.btn.background\:yellow-2:hover {
+  background-color: #f0ad05 !important;
+  color: white !important;
+}
+.btn.border\:yellow-3:hover {
+  background-color: #f9a825 !important;
+  color: white !important;
+}
+.btn.background\:yellow-3:hover {
+  background-color: #e59006 !important;
+  color: white !important;
+}
+.btn.border\:yellow-4:hover {
+  background-color: #f57f17 !important;
+  color: white !important;
+}
+.btn.background\:yellow-4:hover {
+  background-color: #d06609 !important;
+  color: white !important;
+}
+.btn.border\:light-grey-4:hover {
+  background-color: #fafafa !important;
+  color: black !important;
+}
+.btn.background\:light-grey-4:hover {
+  background-color: #e1e1e1 !important;
+  color: black !important;
+}
+.btn.border\:light-grey-3:hover {
+  background-color: #f5f5f5 !important;
+  color: black !important;
+}
+.btn.background\:light-grey-3:hover {
+  background-color: gainsboro !important;
+  color: black !important;
+}
+.btn.border\:light-grey-2:hover {
+  background-color: #eeeeee !important;
+  color: black !important;
+}
+.btn.background\:light-grey-2:hover {
+  background-color: #d5d5d5 !important;
+  color: black !important;
+}
+.btn.border\:light-grey-1:hover {
+  background-color: #e0e0e0 !important;
+  color: black !important;
+}
+.btn.background\:light-grey-1:hover {
+  background-color: #c7c7c7 !important;
+  color: black !important;
+}
+.btn.border\:light-grey:hover {
+  background-color: #9e9e9e !important;
+  color: black !important;
+}
+.btn.background\:light-grey:hover {
+  background-color: #858585 !important;
+  color: black !important;
+}
+.btn.border\:grey:hover {
+  background-color: #bdbdbd !important;
+  color: black !important;
+}
+.btn.background\:grey:hover {
+  background-color: #a4a4a4 !important;
+  color: black !important;
+}
+.btn.border\:grey-1:hover {
+  background-color: #757575 !important;
+  color: white !important;
+}
+.btn.background\:grey-1:hover {
+  background-color: #5c5c5c !important;
+  color: white !important;
+}
+.btn.border\:grey-2:hover {
+  background-color: #616161 !important;
+  color: white !important;
+}
+.btn.background\:grey-2:hover {
+  background-color: #484848 !important;
+  color: white !important;
+}
+.btn.border\:grey-3:hover {
+  background-color: #424242 !important;
+  color: white !important;
+}
+.btn.background\:grey-3:hover {
+  background-color: #292929 !important;
+  color: white !important;
+}
+.btn.border\:grey-4:hover {
+  background-color: #212121 !important;
+  color: white !important;
+}
+.btn.background\:grey-4:hover {
+  background-color: #080808 !important;
+  color: white !important;
+}
+.btn.border\:black:hover {
+  background-color: #000000 !important;
+  color: white !important;
+}
+.btn.background\:black:hover {
+  background-color: black !important;
+  color: white !important;
+}
+
+.hero {
+  position: relative;
+  padding: 2rem 1rem;
+  min-height: 60vh;
+}
+@media (min-width: 768px) {
+  .hero {
+    padding: 2rem 2rem;
+  }
+}
+@media (min-width: 1024px) {
+  .hero {
+    padding: 2rem 4rem;
+  }
+}
+@media (min-width: 1280px) {
+  .hero {
+    padding: 2rem 6rem;
+  }
+}
+@media (min-width: 768px) {
+  .hero {
+    min-height: 50vh;
+  }
+}
+@media (min-width: 1024px) {
+  .hero {
+    min-height: 75vh;
+  }
+}
+@media (min-width: 1280px) {
+  .hero {
+    min-height: 60vh;
+  }
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+.dropdown .dropdown-toggler {
+  height: 100%;
+  border: none;
+  background-color: inherit;
+  color: inherit;
+  cursor: pointer;
+}
+.dropdown .dropdown-toggler:focus {
+  outline: none;
+  border: none;
+}
+.dropdown .dropdown-container {
+  display: none;
+  background-color: white;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+  position: initial;
   max-width: 100%;
-  height: 100vh;
-  max-height: 100vh;
-  min-height: 100vh;
-  font-family: "Roboto", sans-serif;
-  overflow-x: hidden;
-  box-sizing: border-box;
+}
+@media (min-width: 768px) {
+  .dropdown .dropdown-container {
+    position: absolute;
+  }
+}
+.dropdown .dropdown-container.show {
+  display: block;
+}
+.dropdown .dropdown-container a {
+  color: rgba(0, 0, 0, 0.65) !important;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+.dropdown .dropdown-container a:hover {
+  background-color: #f0f0f0;
 }
 
 /*# sourceMappingURL=fetcher.css.map */

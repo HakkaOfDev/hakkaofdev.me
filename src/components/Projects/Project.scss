@@ -46,10 +46,6 @@
                         }
                     }
                 }
-                .item-describes {
-                    font-size: 1rem;
-                    font-weight: 300;
-                }
             }
             .image {
                 flex: 1;
@@ -101,4 +97,25 @@
             }
         }
     }
+}
+
+.title {
+    text-transform: uppercase;
+    font-family: Oswald, sans-serif;
+    font-size: 30px;
+}
+
+.subtitle{
+    font-family: Montserrat, sans-serif;
+    font-size: 25px;
+}
+
+.time {
+    font-family: GeosansLight;
+    font-size: 20px;
+}
+
+.desc {
+    font-family: GeosansLight;
+    font-size: 18px;
 }

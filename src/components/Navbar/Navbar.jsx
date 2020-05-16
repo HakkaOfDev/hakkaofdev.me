@@ -14,23 +14,30 @@ const Navbar = () => {
     const {t,i18n} = useTranslation();
 
     return (
-        <div className="navbar bg-blue sticky-top">
-            <div className="navbar-brand">Logo</div>
+        <div className="navbar background:grey-4 sticky-top">
+            <div className="navbar-brand"><img className="logo img-responsive" src="/img/hakkaofdevlogo.png" style={{maxHeight:"80%"}}/></div>
             <div className="navbar-toggler">
                 <div className="toggle-icon"></div>
             </div>
             <div className="navbar-container">
-                <button onClick={() => i18n.changeLanguage('fr')}>FR</button>
-                <button onClick={() => i18n.changeLanguage('en')}>EN</button>
+                <button className="btn btn:rounded border:blue" onClick={() => i18n.changeLanguage('fr')}>FR</button>
+                <button className="btn btn:rounded border:blue" onClick={() => i18n.changeLanguage('en')}>EN</button>
                 <div className="nav-link">
-                    <Link href="/components/grid"><a>{t('Welcome')}</a></Link>
+                    <Link href="#about"><a className="hover:text:amber-2">{t("Link-About")}</a></Link>
                 </div>
                 <div className="nav-link">
-                    <Link href="/components/show"><a>Show</a></Link>
+                    <Link href="#skills"><a className="hover:text:amber-2">{t("Link-Skills")}</a></Link>
                 </div>
                 <div className="nav-link">
-                    <Link href="/test"><a>Tooltips</a></Link>
+                    <Link href="#projects"><a className="hover:text:amber-2">{t("Link-Projects")}</a></Link>
                 </div>
+                <div className="nav-link">
+                    <Link href="#portfolio"><a className="hover:text:amber-2">{t("Link-Portfolio")}</a></Link>
+                </div>
+                <div className="nav-link">
+                    <Link href="#contact"><a className="hover:text:amber-2">{t("Link-Contact")}</a></Link>
+                </div>
+                <button className="btn btn:rounded hover:background:purple"><i className="ti ti-github"></i> Github</button>
             </div>
             <div className="navbar-overlay"></div>
         </div>

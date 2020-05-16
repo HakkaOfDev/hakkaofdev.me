@@ -5,12 +5,38 @@ import { initReactI18next } from "react-i18next";
 const resources = {
     en: {
         translation: {
-            "Welcome": "Welcome"
+            "Link-About": "About",
+            "Link-Skills": "Skills",
+            "Link-Projects": "My Projects",
+            "Link-Portfolio": "Portfolio",
+            "Link-Contact": "Contact",
+
+            "Project-Duration": "Duration",
+            "Project-Progress": "In progress",
+            "Project-Button": "Discover",
+            "Project-Days": "days",
+
+            "Project-Leaderboard-Lore": "Bukkit Leaderboard API with 1.7 to 1.15 support !",
+
+            "HeaderText-Lore": "Developer & Designer"
         }
     },
     fr: {
         translation: {
-            "Welcome": "Bienvenue"
+            "Link-About": "A propos",
+            "Link-Skills": "Compétences",
+            "Link-Projects": "Mes projets",
+            "Link-Portfolio": "Portefeuille",
+            "Link-Contact": "Contactez-moi",
+
+            "Project-Duration": "Durée",
+            "Project-Progress": "En cours",
+            "Project-Days": "jours",
+            "Project-Button": "Découvrir",
+
+            "Project-Leaderboard-Lore": "Une API Bukkit de Leaderboard avec un support 1.7 à 1.15 !",
+
+            "HeaderText-Lore": "Développeur & Graphiste"
         }
     }
 };
