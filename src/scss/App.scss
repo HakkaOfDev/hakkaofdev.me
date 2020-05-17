@@ -4,38 +4,12 @@
  */
  
 @import './Components.scss';
-@import './Text';
+@import '../components/About/About';
+@import '../components/Header/Header';
+@import '../components/Citation/Citation';
 
 body {
   background-color: #f6f1f8;
-}
-
-.navbar {
-  height: 85px;
-}
-
-.navbar-brand {
-  position: relative;
-  width: 30%;
-  height: 100%;
-}
-
-.logo {
-  height: 80%;
-  position: absolute;
-  top:12%;
-  left: 0%;
-  width: 100%;
-  padding-left: 1rem;
-  @media screen and (min-width: 768px) {
-    width: 90%;
-  }
-  @media screen and (min-width: 1024px) {
-    width: 80%;
-  }
-  @media screen and (min-width: 1280px) {
-    width: 70%;
-  }
 }
 
 .img-responsive {
@@ -48,6 +22,26 @@ body {
   width: 100%;
 }
 
+.w-15 {
+  width: 15vh;
+}
+
+.w-20 {
+  width: 20vh;
+}
+
 .h-100 {
   height: 100%;
+}
+
+.h-50 {
+  height: 50vh;
+}
+
+.h-45 {
+  height: 45vh;
+}
+
+.p\:relative {
+  position: relative;
 }

@@ -3,41 +3,67 @@ import {useRouter} from 'next/router'
 import Link from "next/link";
 import {ResponsiveNavbar} from "../../../public/js/navbar";
 import {useTranslation} from "react-i18next";
+import {Dropdown} from "../../../public/js/dropdown";
 
 const Navbar = () => {
     const {pathname} = useRouter()
 
+    const langs = [
+        "en", "fr"
+    ]
+
     useEffect(() => {
-        ResponsiveNavbar()
+        ResponsiveNavbar();
+        Dropdown();
     }, [])
 
-    const {t,i18n} = useTranslation();
+    const {t, i18n} = useTranslation();
 
     return (
         <div className="navbar background:grey-4 sticky-top">
-            <div className="navbar-brand"><img className="logo img-responsive" src="/img/hakkaofdevlogo.png" style={{maxHeight:"80%"}}/></div>
+            <div className="navbar-brand">
+                <a href="https://www.hakkaofdev.me">
+                    <img className="logo img-responsive" src="/img/hakkaofdevlogo.png"/>
+                </a>
+            </div>
             <div className="navbar-toggler">
                 <div className="toggle-icon"></div>
             </div>
             <div className="navbar-container">
-                <button className="btn btn:rounded border:blue" onClick={() => i18n.changeLanguage('fr')}>FR</button>
-                <button className="btn btn:rounded border:blue" onClick={() => i18n.changeLanguage('en')}>EN</button>
-                <div className="nav-link">
+                <div className="nav-link link-animated">
                     <Link href="#about"><a className="hover:text:amber-2">{t("Link-About")}</a></Link>
                 </div>
-                <div className="nav-link">
+                <div className="nav-link link-animated">
                     <Link href="#skills"><a className="hover:text:amber-2">{t("Link-Skills")}</a></Link>
                 </div>
-                <div className="nav-link">
+                <div className="nav-link link-animated">
                     <Link href="#projects"><a className="hover:text:amber-2">{t("Link-Projects")}</a></Link>
                 </div>
-                <div className="nav-link">
+                <div className="nav-link link-animated">
                     <Link href="#portfolio"><a className="hover:text:amber-2">{t("Link-Portfolio")}</a></Link>
                 </div>
-                <div className="nav-link">
+                <div className="nav-link link-animated">
                     <Link href="#contact"><a className="hover:text:amber-2">{t("Link-Contact")}</a></Link>
                 </div>
-                <button className="btn btn:rounded hover:background:purple"><i className="ti ti-github"></i> Github</button>
+                <a href="https://www.github.com/HakkaOfDev" className="btn btn:rounded github-button background:amber-2"><i className="ti ti-github"></i> Github </a>
+                <div className="nav-link lang-container">
+                    <div className="dropdown">
+                        <button className="dropdown-toggler" dropdown-autoclose="true" dropdown-target="#dropdown2" dropdown-position="right" dropdown-action="hover">
+                            {i18n.language.toUpperCase()} <i className="ti ti-angle-down"></i>
+                        </button>
+                        <div id="dropdown2" className="dropdown-container">
+                            {
+                                langs.map((lang) => {
+                                    if(lang === i18n.language){
+                                        return <a role="button" className="background:amber-2 sm:text:center">{lang.toUpperCase()}</a>
+                                    } else {
+                                        return <a role="button" className="border:amber-2 lang-link hover:background:amber-1 sm:text:center" onClick={() => i18n.changeLanguage(lang)}>{lang.toUpperCase()}</a>
+                                    }
+                                })
+                            }
+                        </div>
+                    </div>
+                </div>
             </div>
             <div className="navbar-overlay"></div>
         </div>

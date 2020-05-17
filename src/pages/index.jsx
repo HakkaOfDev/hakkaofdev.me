@@ -2,58 +2,93 @@ import {connect} from 'react-redux'
 import initialize from '../utils/initialize'
 import Layout from '../components/Layout'
 import Project from "../components/Projects/Project";
-import React, {Fragment} from "react";
+import React, {Fragment, useEffect} from "react";
 import './i18n';
 import {Parallax} from "react-parallax";
 import {Fade, Rotate, Zoom} from "react-reveal";
 import {useTranslation} from "react-i18next";
+import Typed from 'typed.js';
+import About from "../components/About/About";
+import Citation from "../components/Citation/Citation";
+import Header from "../components/Header/Header";
 
 const Index = () => {
     const projects = [
         {
             title: "FastLeaderboard",
             subTitle: "Project-Leaderboard-Lore",
-            desc: "Like awesome",
+            desc: "Project-Leaderboard-Desc",
+            features: ["Project-Leaderboard-Feature-1", "Project-Leaderboard-Feature-2", "Project-Leaderboard-Feature-3", "Project-Leaderboard-Feature-4", "Project-Leaderboard-Feature-5", "Project-Leaderboard-Feature-6"],
             dateStart: new Date("2020-05-03"),
             dateEnd: -1,
-            cta: "#",
+            cta: "https://github.com/HakkaOfDev/FastLeaderboard",
             img: "/img/leaderboards.png"
         },
         {
-            title: "Gusta",
-            subTitle: "Obvious",
-            desc: "Like awesome",
-            dateStart: new Date("2002-07-20"),
-            dateEnd: new Date("2003-07-20"),
-            cta: "#",
-            img: "https://via.placeholder.com/500"
+            title: "HeavenMoon",
+            subTitle: "Project-Heavenmoon-Lore",
+            desc: "Project-Heavenmoon-Desc",
+            features: ["Project-Heavenmoon-Feature-1", "Project-Heavenmoon-Feature-2", "Project-Heavenmoon-Feature-3", "Project-Heavenmoon-Feature-4", "Project-Heavenmoon-Feature-5"],
+            dateStart: new Date("2020-04-24"),
+            dateEnd: -1,
+            cta: "https://www.hakkaofdev.me/heavenmoon.pdf",
+            img: "/img/heavenmoon.jpg"
         },
         {
-            title: "Love",
-            subTitle: "Obvious",
-            desc: "Like awesome",
+            title: "WorkersMc",
+            subTitle: "Project-Workers-Lore",
+            desc: "Project-Workers-Desc",
+            features: ["Project-Workers-Feature-1", "Project-Workers-Feature-2", "Project-Workers-Feature-3", "Project-Workers-Feature-4", "Project-Workers-Feature-5"],
             dateStart: new Date("2002-07-20"),
-            dateEnd: new Date("2003-07-20"),
+            dateEnd: -1,
             cta: "#",
-            img: "https://via.placeholder.com/500"
+            img: "/img/workers.png"
         }
+        // put env-zero
     ]
+
+    useEffect(() => {
+        new Typed('#typing', {
+            stringsElement: '#typed',
+            typeSpeed: 75,
+            showCursor: false,
+            onComplete: (() => {
+                document.querySelector('#typing_end').setAttribute('style', `animation: typing_reveal .7s both`)
+                document.querySelector('#typing_end2').setAttribute('style', `animation: typing_reveal .7s both`)
+            })
+        });
+    }, []);
 
     const {t, i18n} = useTranslation();
 
+    const options = {
+        title:"HakkaOfDev",
+        describe:"Official website of HakkaOfDev",
+        image:"/img/citation.jpg"
+    }
+
     return (
-        <Layout>
-            <div style={{height:"50vh", background: "url('/img/welcome.jpg') no-repeat center", backgroundSize:"cover", lineHeight:"5rem"}} className="hero">
-                <Fade left big cascade>
-                    <p className="sm:text:center textheader text:amber-2 hover:text:amber">ALEXANDRE GOSSARD</p>
-                </Fade>
-                <Fade right>
-                    <span className="separator background:cyan-1"></span>
-                </Fade>
-                <Zoom>
-                   <p className="sm:text:center subtextheader text:amber-2"><i className="ti ti-desktop"></i> {t("HeaderText-Lore")} <i className="ti ti-pencil-alt"></i></p>
-                </Zoom>
-            </div>
+        <Layout title={options.title} describe={options.describe} image={options.image}>
+            <Header />
+
+            <Parallax
+                bgImage={'/img/citation.jpg'}
+                bgImageAlt="Citation Newton"
+                blur={{min: -100, max: 100}}
+                strength={-250}>
+                <Citation data={{citation:"Citation-Newton", author:"Isaac Newton"}}/>
+            </Parallax>
+
+            <About/>
+
+            <Parallax
+                bgImage={'/img/citation.jpg'}
+                bgImageAlt="Citation Voltaire"
+                blur={{min: -100, max: 100}}
+                strength={-250}>
+                <Citation data={{citation:"Citation-Voltaire", author:"Voltaire"}}/>
+            </Parallax>
+
             <div className="projects">
                 <div className="container">
                     {projects.map((project) => (
@@ -63,17 +98,14 @@ const Index = () => {
                     ))}
                 </div>
             </div>
+
             <Parallax
-                bgImage={'/img/welcome.jpg'}
-                bgImageAlt="Header"
-                blur={{ min: -100, max: 100 }}
-                strength={-250}
-            >
-                <div style={{height: "50vh", backgroundProperty: "no-repeat center", backgroundSize: "cover"}}/>
+                bgImage={'/img/citation.jpg'}
+                bgImageAlt="Citation Gossard"
+                blur={{min: -100, max: 100}}
+                strength={-250}>
+                <Citation data={{citation:"Citation-Gossard", author:"Alexandre Gossard"}}/>
             </Parallax>
-            <div style={{height:"50vh"}} className="hero">
-                <h1 className="sm:text:center md:text:center textheader">Bienvenue</h1>
-            </div>
         </Layout>
     );
 }

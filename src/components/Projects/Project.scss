@@ -23,14 +23,6 @@
                         padding: 3rem 2rem 3rem 2rem;
                         width: 90%;
                     }
-                    .call-to-action {
-                        margin-top: 3rem;
-                        margin-bottom: 2rem;
-                        
-                        @media screen and (min-width: 1024px) {
-                            margin-bottom: 0;
-                        }
-                    }
                     .nav {
                         .nav-item {
                             list-style-type: disc;
@@ -102,7 +94,7 @@
 .title {
     text-transform: uppercase;
     font-family: Oswald, sans-serif;
-    font-size: 30px;
+    font-size: 38px;
 }
 
 .subtitle{
@@ -111,11 +103,28 @@
 }
 
 .time {
-    font-family: GeosansLight;
-    font-size: 20px;
+    font-family: Montserrat, sans-serif;
+    font-size: 22px;
 }
 
 .desc {
     font-family: GeosansLight;
-    font-size: 18px;
+    font-size: 20px;
+}
+
+.desctitle {
+    font-size: 22px;
+}
+
+.features {
+    list-style-type: none;
+    padding-left: 10px;
+    font-size: 1.5rem;
+    li {
+        padding-top: 3px;
+    }
+}
+
+.discover-button {
+    text-decoration: none;
 }

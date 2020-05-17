@@ -1,4 +1,108 @@
 .navbar {
     width: 100vw;
+    height: 100px;
     z-index: 400000;
+}
+
+.dropdown .dropdown-container {
+    min-width: 60px!important;
+    width: 60px;
+}
+
+.navbar-brand {
+    display: initial;
+    position: relative;
+    width: 30%;
+    height: 100%;
+    @media screen and (min-width: 768px) {
+        display: none;
+    }
+    @media screen and (min-width: 1024px) {
+        display: initial;
+    }
+    @media screen and (min-width: 1280px) {
+        display: initial;
+    }
+}
+
+.github-button {
+    text-decoration: none;
+    font-size: 1.5rem;
+    text-transform: uppercase;
+    font-family: Oswald;
+}
+
+.lang-link {
+    cursor: pointer;
+}
+
+.lang-container {
+    margin-left: 10px;
+    font-family: Oswald, sans-serif !important;
+    font-size: 20px !important;
+}
+
+.nav-link {
+    position: relative;
+    padding-right: 10px;
+    font-size: 25px;
+    font-family: Chickybom, sans-serif;
+    text-transform: uppercase;
+
+    @media screen and (min-width: 768px) {
+        font-size: 12px;
+        font-family: Oswald, sans-serif;
+    }
+    @media screen and (min-width: 1024px) {
+        font-size: 25px;
+        font-family: Chickybom, sans-serif;
+    }
+    @media screen and (min-width: 1280px) {
+        font-size: 22px;
+        font-family: Chickybom, sans-serif;
+        margin-right: 10px;
+    }
+}
+
+.link-animated {
+    &:hover{
+        color: #ffa000;
+        &::before{
+            content: '';
+            width: 0;
+            position: absolute;
+            bottom: 0;
+            border: 1px solid #ffa000;
+            animation: border-block 0.3s both;
+        }
+    }
+}
+
+.logo {
+    height: 80%;
+    position: absolute;
+    top:12%;
+    left: 0%;
+    width: 100%;
+    padding-left: 1rem;
+    max-height: 80%;
+    @media screen and (min-width: 768px) {
+        width: 90%;
+    }
+    @media screen and (min-width: 1024px) {
+        width: 80%;
+    }
+    @media screen and (min-width: 1280px) {
+        width: 70%;
+    }
+}
+
+@keyframes border-block {
+    from {
+        width: 0;
+    }
+    to {
+        width: 100%;
+    }
+
 }

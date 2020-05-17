@@ -3,13 +3,14 @@ import Head from 'next/head';
 import {connect} from 'react-redux';
 import actions from '../redux/actions';
 import Navbar from './Navbar/Navbar';
+import Media from "./Media/Media";
 
 const Layout = ({children, title = '', image = '', describe = ''}) => {
 
     return (
         <>
             <Head>
-                <title>{title} • Domaine</title>
+                <title>{title}</title>
                 <meta charSet="utf-8"/>
                 <meta name="viewport" content="initial-scale=1.0, width=device-width"/>
                 <link rel="shortcut icon" href={process.env.FAVICON} type="image/png"/>
@@ -48,6 +49,8 @@ const Layout = ({children, title = '', image = '', describe = ''}) => {
             <div className="application">
                 {children}
             </div>
+
+            <Media/>
         </>
     )
 }
