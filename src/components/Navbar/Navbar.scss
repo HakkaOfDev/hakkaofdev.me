@@ -27,9 +27,18 @@
 
 .github-button {
     text-decoration: none;
-    font-size: 1.5rem;
+    font-size: .5rem;
     text-transform: uppercase;
     font-family: Oswald;
+    @media screen and (min-width: 768px) {
+        font-size: 1rem;
+    }
+    @media screen and (min-width: 1024px) {
+        font-size: 1rem;
+    }
+    @media screen and (min-width: 1280px) {
+        font-size: 1.5rem;
+    }
 }
 
 .lang-link {

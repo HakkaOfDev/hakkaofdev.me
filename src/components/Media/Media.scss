@@ -50,10 +50,10 @@
 
 @keyframes socialanim {
   from {
-    transform: rotate3d(0, 0, 0, 0);
+    transform: rotate3d(0, 0, 0, 0) scale(1);
   }
   to {
-    transform: rotate3d(5, 5, 5, 360deg);
+    transform: rotate3d(5, 5, 5, 360deg) scale(1.3);
   }
 }
 

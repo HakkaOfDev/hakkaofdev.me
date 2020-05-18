@@ -11,6 +11,7 @@ import Typed from 'typed.js';
 import About from "../components/About/About";
 import Citation from "../components/Citation/Citation";
 import Header from "../components/Header/Header";
+import Skills from "../components/Skills/Skills";
 
 const Index = () => {
     const projects = [
@@ -71,6 +72,8 @@ const Index = () => {
         <Layout title={options.title} describe={options.describe} image={options.image}>
             <Header />
 
+            <About/>
+
             <Parallax
                 bgImage={'/img/citation.jpg'}
                 bgImageAlt="Citation Newton"
@@ -79,7 +82,7 @@ const Index = () => {
                 <Citation data={{citation:"Citation-Newton", author:"Isaac Newton"}}/>
             </Parallax>
 
-            <About/>
+            <Skills />
 
             <Parallax
                 bgImage={'/img/citation.jpg'}
@@ -89,7 +92,7 @@ const Index = () => {
                 <Citation data={{citation:"Citation-Voltaire", author:"Voltaire"}}/>
             </Parallax>
 
-            <div className="projects">
+            <div id="projects" className="projects">
                 <div className="container">
                     {projects.map((project) => (
                         <Fragment>
