@@ -6,10 +6,10 @@
  * 2. Prevent adjustments of font size after orientation changes in iOS.
  */
 html {
-  line-height: 1.15;
-  /* 1 */
-  -webkit-text-size-adjust: 100%;
-  /* 2 */
+    line-height: 1.15;
+    /* 1 */
+    -webkit-text-size-adjust: 100%;
+    /* 2 */
 }
 
 /* Sections
@@ -18,14 +18,14 @@ html {
  * Remove the margin in all browsers.
  */
 body {
-  margin: 0;
+    margin: 0;
 }
 
 /**
  * Render the `main` element consistently in IE.
  */
 main {
-  display: block;
+    display: block;
 }
 
 /**
@@ -33,8 +33,8 @@ main {
  * `article` contexts in Chrome, Firefox, and Safari.
  */
 h1 {
-  font-size: 2em;
-  margin: 0.67em 0;
+    font-size: 2em;
+    margin: 0.67em 0;
 }
 
 /* Grouping content
@@ -44,12 +44,12 @@ h1 {
  * 2. Show the overflow in Edge and IE.
  */
 hr {
-  box-sizing: content-box;
-  /* 1 */
-  height: 0;
-  /* 1 */
-  overflow: visible;
-  /* 2 */
+    box-sizing: content-box;
+    /* 1 */
+    height: 0;
+    /* 1 */
+    overflow: visible;
+    /* 2 */
 }
 
 /**
@@ -57,10 +57,10 @@ hr {
  * 2. Correct the odd `em` font sizing in all browsers.
  */
 pre {
-  font-family: monospace, monospace;
-  /* 1 */
-  font-size: 1em;
-  /* 2 */
+    font-family: monospace, monospace;
+    /* 1 */
+    font-size: 1em;
+    /* 2 */
 }
 
 /* Text-level semantics
@@ -69,7 +69,7 @@ pre {
  * Remove the gray background on active links in IE 10.
  */
 a {
-  background-color: transparent;
+    background-color: transparent;
 }
 
 /**
@@ -77,12 +77,12 @@ a {
  * 2. Add the correct text decoration in Chrome, Edge, IE, Opera, and Safari.
  */
 abbr[title] {
-  border-bottom: none;
-  /* 1 */
-  text-decoration: underline;
-  /* 2 */
-  text-decoration: underline dotted;
-  /* 2 */
+    border-bottom: none;
+    /* 1 */
+    text-decoration: underline;
+    /* 2 */
+    text-decoration: underline dotted;
+    /* 2 */
 }
 
 /**
@@ -90,7 +90,7 @@ abbr[title] {
  */
 b,
 strong {
-  font-weight: bolder;
+    font-weight: bolder;
 }
 
 /**
@@ -100,17 +100,17 @@ strong {
 code,
 kbd,
 samp {
-  font-family: monospace, monospace;
-  /* 1 */
-  font-size: 1em;
-  /* 2 */
+    font-family: monospace, monospace;
+    /* 1 */
+    font-size: 1em;
+    /* 2 */
 }
 
 /**
  * Add the correct font size in all browsers.
  */
 small {
-  font-size: 80%;
+    font-size: 80%;
 }
 
 /**
@@ -119,18 +119,18 @@ small {
  */
 sub,
 sup {
-  font-size: 75%;
-  line-height: 0;
-  position: relative;
-  vertical-align: baseline;
+    font-size: 75%;
+    line-height: 0;
+    position: relative;
+    vertical-align: baseline;
 }
 
 sub {
-  bottom: -0.25em;
+    bottom: -0.25em;
 }
 
 sup {
-  top: -0.5em;
+    top: -0.5em;
 }
 
 /* Embedded content
@@ -139,7 +139,7 @@ sup {
  * Remove the border on images inside links in IE 10.
  */
 img {
-  border-style: none;
+    border-style: none;
 }
 
 /* Forms
@@ -153,15 +153,15 @@ input,
 optgroup,
 select,
 textarea {
-  font-family: inherit;
-  /* 1 */
-  font-size: 100%;
-  /* 1 */
-  line-height: 1.15;
-  /* 1 */
-  margin: 0;
-  /* 2 */
-  border: none;
+    font-family: inherit;
+    /* 1 */
+    font-size: 100%;
+    /* 1 */
+    line-height: 1.15;
+    /* 1 */
+    margin: 0;
+    /* 2 */
+    border: none;
 }
 
 /**
@@ -170,8 +170,8 @@ textarea {
  */
 button,
 input {
-  /* 1 */
-  overflow: visible;
+    /* 1 */
+    overflow: visible;
 }
 
 /**
@@ -180,8 +180,8 @@ input {
  */
 button,
 select {
-  /* 1 */
-  text-transform: none;
+    /* 1 */
+    text-transform: none;
 }
 
 /**
@@ -191,7 +191,7 @@ button,
 [type=button],
 [type=reset],
 [type=submit] {
-  -webkit-appearance: button;
+    -webkit-appearance: button;
 }
 
 /**
@@ -201,8 +201,8 @@ button::-moz-focus-inner,
 [type=button]::-moz-focus-inner,
 [type=reset]::-moz-focus-inner,
 [type=submit]::-moz-focus-inner {
-  border-style: none;
-  padding: 0;
+    border-style: none;
+    padding: 0;
 }
 
 /**
@@ -212,14 +212,14 @@ button:-moz-focusring,
 [type=button]:-moz-focusring,
 [type=reset]:-moz-focusring,
 [type=submit]:-moz-focusring {
-  outline: 1px dotted ButtonText;
+    outline: 1px dotted ButtonText;
 }
 
 /**
  * Correct the padding in Firefox.
  */
 fieldset {
-  padding: 0.35em 0.75em 0.625em;
+    padding: 0.35em 0.75em 0.625em;
 }
 
 /**
@@ -229,32 +229,32 @@ fieldset {
  *    `fieldset` elements in all browsers.
  */
 legend {
-  box-sizing: border-box;
-  /* 1 */
-  color: inherit;
-  /* 2 */
-  display: table;
-  /* 1 */
-  max-width: 100%;
-  /* 1 */
-  padding: 0;
-  /* 3 */
-  white-space: normal;
-  /* 1 */
+    box-sizing: border-box;
+    /* 1 */
+    color: inherit;
+    /* 2 */
+    display: table;
+    /* 1 */
+    max-width: 100%;
+    /* 1 */
+    padding: 0;
+    /* 3 */
+    white-space: normal;
+    /* 1 */
 }
 
 /**
  * Add the correct vertical alignment in Chrome, Firefox, and Opera.
  */
 progress {
-  vertical-align: baseline;
+    vertical-align: baseline;
 }
 
 /**
  * Remove the default vertical scrollbar in IE 10+.
  */
 textarea {
-  overflow: auto;
+    overflow: auto;
 }
 
 /**
@@ -263,10 +263,10 @@ textarea {
  */
 [type=checkbox],
 [type=radio] {
-  box-sizing: border-box;
-  /* 1 */
-  padding: 0;
-  /* 2 */
+    box-sizing: border-box;
+    /* 1 */
+    padding: 0;
+    /* 2 */
 }
 
 /**
@@ -274,7 +274,7 @@ textarea {
  */
 [type=number]::-webkit-inner-spin-button,
 [type=number]::-webkit-outer-spin-button {
-  height: auto;
+    height: auto;
 }
 
 /**
@@ -282,17 +282,17 @@ textarea {
  * 2. Correct the outline style in Safari.
  */
 [type=search] {
-  -webkit-appearance: textfield;
-  /* 1 */
-  outline-offset: -2px;
-  /* 2 */
+    -webkit-appearance: textfield;
+    /* 1 */
+    outline-offset: -2px;
+    /* 2 */
 }
 
 /**
  * Remove the inner padding in Chrome and Safari on macOS.
  */
 [type=search]::-webkit-search-decoration {
-  -webkit-appearance: none;
+    -webkit-appearance: none;
 }
 
 /**
@@ -300,10 +300,10 @@ textarea {
  * 2. Change font properties to `inherit` in Safari.
  */
 ::-webkit-file-upload-button {
-  -webkit-appearance: button;
-  /* 1 */
-  font: inherit;
-  /* 2 */
+    -webkit-appearance: button;
+    /* 1 */
+    font: inherit;
+    /* 2 */
 }
 
 /* Interactive
@@ -312,14 +312,14 @@ textarea {
  * Add the correct display in Edge, IE 10+, and Firefox.
  */
 details {
-  display: block;
+    display: block;
 }
 
 /*
  * Add the correct display in all browsers.
  */
 summary {
-  display: list-item;
+    display: list-item;
 }
 
 /* Misc
@@ -328,4973 +328,5371 @@ summary {
  * Add the correct display in IE 10+.
  */
 template {
-  display: none;
+    display: none;
 }
 
 /**
  * Add the correct display in IE 10.
  */
 [hidden] {
-  display: none;
+    display: none;
 }
 
 @keyframes navbar-toggle-on {
-  from {
-    left: -100vw;
-  }
-  to {
-    left: 0;
-  }
+    from {
+        left: -100vw;
+    }
+    to {
+        left: 0;
+    }
 }
+
 @keyframes navbar-toggle-off {
-  from {
-    left: 0;
-  }
-  to {
-    left: -100vw;
-  }
+    from {
+        left: 0;
+    }
+    to {
+        left: -100vw;
+    }
 }
+
 @keyframes opacity-on {
-  from {
-    opacity: 0;
-  }
-  to {
-    opacity: 1;
-  }
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
 }
+
 @keyframes opacity-off {
-  from {
-    opacity: 1;
-  }
-  to {
-    opacity: 0;
-  }
+    from {
+        opacity: 1;
+    }
+    to {
+        opacity: 0;
+    }
 }
+
 body {
-  margin: 0;
-  padding: 0;
-  max-width: 100%;
-  height: 100vh;
-  max-height: 100vh;
-  min-height: 100vh;
-  font-family: -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", sans-serif;
-  overflow-x: hidden;
-  box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    max-width: 100%;
+    height: 100vh;
+    max-height: 100vh;
+    min-height: 100vh;
+    font-family: -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", sans-serif;
+    overflow-x: hidden;
+    box-sizing: border-box;
 }
+
 body p {
-  line-height: 1.5rem;
-  color: rgba(0, 0, 0, 0.7);
-  font-size: 1.4rem;
-  line-height: 1.8rem;
-}
-@media (min-width: 768px) {
-  body p {
-    font-size: 1.8rem;
-    line-height: 2.4rem;
-  }
-}
-@media (min-width: 1024px) {
-  body p {
+    line-height: 1.5rem;
+    color: rgba(0, 0, 0, 0.7);
     font-size: 1.4rem;
-    line-height: 2rem;
-  }
+    line-height: 1.8rem;
+}
+
+@media (min-width: 768px) {
+    body p {
+        font-size: 1.8rem;
+        line-height: 2.4rem;
+    }
+}
+
+@media (min-width: 1024px) {
+    body p {
+        font-size: 1.4rem;
+        line-height: 2rem;
+    }
 }
 
 .border\:white {
-  border: 1px solid white;
+    border: 1px solid white;
 }
 
 .border\:pink {
-  border: 1px solid #e91e63;
+    border: 1px solid #e91e63;
 }
 
 .border\:pink-1 {
-  border: 1px solid #d81b60;
+    border: 1px solid #d81b60;
 }
 
 .border\:pink-2 {
-  border: 1px solid #c2185b;
+    border: 1px solid #c2185b;
 }
 
 .border\:pink-3 {
-  border: 1px solid #ad1457;
+    border: 1px solid #ad1457;
 }
 
 .border\:pink-4 {
-  border: 1px solid #880e4f;
+    border: 1px solid #880e4f;
 }
 
 .border\:purple {
-  border: 1px solid #9c27b0;
+    border: 1px solid #9c27b0;
 }
 
 .border\:purple-1 {
-  border: 1px solid #8e24aa;
+    border: 1px solid #8e24aa;
 }
 
 .border\:purple-2 {
-  border: 1px solid #7b1fa2;
+    border: 1px solid #7b1fa2;
 }
 
 .border\:purple-3 {
-  border: 1px solid #6a1b9a;
+    border: 1px solid #6a1b9a;
 }
 
 .border\:purple-4 {
-  border: 1px solid #4a148c;
+    border: 1px solid #4a148c;
 }
 
 .border\:deep-purple {
-  border: 1px solid #4a148c;
+    border: 1px solid #4a148c;
 }
 
 .border\:deep-purple-1 {
-  border: 1px solid #5e35b1;
+    border: 1px solid #5e35b1;
 }
 
 .border\:deep-purple-2 {
-  border: 1px solid #512da8;
+    border: 1px solid #512da8;
 }
 
 .border\:deep-purple-3 {
-  border: 1px solid #4527a0;
+    border: 1px solid #4527a0;
 }
 
 .border\:deep-purple-4 {
-  border: 1px solid #311b92;
+    border: 1px solid #311b92;
 }
 
 .border\:blue {
-  border: 1px solid #2196f3;
+    border: 1px solid #2196f3;
 }
 
 .border\:blue-1 {
-  border: 1px solid #1e88e5;
+    border: 1px solid #1e88e5;
 }
 
 .border\:blue-2 {
-  border: 1px solid #1976d2;
+    border: 1px solid #1976d2;
 }
 
 .border\:blue-3 {
-  border: 1px solid #1565c0;
+    border: 1px solid #1565c0;
 }
 
 .border\:blue-4 {
-  border: 1px solid #0d47a1;
+    border: 1px solid #0d47a1;
 }
 
 .border\:light-blue {
-  border: 1px solid #03a9f4;
+    border: 1px solid #03a9f4;
 }
 
 .border\:light-blue-1 {
-  border: 1px solid #039be5;
+    border: 1px solid #039be5;
 }
 
 .border\:light-blue-2 {
-  border: 1px solid #0288d1;
+    border: 1px solid #0288d1;
 }
 
 .border\:light-blue-3 {
-  border: 1px solid #0277bd;
+    border: 1px solid #0277bd;
 }
 
 .border\:light-blue-4 {
-  border: 1px solid #01579b;
+    border: 1px solid #01579b;
 }
 
 .border\:indigo {
-  border: 1px solid #3f51b5;
+    border: 1px solid #3f51b5;
 }
 
 .border\:indigo-1 {
-  border: 1px solid #3949ab;
+    border: 1px solid #3949ab;
 }
 
 .border\:indigo-2 {
-  border: 1px solid #303f9f;
+    border: 1px solid #303f9f;
 }
 
 .border\:indigo-3 {
-  border: 1px solid #283593;
+    border: 1px solid #283593;
 }
 
 .border\:indigo-4 {
-  border: 1px solid #1a237e;
+    border: 1px solid #1a237e;
 }
 
 .border\:teal {
-  border: 1px solid #009688;
+    border: 1px solid #009688;
 }
 
 .border\:teal-1 {
-  border: 1px solid #00897b;
+    border: 1px solid #00897b;
 }
 
 .border\:teal-2 {
-  border: 1px solid #00796b;
+    border: 1px solid #00796b;
 }
 
 .border\:teal-3 {
-  border: 1px solid #00695c;
+    border: 1px solid #00695c;
 }
 
 .border\:teal-4 {
-  border: 1px solid #004d40;
+    border: 1px solid #004d40;
 }
 
 .border\:cyan {
-  border: 1px solid #00bcd4;
+    border: 1px solid #00bcd4;
 }
 
 .border\:cyan-1 {
-  border: 1px solid #00acc1;
+    border: 1px solid #00acc1;
 }
 
 .border\:cyan-2 {
-  border: 1px solid #0097a7;
+    border: 1px solid #0097a7;
 }
 
 .border\:cyan-3 {
-  border: 1px solid #00838f;
+    border: 1px solid #00838f;
 }
 
 .border\:cyan-4 {
-  border: 1px solid #006064;
+    border: 1px solid #006064;
 }
 
 .border\:red {
-  border: 1px solid #b71c1c;
+    border: 1px solid #b71c1c;
 }
 
 .border\:red-1 {
-  border: 1px solid #e53935;
+    border: 1px solid #e53935;
 }
 
 .border\:red-2 {
-  border: 1px solid #d32f2f;
+    border: 1px solid #d32f2f;
 }
 
 .border\:red-3 {
-  border: 1px solid #c62828;
+    border: 1px solid #c62828;
 }
 
 .border\:red-4 {
-  border: 1px solid #b71c1c;
+    border: 1px solid #b71c1c;
 }
 
 .border\:green {
-  border: 1px solid #4caf50;
+    border: 1px solid #4caf50;
 }
 
 .border\:green-1 {
-  border: 1px solid #43a047;
+    border: 1px solid #43a047;
 }
 
 .border\:green-2 {
-  border: 1px solid #388e3c;
+    border: 1px solid #388e3c;
 }
 
 .border\:green-3 {
-  border: 1px solid #2e7d32;
+    border: 1px solid #2e7d32;
 }
 
 .border\:green-4 {
-  border: 1px solid #1b5e20;
+    border: 1px solid #1b5e20;
 }
 
 .border\:light-green {
-  border: 1px solid #8bc34a;
+    border: 1px solid #8bc34a;
 }
 
 .border\:light-green-1 {
-  border: 1px solid #7cb342;
+    border: 1px solid #7cb342;
 }
 
 .border\:light-green-2 {
-  border: 1px solid #689f38;
+    border: 1px solid #689f38;
 }
 
 .border\:light-green-3 {
-  border: 1px solid #558b2f;
+    border: 1px solid #558b2f;
 }
 
 .border\:light-green-4 {
-  border: 1px solid #33691e;
+    border: 1px solid #33691e;
 }
 
 .border\:lime {
-  border: 1px solid #cddc39;
+    border: 1px solid #cddc39;
 }
 
 .border\:lime-1 {
-  border: 1px solid #c0ca33;
+    border: 1px solid #c0ca33;
 }
 
 .border\:lime-2 {
-  border: 1px solid #afb42b;
+    border: 1px solid #afb42b;
 }
 
 .border\:lime-3 {
-  border: 1px solid #9e9d24;
+    border: 1px solid #9e9d24;
 }
 
 .border\:lime-4 {
-  border: 1px solid #827717;
+    border: 1px solid #827717;
 }
 
 .border\:orange {
-  border: 1px solid #ff9800;
+    border: 1px solid #ff9800;
 }
 
 .border\:orange-1 {
-  border: 1px solid #fb8c00;
+    border: 1px solid #fb8c00;
 }
 
 .border\:orange-2 {
-  border: 1px solid #f57c00;
+    border: 1px solid #f57c00;
 }
 
 .border\:orange-3 {
-  border: 1px solid #ef6c00;
+    border: 1px solid #ef6c00;
 }
 
 .border\:orange-4 {
-  border: 1px solid #e65100;
+    border: 1px solid #e65100;
 }
 
 .border\:amber {
-  border: 1px solid #ffc107;
+    border: 1px solid #ffc107;
 }
 
 .border\:amber-1 {
-  border: 1px solid #ffb300;
+    border: 1px solid #ffb300;
 }
 
 .border\:amber-2 {
-  border: 1px solid #ffa000;
+    border: 1px solid #ffa000;
 }
 
 .border\:amber-3 {
-  border: 1px solid #ff8f00;
+    border: 1px solid #ff8f00;
 }
 
 .border\:amber-4 {
-  border: 1px solid #ff6f00;
+    border: 1px solid #ff6f00;
 }
 
 .border\:yellow {
-  border: 1px solid #ffeb3b;
+    border: 1px solid #ffeb3b;
 }
 
 .border\:yellow-1 {
-  border: 1px solid #fdd835;
+    border: 1px solid #fdd835;
 }
 
 .border\:yellow-2 {
-  border: 1px solid #fbc02d;
+    border: 1px solid #fbc02d;
 }
 
 .border\:yellow-3 {
-  border: 1px solid #f9a825;
+    border: 1px solid #f9a825;
 }
 
 .border\:yellow-4 {
-  border: 1px solid #f57f17;
+    border: 1px solid #f57f17;
 }
 
 .border\:light-grey-4 {
-  border: 1px solid #fafafa;
+    border: 1px solid #fafafa;
 }
 
 .border\:light-grey-3 {
-  border: 1px solid #f5f5f5;
+    border: 1px solid #f5f5f5;
 }
 
 .border\:light-grey-2 {
-  border: 1px solid #eeeeee;
+    border: 1px solid #eeeeee;
 }
 
 .border\:light-grey-1 {
-  border: 1px solid #e0e0e0;
+    border: 1px solid #e0e0e0;
 }
 
 .border\:light-grey {
-  border: 1px solid #9e9e9e;
+    border: 1px solid #9e9e9e;
 }
 
 .border\:grey {
-  border: 1px solid #bdbdbd;
+    border: 1px solid #bdbdbd;
 }
 
 .border\:grey-1 {
-  border: 1px solid #757575;
+    border: 1px solid #757575;
 }
 
 .border\:grey-2 {
-  border: 1px solid #616161;
+    border: 1px solid #616161;
 }
 
 .border\:grey-3 {
-  border: 1px solid #424242;
+    border: 1px solid #424242;
 }
 
 .border\:grey-4 {
-  border: 1px solid #212121;
+    border: 1px solid #212121;
 }
 
 .border\:black {
-  border: 1px solid #000000;
+    border: 1px solid #000000;
 }
 
 .navbar {
-  background-color: transparent;
-  position: relative;
-  line-height: 66px;
-  align-items: stretch;
-  display: flex;
-  flex-wrap: wrap;
-  width: 100vw;
-  z-index: 9999;
+    background-color: transparent;
+    position: relative;
+    line-height: 66px;
+    align-items: stretch;
+    display: flex;
+    flex-wrap: wrap;
+    width: 100vw;
+    z-index: 9999;
 }
+
 @media (min-width: 768px) {
-  .navbar {
-    flex-wrap: nowrap;
-    justify-content: space-between;
-  }
+    .navbar {
+        flex-wrap: nowrap;
+        justify-content: space-between;
+    }
 }
+
 .navbar .navbar-brand {
-  padding: 0 2rem;
-  font-weight: 800;
-  letter-spacing: 1px;
+    padding: 0 2rem;
+    font-weight: 800;
+    letter-spacing: 1px;
 }
+
 .navbar .navbar-brand a {
-  color: inherit;
-  text-decoration: none;
-  font-size: 1.2rem;
-}
-.navbar .navbar-container {
-  position: absolute;
-  background-color: white;
-  line-height: 40px;
-  color: #3b4351;
-  left: -100vw;
-  width: 60%;
-  height: 100vh;
-  max-width: 70%;
-  display: inherit;
-  flex-direction: column;
-  justify-content: flex-start;
-  padding: 1rem;
-  z-index: 999;
-  -webkit-box-shadow: 0px 0px 8px 0px rgba(0, 0, 0, 0.48);
-  -moz-box-shadow: 0px 0px 8px 0px rgba(0, 0, 0, 0.48);
-  box-shadow: 0px 0px 8px 0px rgba(0, 0, 0, 0.48);
-}
-@media (min-width: 768px) {
-  .navbar .navbar-container {
     color: inherit;
-    height: initial;
-    width: 100%;
-    max-width: 100%;
-    padding: 0;
-    position: initial;
+    text-decoration: none;
+    font-size: 1.2rem;
+}
+
+.navbar .navbar-container {
+    position: absolute;
+    background-color: white;
+    line-height: 40px;
+    color: #3b4351;
+    left: -100vw;
+    width: 60%;
+    height: 100vh;
+    max-width: 70%;
     display: inherit;
+    flex-direction: column;
+    justify-content: flex-start;
+    padding: 1rem;
+    z-index: 999;
+    -webkit-box-shadow: 0px 0px 8px 0px rgba(0, 0, 0, 0.48);
+    -moz-box-shadow: 0px 0px 8px 0px rgba(0, 0, 0, 0.48);
+    box-shadow: 0px 0px 8px 0px rgba(0, 0, 0, 0.48);
+}
+
+@media (min-width: 768px) {
+    .navbar .navbar-container {
+        color: inherit;
+        height: initial;
+        width: 100%;
+        max-width: 100%;
+        padding: 0;
+        position: initial;
+        display: inherit;
+        flex-wrap: nowrap;
+        flex-direction: row;
+        justify-content: flex-end;
+        padding: 0 2rem;
+        align-items: center;
+        background-color: transparent;
+        color: white;
+        box-shadow: none;
+    }
+}
+
+.navbar .navbar-container .nav-link a {
+    padding: 0 1rem;
+    text-decoration: none;
+    color: inherit;
+}
+
+.navbar .navbar-container .nav-link a:hover a {
+    color: inherit;
+}
+
+.navbar .navbar-toggler {
+    display: flex;
+    position: absolute;
+    top: 0;
+    right: 1.5rem;
     flex-wrap: nowrap;
     flex-direction: row;
     justify-content: flex-end;
-    padding: 0 2rem;
-    align-items: center;
-    background-color: transparent;
-    color: white;
-    box-shadow: none;
-  }
+    width: 1.5rem;
+    height: 100%;
 }
-.navbar .navbar-container .nav-link a {
-  padding: 0 1rem;
-  text-decoration: none;
-  color: inherit;
-}
-.navbar .navbar-container .nav-link a:hover a {
-  color: inherit;
-}
-.navbar .navbar-toggler {
-  display: flex;
-  position: absolute;
-  top: 0;
-  right: 1.5rem;
-  flex-wrap: nowrap;
-  flex-direction: row;
-  justify-content: flex-end;
-  width: 1.5rem;
-  height: 100%;
-}
+
 .navbar .navbar-toggler .toggle-icon {
-  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255, 255, 255, 1)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
-  background-repeat: no-repeat;
-  background-position: center center;
-  align-content: center;
-  width: 1.5em;
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255, 255, 255, 1)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
+    background-repeat: no-repeat;
+    background-position: center center;
+    align-content: center;
+    width: 1.5em;
 }
+
 @media (min-width: 768px) {
-  .navbar .navbar-toggler {
-    display: none;
-  }
+    .navbar .navbar-toggler {
+        display: none;
+    }
 }
+
 .navbar .navbar-overlay {
-  position: fixed;
-  top: 0;
-  left: 0;
-  width: 100vw;
-  height: 100vh;
-  background-color: rgba(0, 0, 0, 0.445);
-  z-index: 998;
-  opacity: 0;
-  transform: translate(9999px);
-  transition: opacity 0.8s ease-in-out;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.445);
+    z-index: 998;
+    opacity: 0;
+    transform: translate(9999px);
+    transition: opacity 0.8s ease-in-out;
 }
+
 .navbar.sticky-top {
-  position: -webkit-sticky;
-  position: sticky;
-  top: 0;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
 }
+
 .navbar.animate-top {
-  position: fixed;
-  top: 0;
-  transition: line-height 0.3s ease-in-out;
+    position: fixed;
+    top: 0;
+    transition: line-height 0.3s ease-in-out;
 }
+
 .navbar.scrolled {
-  line-height: 50px;
+    line-height: 50px;
 }
+
 .navbar.scrolled .navbar-brand {
-  transform: scale(0.9);
+    transform: scale(0.9);
 }
 
 .columns {
-  display: grid;
-  grid-template-columns: repeat(12, 1fr);
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
 }
+
 .columns .sm\:col-1 {
-  grid-column: span 1;
+    grid-column: span 1;
 }
+
 .columns .sm\:order-1 {
-  order: 1;
+    order: 1;
 }
+
 .columns .sm\:col-2 {
-  grid-column: span 2;
+    grid-column: span 2;
 }
+
 .columns .sm\:order-2 {
-  order: 2;
+    order: 2;
 }
+
 .columns .sm\:col-3 {
-  grid-column: span 3;
+    grid-column: span 3;
 }
+
 .columns .sm\:order-3 {
-  order: 3;
+    order: 3;
 }
+
 .columns .sm\:col-4 {
-  grid-column: span 4;
+    grid-column: span 4;
 }
+
 .columns .sm\:order-4 {
-  order: 4;
+    order: 4;
 }
+
 .columns .sm\:col-5 {
-  grid-column: span 5;
+    grid-column: span 5;
 }
+
 .columns .sm\:order-5 {
-  order: 5;
+    order: 5;
 }
+
 .columns .sm\:col-6 {
-  grid-column: span 6;
+    grid-column: span 6;
 }
+
 .columns .sm\:order-6 {
-  order: 6;
+    order: 6;
 }
+
 .columns .sm\:col-7 {
-  grid-column: span 7;
+    grid-column: span 7;
 }
+
 .columns .sm\:order-7 {
-  order: 7;
+    order: 7;
 }
+
 .columns .sm\:col-8 {
-  grid-column: span 8;
+    grid-column: span 8;
 }
+
 .columns .sm\:order-8 {
-  order: 8;
+    order: 8;
 }
+
 .columns .sm\:col-9 {
-  grid-column: span 9;
+    grid-column: span 9;
 }
+
 .columns .sm\:order-9 {
-  order: 9;
+    order: 9;
 }
+
 .columns .sm\:col-10 {
-  grid-column: span 10;
+    grid-column: span 10;
 }
+
 .columns .sm\:order-10 {
-  order: 10;
+    order: 10;
 }
+
 .columns .sm\:col-11 {
-  grid-column: span 11;
+    grid-column: span 11;
 }
+
 .columns .sm\:order-11 {
-  order: 11;
+    order: 11;
 }
+
 .columns .sm\:col-12 {
-  grid-column: span 12;
+    grid-column: span 12;
 }
+
 .columns .sm\:order-12 {
-  order: 12;
-}
-@media (min-width: 768px) {
-  .columns .md\:col-1 {
-    grid-column: span 1;
-  }
-  .columns .md\:order-1 {
-    order: 1;
-  }
-}
-@media (min-width: 768px) {
-  .columns .md\:col-2 {
-    grid-column: span 2;
-  }
-  .columns .md\:order-2 {
-    order: 2;
-  }
-}
-@media (min-width: 768px) {
-  .columns .md\:col-3 {
-    grid-column: span 3;
-  }
-  .columns .md\:order-3 {
-    order: 3;
-  }
-}
-@media (min-width: 768px) {
-  .columns .md\:col-4 {
-    grid-column: span 4;
-  }
-  .columns .md\:order-4 {
-    order: 4;
-  }
-}
-@media (min-width: 768px) {
-  .columns .md\:col-5 {
-    grid-column: span 5;
-  }
-  .columns .md\:order-5 {
-    order: 5;
-  }
-}
-@media (min-width: 768px) {
-  .columns .md\:col-6 {
-    grid-column: span 6;
-  }
-  .columns .md\:order-6 {
-    order: 6;
-  }
-}
-@media (min-width: 768px) {
-  .columns .md\:col-7 {
-    grid-column: span 7;
-  }
-  .columns .md\:order-7 {
-    order: 7;
-  }
-}
-@media (min-width: 768px) {
-  .columns .md\:col-8 {
-    grid-column: span 8;
-  }
-  .columns .md\:order-8 {
-    order: 8;
-  }
-}
-@media (min-width: 768px) {
-  .columns .md\:col-9 {
-    grid-column: span 9;
-  }
-  .columns .md\:order-9 {
-    order: 9;
-  }
-}
-@media (min-width: 768px) {
-  .columns .md\:col-10 {
-    grid-column: span 10;
-  }
-  .columns .md\:order-10 {
-    order: 10;
-  }
-}
-@media (min-width: 768px) {
-  .columns .md\:col-11 {
-    grid-column: span 11;
-  }
-  .columns .md\:order-11 {
-    order: 11;
-  }
-}
-@media (min-width: 768px) {
-  .columns .md\:col-12 {
-    grid-column: span 12;
-  }
-  .columns .md\:order-12 {
     order: 12;
-  }
 }
+
+@media (min-width: 768px) {
+    .columns .md\:col-1 {
+        grid-column: span 1;
+    }
+
+    .columns .md\:order-1 {
+        order: 1;
+    }
+}
+
+@media (min-width: 768px) {
+    .columns .md\:col-2 {
+        grid-column: span 2;
+    }
+
+    .columns .md\:order-2 {
+        order: 2;
+    }
+}
+
+@media (min-width: 768px) {
+    .columns .md\:col-3 {
+        grid-column: span 3;
+    }
+
+    .columns .md\:order-3 {
+        order: 3;
+    }
+}
+
+@media (min-width: 768px) {
+    .columns .md\:col-4 {
+        grid-column: span 4;
+    }
+
+    .columns .md\:order-4 {
+        order: 4;
+    }
+}
+
+@media (min-width: 768px) {
+    .columns .md\:col-5 {
+        grid-column: span 5;
+    }
+
+    .columns .md\:order-5 {
+        order: 5;
+    }
+}
+
+@media (min-width: 768px) {
+    .columns .md\:col-6 {
+        grid-column: span 6;
+    }
+
+    .columns .md\:order-6 {
+        order: 6;
+    }
+}
+
+@media (min-width: 768px) {
+    .columns .md\:col-7 {
+        grid-column: span 7;
+    }
+
+    .columns .md\:order-7 {
+        order: 7;
+    }
+}
+
+@media (min-width: 768px) {
+    .columns .md\:col-8 {
+        grid-column: span 8;
+    }
+
+    .columns .md\:order-8 {
+        order: 8;
+    }
+}
+
+@media (min-width: 768px) {
+    .columns .md\:col-9 {
+        grid-column: span 9;
+    }
+
+    .columns .md\:order-9 {
+        order: 9;
+    }
+}
+
+@media (min-width: 768px) {
+    .columns .md\:col-10 {
+        grid-column: span 10;
+    }
+
+    .columns .md\:order-10 {
+        order: 10;
+    }
+}
+
+@media (min-width: 768px) {
+    .columns .md\:col-11 {
+        grid-column: span 11;
+    }
+
+    .columns .md\:order-11 {
+        order: 11;
+    }
+}
+
+@media (min-width: 768px) {
+    .columns .md\:col-12 {
+        grid-column: span 12;
+    }
+
+    .columns .md\:order-12 {
+        order: 12;
+    }
+}
+
 @media (min-width: 1024px) {
-  .columns .lg\:col-1 {
-    grid-column: span 1;
-  }
-  .columns .lg\:order-1 {
-    order: 1;
-  }
+    .columns .lg\:col-1 {
+        grid-column: span 1;
+    }
+
+    .columns .lg\:order-1 {
+        order: 1;
+    }
 }
+
 @media (min-width: 1024px) {
-  .columns .lg\:col-2 {
-    grid-column: span 2;
-  }
-  .columns .lg\:order-2 {
-    order: 2;
-  }
+    .columns .lg\:col-2 {
+        grid-column: span 2;
+    }
+
+    .columns .lg\:order-2 {
+        order: 2;
+    }
 }
+
 @media (min-width: 1024px) {
-  .columns .lg\:col-3 {
-    grid-column: span 3;
-  }
-  .columns .lg\:order-3 {
-    order: 3;
-  }
+    .columns .lg\:col-3 {
+        grid-column: span 3;
+    }
+
+    .columns .lg\:order-3 {
+        order: 3;
+    }
 }
+
 @media (min-width: 1024px) {
-  .columns .lg\:col-4 {
-    grid-column: span 4;
-  }
-  .columns .lg\:order-4 {
-    order: 4;
-  }
+    .columns .lg\:col-4 {
+        grid-column: span 4;
+    }
+
+    .columns .lg\:order-4 {
+        order: 4;
+    }
 }
+
 @media (min-width: 1024px) {
-  .columns .lg\:col-5 {
-    grid-column: span 5;
-  }
-  .columns .lg\:order-5 {
-    order: 5;
-  }
+    .columns .lg\:col-5 {
+        grid-column: span 5;
+    }
+
+    .columns .lg\:order-5 {
+        order: 5;
+    }
 }
+
 @media (min-width: 1024px) {
-  .columns .lg\:col-6 {
-    grid-column: span 6;
-  }
-  .columns .lg\:order-6 {
-    order: 6;
-  }
+    .columns .lg\:col-6 {
+        grid-column: span 6;
+    }
+
+    .columns .lg\:order-6 {
+        order: 6;
+    }
 }
+
 @media (min-width: 1024px) {
-  .columns .lg\:col-7 {
-    grid-column: span 7;
-  }
-  .columns .lg\:order-7 {
-    order: 7;
-  }
+    .columns .lg\:col-7 {
+        grid-column: span 7;
+    }
+
+    .columns .lg\:order-7 {
+        order: 7;
+    }
 }
+
 @media (min-width: 1024px) {
-  .columns .lg\:col-8 {
-    grid-column: span 8;
-  }
-  .columns .lg\:order-8 {
-    order: 8;
-  }
+    .columns .lg\:col-8 {
+        grid-column: span 8;
+    }
+
+    .columns .lg\:order-8 {
+        order: 8;
+    }
 }
+
 @media (min-width: 1024px) {
-  .columns .lg\:col-9 {
-    grid-column: span 9;
-  }
-  .columns .lg\:order-9 {
-    order: 9;
-  }
+    .columns .lg\:col-9 {
+        grid-column: span 9;
+    }
+
+    .columns .lg\:order-9 {
+        order: 9;
+    }
 }
+
 @media (min-width: 1024px) {
-  .columns .lg\:col-10 {
-    grid-column: span 10;
-  }
-  .columns .lg\:order-10 {
-    order: 10;
-  }
+    .columns .lg\:col-10 {
+        grid-column: span 10;
+    }
+
+    .columns .lg\:order-10 {
+        order: 10;
+    }
 }
+
 @media (min-width: 1024px) {
-  .columns .lg\:col-11 {
-    grid-column: span 11;
-  }
-  .columns .lg\:order-11 {
-    order: 11;
-  }
+    .columns .lg\:col-11 {
+        grid-column: span 11;
+    }
+
+    .columns .lg\:order-11 {
+        order: 11;
+    }
 }
+
 @media (min-width: 1024px) {
-  .columns .lg\:col-12 {
-    grid-column: span 12;
-  }
-  .columns .lg\:order-12 {
-    order: 12;
-  }
+    .columns .lg\:col-12 {
+        grid-column: span 12;
+    }
+
+    .columns .lg\:order-12 {
+        order: 12;
+    }
 }
+
 @media (min-width: 1280px) {
-  .columns .xl\:col-1 {
-    grid-column: span 1;
-  }
-  .columns .xl\:order-1 {
-    order: 1;
-  }
+    .columns .xl\:col-1 {
+        grid-column: span 1;
+    }
+
+    .columns .xl\:order-1 {
+        order: 1;
+    }
 }
+
 @media (min-width: 1280px) {
-  .columns .xl\:col-2 {
-    grid-column: span 2;
-  }
-  .columns .xl\:order-2 {
-    order: 2;
-  }
+    .columns .xl\:col-2 {
+        grid-column: span 2;
+    }
+
+    .columns .xl\:order-2 {
+        order: 2;
+    }
 }
+
 @media (min-width: 1280px) {
-  .columns .xl\:col-3 {
-    grid-column: span 3;
-  }
-  .columns .xl\:order-3 {
-    order: 3;
-  }
+    .columns .xl\:col-3 {
+        grid-column: span 3;
+    }
+
+    .columns .xl\:order-3 {
+        order: 3;
+    }
 }
+
 @media (min-width: 1280px) {
-  .columns .xl\:col-4 {
-    grid-column: span 4;
-  }
-  .columns .xl\:order-4 {
-    order: 4;
-  }
+    .columns .xl\:col-4 {
+        grid-column: span 4;
+    }
+
+    .columns .xl\:order-4 {
+        order: 4;
+    }
 }
+
 @media (min-width: 1280px) {
-  .columns .xl\:col-5 {
-    grid-column: span 5;
-  }
-  .columns .xl\:order-5 {
-    order: 5;
-  }
+    .columns .xl\:col-5 {
+        grid-column: span 5;
+    }
+
+    .columns .xl\:order-5 {
+        order: 5;
+    }
 }
+
 @media (min-width: 1280px) {
-  .columns .xl\:col-6 {
-    grid-column: span 6;
-  }
-  .columns .xl\:order-6 {
-    order: 6;
-  }
+    .columns .xl\:col-6 {
+        grid-column: span 6;
+    }
+
+    .columns .xl\:order-6 {
+        order: 6;
+    }
 }
+
 @media (min-width: 1280px) {
-  .columns .xl\:col-7 {
-    grid-column: span 7;
-  }
-  .columns .xl\:order-7 {
-    order: 7;
-  }
+    .columns .xl\:col-7 {
+        grid-column: span 7;
+    }
+
+    .columns .xl\:order-7 {
+        order: 7;
+    }
 }
+
 @media (min-width: 1280px) {
-  .columns .xl\:col-8 {
-    grid-column: span 8;
-  }
-  .columns .xl\:order-8 {
-    order: 8;
-  }
+    .columns .xl\:col-8 {
+        grid-column: span 8;
+    }
+
+    .columns .xl\:order-8 {
+        order: 8;
+    }
 }
+
 @media (min-width: 1280px) {
-  .columns .xl\:col-9 {
-    grid-column: span 9;
-  }
-  .columns .xl\:order-9 {
-    order: 9;
-  }
+    .columns .xl\:col-9 {
+        grid-column: span 9;
+    }
+
+    .columns .xl\:order-9 {
+        order: 9;
+    }
 }
+
 @media (min-width: 1280px) {
-  .columns .xl\:col-10 {
-    grid-column: span 10;
-  }
-  .columns .xl\:order-10 {
-    order: 10;
-  }
+    .columns .xl\:col-10 {
+        grid-column: span 10;
+    }
+
+    .columns .xl\:order-10 {
+        order: 10;
+    }
 }
+
 @media (min-width: 1280px) {
-  .columns .xl\:col-11 {
-    grid-column: span 11;
-  }
-  .columns .xl\:order-11 {
-    order: 11;
-  }
+    .columns .xl\:col-11 {
+        grid-column: span 11;
+    }
+
+    .columns .xl\:order-11 {
+        order: 11;
+    }
 }
+
 @media (min-width: 1280px) {
-  .columns .xl\:col-12 {
-    grid-column: span 12;
-  }
-  .columns .xl\:order-12 {
-    order: 12;
-  }
+    .columns .xl\:col-12 {
+        grid-column: span 12;
+    }
+
+    .columns .xl\:order-12 {
+        order: 12;
+    }
 }
 
 .container {
-  margin-left: auto;
-  margin-right: auto;
-  padding-left: 0.4rem;
-  padding-right: 0.4rem;
-  width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 0.4rem;
+    padding-right: 0.4rem;
+    width: 100%;
 }
+
 .container.sm\:grid-sm {
-  max-width: 576px;
+    max-width: 576px;
 }
+
 .container.sm\:grid-md {
-  max-width: 768px;
+    max-width: 768px;
 }
+
 .container.sm\:grid-lg {
-  max-width: 1024px;
+    max-width: 1024px;
 }
+
 .container.sm\:grid-xl {
-  max-width: 1280px;
-}
-@media (min-width: 768px) {
-  .container.md\:grid-sm {
-    max-width: 576px;
-  }
-}
-@media (min-width: 768px) {
-  .container.md\:grid-md {
-    max-width: 768px;
-  }
-}
-@media (min-width: 768px) {
-  .container.md\:grid-lg {
-    max-width: 1024px;
-  }
-}
-@media (min-width: 768px) {
-  .container.md\:grid-xl {
     max-width: 1280px;
-  }
 }
+
+@media (min-width: 768px) {
+    .container.md\:grid-sm {
+        max-width: 576px;
+    }
+}
+
+@media (min-width: 768px) {
+    .container.md\:grid-md {
+        max-width: 768px;
+    }
+}
+
+@media (min-width: 768px) {
+    .container.md\:grid-lg {
+        max-width: 1024px;
+    }
+}
+
+@media (min-width: 768px) {
+    .container.md\:grid-xl {
+        max-width: 1280px;
+    }
+}
+
 @media (min-width: 1024px) {
-  .container.lg\:grid-sm {
-    max-width: 576px;
-  }
+    .container.lg\:grid-sm {
+        max-width: 576px;
+    }
 }
+
 @media (min-width: 1024px) {
-  .container.lg\:grid-md {
-    max-width: 768px;
-  }
+    .container.lg\:grid-md {
+        max-width: 768px;
+    }
 }
+
 @media (min-width: 1024px) {
-  .container.lg\:grid-lg {
-    max-width: 1024px;
-  }
+    .container.lg\:grid-lg {
+        max-width: 1024px;
+    }
 }
+
 @media (min-width: 1024px) {
-  .container.lg\:grid-xl {
-    max-width: 1280px;
-  }
+    .container.lg\:grid-xl {
+        max-width: 1280px;
+    }
 }
+
 @media (min-width: 1280px) {
-  .container.xl\:grid-sm {
-    max-width: 576px;
-  }
+    .container.xl\:grid-sm {
+        max-width: 576px;
+    }
 }
+
 @media (min-width: 1280px) {
-  .container.xl\:grid-md {
-    max-width: 768px;
-  }
+    .container.xl\:grid-md {
+        max-width: 768px;
+    }
 }
+
 @media (min-width: 1280px) {
-  .container.xl\:grid-lg {
-    max-width: 1024px;
-  }
+    .container.xl\:grid-lg {
+        max-width: 1024px;
+    }
 }
+
 @media (min-width: 1280px) {
-  .container.xl\:grid-xl {
-    max-width: 1280px;
-  }
+    .container.xl\:grid-xl {
+        max-width: 1280px;
+    }
 }
 
 .sm\:hide {
-  display: none;
+    display: none;
 }
+
 @media (min-width: 768px) {
-  .sm\:hide {
-    display: block;
-  }
+    .sm\:hide {
+        display: block;
+    }
 }
+
 @media (min-width: 1024px) {
-  .sm\:hide {
-    display: block;
-  }
+    .sm\:hide {
+        display: block;
+    }
 }
+
 @media (min-width: 1280px) {
-  .sm\:hide {
-    display: block;
-  }
+    .sm\:hide {
+        display: block;
+    }
 }
 
 .sm\:show {
-  display: block;
+    display: block;
 }
+
 @media (min-width: 768px) {
-  .sm\:show {
-    display: none;
-  }
+    .sm\:show {
+        display: none;
+    }
 }
+
 @media (min-width: 1024px) {
-  .sm\:show {
-    display: none;
-  }
+    .sm\:show {
+        display: none;
+    }
 }
+
 @media (min-width: 1280px) {
-  .sm\:show {
-    display: none;
-  }
+    .sm\:show {
+        display: none;
+    }
 }
 
 .sm\:text\:left {
-  text-align: left;
+    text-align: left;
 }
 
 .sm\:text\:center {
-  text-align: center;
+    text-align: center;
 }
 
 .sm\:text\:right {
-  text-align: right;
+    text-align: right;
 }
 
 /**
  * Padding utils
 */
 .sm\:py-0 {
-  padding-top: 0;
-  padding-bottom: 0;
+    padding-top: 0;
+    padding-bottom: 0;
 }
 
 .sm\:px-0 {
-  padding-left: 0;
-  padding-right: 0;
+    padding-left: 0;
+    padding-right: 0;
 }
 
 .sm\:pt-0 {
-  padding-top: 0;
+    padding-top: 0;
 }
 
 .sm\:pr-0 {
-  padding-right: 0;
+    padding-right: 0;
 }
 
 .sm\:pb-0 {
-  padding-bottom: 0;
+    padding-bottom: 0;
 }
 
 .sm\:pl-0 {
-  padding-left: 0;
+    padding-left: 0;
 }
 
 .sm\:py-1 {
-  padding-top: 0.25rem;
-  padding-bottom: 0.25rem;
+    padding-top: 0.25rem;
+    padding-bottom: 0.25rem;
 }
 
 .sm\:px-1 {
-  padding-left: 0.25rem;
-  padding-right: 0.25rem;
+    padding-left: 0.25rem;
+    padding-right: 0.25rem;
 }
 
 .sm\:pt-1 {
-  padding-top: 0.25rem;
+    padding-top: 0.25rem;
 }
 
 .sm\:pr-1 {
-  padding-right: 0.25rem;
+    padding-right: 0.25rem;
 }
 
 .sm\:pb-1 {
-  padding-bottom: 0.25rem;
+    padding-bottom: 0.25rem;
 }
 
 .sm\:pl-1 {
-  padding-left: 0.25rem;
+    padding-left: 0.25rem;
 }
 
 .sm\:py-2 {
-  padding-top: 0.5rem;
-  padding-bottom: 0.5rem;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
 }
 
 .sm\:px-2 {
-  padding-left: 0.5rem;
-  padding-right: 0.5rem;
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
 }
 
 .sm\:pt-2 {
-  padding-top: 0.5rem;
+    padding-top: 0.5rem;
 }
 
 .sm\:pr-2 {
-  padding-right: 0.5rem;
+    padding-right: 0.5rem;
 }
 
 .sm\:pb-2 {
-  padding-bottom: 0.5rem;
+    padding-bottom: 0.5rem;
 }
 
 .sm\:pl-2 {
-  padding-left: 0.5rem;
+    padding-left: 0.5rem;
 }
 
 .sm\:py-3 {
-  padding-top: 1rem;
-  padding-bottom: 1rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
 }
 
 .sm\:px-3 {
-  padding-left: 1rem;
-  padding-right: 1rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
 }
 
 .sm\:pt-3 {
-  padding-top: 1rem;
+    padding-top: 1rem;
 }
 
 .sm\:pr-3 {
-  padding-right: 1rem;
+    padding-right: 1rem;
 }
 
 .sm\:pb-3 {
-  padding-bottom: 1rem;
+    padding-bottom: 1rem;
 }
 
 .sm\:pl-3 {
-  padding-left: 1rem;
+    padding-left: 1rem;
 }
 
 .sm\:py-4 {
-  padding-top: 1.25rem;
-  padding-bottom: 1.25rem;
+    padding-top: 1.25rem;
+    padding-bottom: 1.25rem;
 }
 
 .sm\:px-4 {
-  padding-left: 1.25rem;
-  padding-right: 1.25rem;
+    padding-left: 1.25rem;
+    padding-right: 1.25rem;
 }
 
 .sm\:pt-4 {
-  padding-top: 1.25rem;
+    padding-top: 1.25rem;
 }
 
 .sm\:pr-4 {
-  padding-right: 1.25rem;
+    padding-right: 1.25rem;
 }
 
 .sm\:pb-4 {
-  padding-bottom: 1.25rem;
+    padding-bottom: 1.25rem;
 }
 
 .sm\:pl-4 {
-  padding-left: 1.25rem;
+    padding-left: 1.25rem;
 }
 
 .sm\:py-5 {
-  padding-top: 3rem;
-  padding-bottom: 3rem;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
 }
 
 .sm\:px-5 {
-  padding-left: 3rem;
-  padding-right: 3rem;
+    padding-left: 3rem;
+    padding-right: 3rem;
 }
 
 .sm\:pt-5 {
-  padding-top: 3rem;
+    padding-top: 3rem;
 }
 
 .sm\:pr-5 {
-  padding-right: 3rem;
+    padding-right: 3rem;
 }
 
 .sm\:pb-5 {
-  padding-bottom: 3rem;
+    padding-bottom: 3rem;
 }
 
 .sm\:pl-5 {
-  padding-left: 3rem;
+    padding-left: 3rem;
 }
 
 /**
  * Margin utils
 */
 .sm\:my-0 {
-  margin-top: 0;
-  margin-bottom: 0;
+    margin-top: 0;
+    margin-bottom: 0;
 }
 
 .sm\:mx-0 {
-  margin-left: 0;
-  margin-right: 0;
+    margin-left: 0;
+    margin-right: 0;
 }
 
 .sm\:mt-0 {
-  margin-top: 0;
+    margin-top: 0;
 }
 
 .sm\:mr-0 {
-  margin-right: 0;
+    margin-right: 0;
 }
 
 .sm\:mb-0 {
-  margin-bottom: 0;
+    margin-bottom: 0;
 }
 
 .sm\:ml-0 {
-  margin-left: 0;
+    margin-left: 0;
 }
 
 .sm\:my-1 {
-  margin-top: 0.25rem;
-  margin-bottom: 0.25rem;
+    margin-top: 0.25rem;
+    margin-bottom: 0.25rem;
 }
 
 .sm\:mx-1 {
-  margin-left: 0.25rem;
-  margin-right: 0.25rem;
+    margin-left: 0.25rem;
+    margin-right: 0.25rem;
 }
 
 .sm\:mt-1 {
-  margin-top: 0.25rem;
+    margin-top: 0.25rem;
 }
 
 .sm\:mr-1 {
-  margin-right: 0.25rem;
+    margin-right: 0.25rem;
 }
 
 .sm\:mb-1 {
-  margin-bottom: 0.25rem;
+    margin-bottom: 0.25rem;
 }
 
 .sm\:ml-1 {
-  margin-left: 0.25rem;
+    margin-left: 0.25rem;
 }
 
 .sm\:my-2 {
-  margin-top: 0.5rem;
-  margin-bottom: 0.5rem;
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
 }
 
 .sm\:mx-2 {
-  margin-left: 0.5rem;
-  margin-right: 0.5rem;
+    margin-left: 0.5rem;
+    margin-right: 0.5rem;
 }
 
 .sm\:mt-2 {
-  margin-top: 0.5rem;
+    margin-top: 0.5rem;
 }
 
 .sm\:mr-2 {
-  margin-right: 0.5rem;
+    margin-right: 0.5rem;
 }
 
 .sm\:mb-2 {
-  margin-bottom: 0.5rem;
+    margin-bottom: 0.5rem;
 }
 
 .sm\:ml-2 {
-  margin-left: 0.5rem;
+    margin-left: 0.5rem;
 }
 
 .sm\:my-3 {
-  margin-top: 1rem;
-  margin-bottom: 1rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
 }
 
 .sm\:mx-3 {
-  margin-left: 1rem;
-  margin-right: 1rem;
+    margin-left: 1rem;
+    margin-right: 1rem;
 }
 
 .sm\:mt-3 {
-  margin-top: 1rem;
+    margin-top: 1rem;
 }
 
 .sm\:mr-3 {
-  margin-right: 1rem;
+    margin-right: 1rem;
 }
 
 .sm\:mb-3 {
-  margin-bottom: 1rem;
+    margin-bottom: 1rem;
 }
 
 .sm\:ml-3 {
-  margin-left: 1rem;
+    margin-left: 1rem;
 }
 
 .sm\:my-4 {
-  margin-top: 1.25rem;
-  margin-bottom: 1.25rem;
+    margin-top: 1.25rem;
+    margin-bottom: 1.25rem;
 }
 
 .sm\:mx-4 {
-  margin-left: 1.25rem;
-  margin-right: 1.25rem;
+    margin-left: 1.25rem;
+    margin-right: 1.25rem;
 }
 
 .sm\:mt-4 {
-  margin-top: 1.25rem;
+    margin-top: 1.25rem;
 }
 
 .sm\:mr-4 {
-  margin-right: 1.25rem;
+    margin-right: 1.25rem;
 }
 
 .sm\:mb-4 {
-  margin-bottom: 1.25rem;
+    margin-bottom: 1.25rem;
 }
 
 .sm\:ml-4 {
-  margin-left: 1.25rem;
+    margin-left: 1.25rem;
 }
 
 .sm\:my-5 {
-  margin-top: 3rem;
-  margin-bottom: 3rem;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
 }
 
 .sm\:mx-5 {
-  margin-left: 3rem;
-  margin-right: 3rem;
+    margin-left: 3rem;
+    margin-right: 3rem;
 }
 
 .sm\:mt-5 {
-  margin-top: 3rem;
+    margin-top: 3rem;
 }
 
 .sm\:mr-5 {
-  margin-right: 3rem;
+    margin-right: 3rem;
 }
 
 .sm\:mb-5 {
-  margin-bottom: 3rem;
+    margin-bottom: 3rem;
 }
 
 .sm\:ml-5 {
-  margin-left: 3rem;
+    margin-left: 3rem;
 }
 
 .md\:hide {
-  display: block;
+    display: block;
 }
+
 @media (min-width: 768px) {
-  .md\:hide {
-    display: none;
-  }
+    .md\:hide {
+        display: none;
+    }
 }
+
 @media (min-width: 1024px) {
-  .md\:hide {
-    display: block;
-  }
+    .md\:hide {
+        display: block;
+    }
 }
+
 @media (min-width: 1280px) {
-  .md\:hide {
-    display: block;
-  }
+    .md\:hide {
+        display: block;
+    }
 }
 
 .md\:show {
-  display: none;
+    display: none;
 }
+
 @media (min-width: 768px) {
-  .md\:show {
-    display: block;
-  }
+    .md\:show {
+        display: block;
+    }
 }
+
 @media (min-width: 1024px) {
-  .md\:show {
-    display: none;
-  }
+    .md\:show {
+        display: none;
+    }
 }
+
 @media (min-width: 1280px) {
-  .md\:show {
-    display: none;
-  }
+    .md\:show {
+        display: none;
+    }
 }
 
 @media (min-width: 768px) {
-  .md\:text\:left {
-    text-align: left;
-  }
+    .md\:text\:left {
+        text-align: left;
+    }
 }
 
 @media (min-width: 768px) {
-  .md\:text\:center {
-    text-align: center;
-  }
+    .md\:text\:center {
+        text-align: center;
+    }
 }
 
 @media (min-width: 768px) {
-  .md\:text\:right {
-    text-align: right;
-  }
+    .md\:text\:right {
+        text-align: right;
+    }
 }
 
 /**
  * Padding utils
 */
 @media (min-width: 768px) {
-  .md\:py-0 {
-    padding-top: 0;
-    padding-bottom: 0;
-  }
+    .md\:py-0 {
+        padding-top: 0;
+        padding-bottom: 0;
+    }
 
-  .md\:px-0 {
-    padding-left: 0;
-    padding-right: 0;
-  }
+    .md\:px-0 {
+        padding-left: 0;
+        padding-right: 0;
+    }
 
-  .md\:pt-0 {
-    padding-top: 0;
-  }
+    .md\:pt-0 {
+        padding-top: 0;
+    }
 
-  .md\:pr-0 {
-    padding-right: 0;
-  }
+    .md\:pr-0 {
+        padding-right: 0;
+    }
 
-  .md\:pb-0 {
-    padding-bottom: 0;
-  }
+    .md\:pb-0 {
+        padding-bottom: 0;
+    }
 
-  .md\:pl-0 {
-    padding-left: 0;
-  }
+    .md\:pl-0 {
+        padding-left: 0;
+    }
 }
+
 @media (min-width: 768px) {
-  .md\:py-1 {
-    padding-top: 0.25rem;
-    padding-bottom: 0.25rem;
-  }
+    .md\:py-1 {
+        padding-top: 0.25rem;
+        padding-bottom: 0.25rem;
+    }
 
-  .md\:px-1 {
-    padding-left: 0.25rem;
-    padding-right: 0.25rem;
-  }
+    .md\:px-1 {
+        padding-left: 0.25rem;
+        padding-right: 0.25rem;
+    }
 
-  .md\:pt-1 {
-    padding-top: 0.25rem;
-  }
+    .md\:pt-1 {
+        padding-top: 0.25rem;
+    }
 
-  .md\:pr-1 {
-    padding-right: 0.25rem;
-  }
+    .md\:pr-1 {
+        padding-right: 0.25rem;
+    }
 
-  .md\:pb-1 {
-    padding-bottom: 0.25rem;
-  }
+    .md\:pb-1 {
+        padding-bottom: 0.25rem;
+    }
 
-  .md\:pl-1 {
-    padding-left: 0.25rem;
-  }
+    .md\:pl-1 {
+        padding-left: 0.25rem;
+    }
 }
+
 @media (min-width: 768px) {
-  .md\:py-2 {
-    padding-top: 0.5rem;
-    padding-bottom: 0.5rem;
-  }
+    .md\:py-2 {
+        padding-top: 0.5rem;
+        padding-bottom: 0.5rem;
+    }
 
-  .md\:px-2 {
-    padding-left: 0.5rem;
-    padding-right: 0.5rem;
-  }
+    .md\:px-2 {
+        padding-left: 0.5rem;
+        padding-right: 0.5rem;
+    }
 
-  .md\:pt-2 {
-    padding-top: 0.5rem;
-  }
+    .md\:pt-2 {
+        padding-top: 0.5rem;
+    }
 
-  .md\:pr-2 {
-    padding-right: 0.5rem;
-  }
+    .md\:pr-2 {
+        padding-right: 0.5rem;
+    }
 
-  .md\:pb-2 {
-    padding-bottom: 0.5rem;
-  }
+    .md\:pb-2 {
+        padding-bottom: 0.5rem;
+    }
 
-  .md\:pl-2 {
-    padding-left: 0.5rem;
-  }
+    .md\:pl-2 {
+        padding-left: 0.5rem;
+    }
 }
+
 @media (min-width: 768px) {
-  .md\:py-3 {
-    padding-top: 1rem;
-    padding-bottom: 1rem;
-  }
+    .md\:py-3 {
+        padding-top: 1rem;
+        padding-bottom: 1rem;
+    }
 
-  .md\:px-3 {
-    padding-left: 1rem;
-    padding-right: 1rem;
-  }
+    .md\:px-3 {
+        padding-left: 1rem;
+        padding-right: 1rem;
+    }
 
-  .md\:pt-3 {
-    padding-top: 1rem;
-  }
+    .md\:pt-3 {
+        padding-top: 1rem;
+    }
 
-  .md\:pr-3 {
-    padding-right: 1rem;
-  }
+    .md\:pr-3 {
+        padding-right: 1rem;
+    }
 
-  .md\:pb-3 {
-    padding-bottom: 1rem;
-  }
+    .md\:pb-3 {
+        padding-bottom: 1rem;
+    }
 
-  .md\:pl-3 {
-    padding-left: 1rem;
-  }
+    .md\:pl-3 {
+        padding-left: 1rem;
+    }
 }
+
 @media (min-width: 768px) {
-  .md\:py-4 {
-    padding-top: 1.25rem;
-    padding-bottom: 1.25rem;
-  }
+    .md\:py-4 {
+        padding-top: 1.25rem;
+        padding-bottom: 1.25rem;
+    }
 
-  .md\:px-4 {
-    padding-left: 1.25rem;
-    padding-right: 1.25rem;
-  }
+    .md\:px-4 {
+        padding-left: 1.25rem;
+        padding-right: 1.25rem;
+    }
 
-  .md\:pt-4 {
-    padding-top: 1.25rem;
-  }
+    .md\:pt-4 {
+        padding-top: 1.25rem;
+    }
 
-  .md\:pr-4 {
-    padding-right: 1.25rem;
-  }
+    .md\:pr-4 {
+        padding-right: 1.25rem;
+    }
 
-  .md\:pb-4 {
-    padding-bottom: 1.25rem;
-  }
+    .md\:pb-4 {
+        padding-bottom: 1.25rem;
+    }
 
-  .md\:pl-4 {
-    padding-left: 1.25rem;
-  }
+    .md\:pl-4 {
+        padding-left: 1.25rem;
+    }
 }
+
 @media (min-width: 768px) {
-  .md\:py-5 {
-    padding-top: 3rem;
-    padding-bottom: 3rem;
-  }
+    .md\:py-5 {
+        padding-top: 3rem;
+        padding-bottom: 3rem;
+    }
 
-  .md\:px-5 {
-    padding-left: 3rem;
-    padding-right: 3rem;
-  }
+    .md\:px-5 {
+        padding-left: 3rem;
+        padding-right: 3rem;
+    }
 
-  .md\:pt-5 {
-    padding-top: 3rem;
-  }
+    .md\:pt-5 {
+        padding-top: 3rem;
+    }
 
-  .md\:pr-5 {
-    padding-right: 3rem;
-  }
+    .md\:pr-5 {
+        padding-right: 3rem;
+    }
 
-  .md\:pb-5 {
-    padding-bottom: 3rem;
-  }
+    .md\:pb-5 {
+        padding-bottom: 3rem;
+    }
 
-  .md\:pl-5 {
-    padding-left: 3rem;
-  }
+    .md\:pl-5 {
+        padding-left: 3rem;
+    }
 }
+
 /**
  * Margin utils
 */
 @media (min-width: 768px) {
-  .md\:my-0 {
-    margin-top: 0;
-    margin-bottom: 0;
-  }
+    .md\:my-0 {
+        margin-top: 0;
+        margin-bottom: 0;
+    }
 
-  .md\:mx-0 {
-    margin-left: 0;
-    margin-right: 0;
-  }
+    .md\:mx-0 {
+        margin-left: 0;
+        margin-right: 0;
+    }
 
-  .md\:mt-0 {
-    margin-top: 0;
-  }
+    .md\:mt-0 {
+        margin-top: 0;
+    }
 
-  .md\:mr-0 {
-    margin-right: 0;
-  }
+    .md\:mr-0 {
+        margin-right: 0;
+    }
 
-  .md\:mb-0 {
-    margin-bottom: 0;
-  }
+    .md\:mb-0 {
+        margin-bottom: 0;
+    }
 
-  .md\:ml-0 {
-    margin-left: 0;
-  }
+    .md\:ml-0 {
+        margin-left: 0;
+    }
 }
+
 @media (min-width: 768px) {
-  .md\:my-1 {
-    margin-top: 0.25rem;
-    margin-bottom: 0.25rem;
-  }
+    .md\:my-1 {
+        margin-top: 0.25rem;
+        margin-bottom: 0.25rem;
+    }
 
-  .md\:mx-1 {
-    margin-left: 0.25rem;
-    margin-right: 0.25rem;
-  }
+    .md\:mx-1 {
+        margin-left: 0.25rem;
+        margin-right: 0.25rem;
+    }
 
-  .md\:mt-1 {
-    margin-top: 0.25rem;
-  }
+    .md\:mt-1 {
+        margin-top: 0.25rem;
+    }
 
-  .md\:mr-1 {
-    margin-right: 0.25rem;
-  }
+    .md\:mr-1 {
+        margin-right: 0.25rem;
+    }
 
-  .md\:mb-1 {
-    margin-bottom: 0.25rem;
-  }
+    .md\:mb-1 {
+        margin-bottom: 0.25rem;
+    }
 
-  .md\:ml-1 {
-    margin-left: 0.25rem;
-  }
+    .md\:ml-1 {
+        margin-left: 0.25rem;
+    }
 }
+
 @media (min-width: 768px) {
-  .md\:my-2 {
-    margin-top: 0.5rem;
-    margin-bottom: 0.5rem;
-  }
+    .md\:my-2 {
+        margin-top: 0.5rem;
+        margin-bottom: 0.5rem;
+    }
 
-  .md\:mx-2 {
-    margin-left: 0.5rem;
-    margin-right: 0.5rem;
-  }
+    .md\:mx-2 {
+        margin-left: 0.5rem;
+        margin-right: 0.5rem;
+    }
 
-  .md\:mt-2 {
-    margin-top: 0.5rem;
-  }
+    .md\:mt-2 {
+        margin-top: 0.5rem;
+    }
 
-  .md\:mr-2 {
-    margin-right: 0.5rem;
-  }
+    .md\:mr-2 {
+        margin-right: 0.5rem;
+    }
 
-  .md\:mb-2 {
-    margin-bottom: 0.5rem;
-  }
+    .md\:mb-2 {
+        margin-bottom: 0.5rem;
+    }
 
-  .md\:ml-2 {
-    margin-left: 0.5rem;
-  }
+    .md\:ml-2 {
+        margin-left: 0.5rem;
+    }
 }
+
 @media (min-width: 768px) {
-  .md\:my-3 {
-    margin-top: 1rem;
-    margin-bottom: 1rem;
-  }
+    .md\:my-3 {
+        margin-top: 1rem;
+        margin-bottom: 1rem;
+    }
 
-  .md\:mx-3 {
-    margin-left: 1rem;
-    margin-right: 1rem;
-  }
+    .md\:mx-3 {
+        margin-left: 1rem;
+        margin-right: 1rem;
+    }
 
-  .md\:mt-3 {
-    margin-top: 1rem;
-  }
+    .md\:mt-3 {
+        margin-top: 1rem;
+    }
 
-  .md\:mr-3 {
-    margin-right: 1rem;
-  }
+    .md\:mr-3 {
+        margin-right: 1rem;
+    }
 
-  .md\:mb-3 {
-    margin-bottom: 1rem;
-  }
+    .md\:mb-3 {
+        margin-bottom: 1rem;
+    }
 
-  .md\:ml-3 {
-    margin-left: 1rem;
-  }
+    .md\:ml-3 {
+        margin-left: 1rem;
+    }
 }
+
 @media (min-width: 768px) {
-  .md\:my-4 {
-    margin-top: 1.25rem;
-    margin-bottom: 1.25rem;
-  }
+    .md\:my-4 {
+        margin-top: 1.25rem;
+        margin-bottom: 1.25rem;
+    }
 
-  .md\:mx-4 {
-    margin-left: 1.25rem;
-    margin-right: 1.25rem;
-  }
+    .md\:mx-4 {
+        margin-left: 1.25rem;
+        margin-right: 1.25rem;
+    }
 
-  .md\:mt-4 {
-    margin-top: 1.25rem;
-  }
+    .md\:mt-4 {
+        margin-top: 1.25rem;
+    }
 
-  .md\:mr-4 {
-    margin-right: 1.25rem;
-  }
+    .md\:mr-4 {
+        margin-right: 1.25rem;
+    }
 
-  .md\:mb-4 {
-    margin-bottom: 1.25rem;
-  }
+    .md\:mb-4 {
+        margin-bottom: 1.25rem;
+    }
 
-  .md\:ml-4 {
-    margin-left: 1.25rem;
-  }
+    .md\:ml-4 {
+        margin-left: 1.25rem;
+    }
 }
+
 @media (min-width: 768px) {
-  .md\:my-5 {
-    margin-top: 3rem;
-    margin-bottom: 3rem;
-  }
+    .md\:my-5 {
+        margin-top: 3rem;
+        margin-bottom: 3rem;
+    }
 
-  .md\:mx-5 {
-    margin-left: 3rem;
-    margin-right: 3rem;
-  }
+    .md\:mx-5 {
+        margin-left: 3rem;
+        margin-right: 3rem;
+    }
 
-  .md\:mt-5 {
-    margin-top: 3rem;
-  }
+    .md\:mt-5 {
+        margin-top: 3rem;
+    }
 
-  .md\:mr-5 {
-    margin-right: 3rem;
-  }
+    .md\:mr-5 {
+        margin-right: 3rem;
+    }
 
-  .md\:mb-5 {
-    margin-bottom: 3rem;
-  }
+    .md\:mb-5 {
+        margin-bottom: 3rem;
+    }
 
-  .md\:ml-5 {
-    margin-left: 3rem;
-  }
+    .md\:ml-5 {
+        margin-left: 3rem;
+    }
 }
+
 .lg\:hide {
-  display: block;
+    display: block;
 }
+
 @media (min-width: 768px) {
-  .lg\:hide {
-    display: block;
-  }
+    .lg\:hide {
+        display: block;
+    }
 }
+
 @media (min-width: 1024px) {
-  .lg\:hide {
-    display: none;
-  }
+    .lg\:hide {
+        display: none;
+    }
 }
+
 @media (min-width: 1280px) {
-  .lg\:hide {
-    display: block;
-  }
+    .lg\:hide {
+        display: block;
+    }
 }
 
 .lg\:show {
-  display: none;
+    display: none;
 }
+
 @media (min-width: 768px) {
-  .lg\:show {
-    display: none;
-  }
+    .lg\:show {
+        display: none;
+    }
 }
+
 @media (min-width: 1024px) {
-  .lg\:show {
-    display: block;
-  }
+    .lg\:show {
+        display: block;
+    }
 }
+
 @media (min-width: 1280px) {
-  .lg\:show {
-    display: none;
-  }
+    .lg\:show {
+        display: none;
+    }
 }
 
 @media (min-width: 1024px) {
-  .lg\:text\:left {
-    text-align: left;
-  }
+    .lg\:text\:left {
+        text-align: left;
+    }
 }
 
 @media (min-width: 1024px) {
-  .lg\:text\:center {
-    text-align: center;
-  }
+    .lg\:text\:center {
+        text-align: center;
+    }
 }
 
 @media (min-width: 1024px) {
-  .lg\:text\:right {
-    text-align: right;
-  }
+    .lg\:text\:right {
+        text-align: right;
+    }
 }
 
 /**
  * Padding utils
 */
 @media (min-width: 1024px) {
-  .lg\:py-0 {
-    padding-top: 0;
-    padding-bottom: 0;
-  }
+    .lg\:py-0 {
+        padding-top: 0;
+        padding-bottom: 0;
+    }
 
-  .lg\:px-0 {
-    padding-left: 0;
-    padding-right: 0;
-  }
+    .lg\:px-0 {
+        padding-left: 0;
+        padding-right: 0;
+    }
 
-  .lg\:pt-0 {
-    padding-top: 0;
-  }
+    .lg\:pt-0 {
+        padding-top: 0;
+    }
 
-  .lg\:pr-0 {
-    padding-right: 0;
-  }
+    .lg\:pr-0 {
+        padding-right: 0;
+    }
 
-  .lg\:pb-0 {
-    padding-bottom: 0;
-  }
+    .lg\:pb-0 {
+        padding-bottom: 0;
+    }
 
-  .lg\:pl-0 {
-    padding-left: 0;
-  }
+    .lg\:pl-0 {
+        padding-left: 0;
+    }
 }
+
 @media (min-width: 1024px) {
-  .lg\:py-1 {
-    padding-top: 0.25rem;
-    padding-bottom: 0.25rem;
-  }
+    .lg\:py-1 {
+        padding-top: 0.25rem;
+        padding-bottom: 0.25rem;
+    }
 
-  .lg\:px-1 {
-    padding-left: 0.25rem;
-    padding-right: 0.25rem;
-  }
+    .lg\:px-1 {
+        padding-left: 0.25rem;
+        padding-right: 0.25rem;
+    }
 
-  .lg\:pt-1 {
-    padding-top: 0.25rem;
-  }
+    .lg\:pt-1 {
+        padding-top: 0.25rem;
+    }
 
-  .lg\:pr-1 {
-    padding-right: 0.25rem;
-  }
+    .lg\:pr-1 {
+        padding-right: 0.25rem;
+    }
 
-  .lg\:pb-1 {
-    padding-bottom: 0.25rem;
-  }
+    .lg\:pb-1 {
+        padding-bottom: 0.25rem;
+    }
 
-  .lg\:pl-1 {
-    padding-left: 0.25rem;
-  }
+    .lg\:pl-1 {
+        padding-left: 0.25rem;
+    }
 }
+
 @media (min-width: 1024px) {
-  .lg\:py-2 {
-    padding-top: 0.5rem;
-    padding-bottom: 0.5rem;
-  }
+    .lg\:py-2 {
+        padding-top: 0.5rem;
+        padding-bottom: 0.5rem;
+    }
 
-  .lg\:px-2 {
-    padding-left: 0.5rem;
-    padding-right: 0.5rem;
-  }
+    .lg\:px-2 {
+        padding-left: 0.5rem;
+        padding-right: 0.5rem;
+    }
 
-  .lg\:pt-2 {
-    padding-top: 0.5rem;
-  }
+    .lg\:pt-2 {
+        padding-top: 0.5rem;
+    }
 
-  .lg\:pr-2 {
-    padding-right: 0.5rem;
-  }
+    .lg\:pr-2 {
+        padding-right: 0.5rem;
+    }
 
-  .lg\:pb-2 {
-    padding-bottom: 0.5rem;
-  }
+    .lg\:pb-2 {
+        padding-bottom: 0.5rem;
+    }
 
-  .lg\:pl-2 {
-    padding-left: 0.5rem;
-  }
+    .lg\:pl-2 {
+        padding-left: 0.5rem;
+    }
 }
+
 @media (min-width: 1024px) {
-  .lg\:py-3 {
-    padding-top: 1rem;
-    padding-bottom: 1rem;
-  }
+    .lg\:py-3 {
+        padding-top: 1rem;
+        padding-bottom: 1rem;
+    }
 
-  .lg\:px-3 {
-    padding-left: 1rem;
-    padding-right: 1rem;
-  }
+    .lg\:px-3 {
+        padding-left: 1rem;
+        padding-right: 1rem;
+    }
 
-  .lg\:pt-3 {
-    padding-top: 1rem;
-  }
+    .lg\:pt-3 {
+        padding-top: 1rem;
+    }
 
-  .lg\:pr-3 {
-    padding-right: 1rem;
-  }
+    .lg\:pr-3 {
+        padding-right: 1rem;
+    }
 
-  .lg\:pb-3 {
-    padding-bottom: 1rem;
-  }
+    .lg\:pb-3 {
+        padding-bottom: 1rem;
+    }
 
-  .lg\:pl-3 {
-    padding-left: 1rem;
-  }
+    .lg\:pl-3 {
+        padding-left: 1rem;
+    }
 }
+
 @media (min-width: 1024px) {
-  .lg\:py-4 {
-    padding-top: 1.25rem;
-    padding-bottom: 1.25rem;
-  }
+    .lg\:py-4 {
+        padding-top: 1.25rem;
+        padding-bottom: 1.25rem;
+    }
 
-  .lg\:px-4 {
-    padding-left: 1.25rem;
-    padding-right: 1.25rem;
-  }
+    .lg\:px-4 {
+        padding-left: 1.25rem;
+        padding-right: 1.25rem;
+    }
 
-  .lg\:pt-4 {
-    padding-top: 1.25rem;
-  }
+    .lg\:pt-4 {
+        padding-top: 1.25rem;
+    }
 
-  .lg\:pr-4 {
-    padding-right: 1.25rem;
-  }
+    .lg\:pr-4 {
+        padding-right: 1.25rem;
+    }
 
-  .lg\:pb-4 {
-    padding-bottom: 1.25rem;
-  }
+    .lg\:pb-4 {
+        padding-bottom: 1.25rem;
+    }
 
-  .lg\:pl-4 {
-    padding-left: 1.25rem;
-  }
+    .lg\:pl-4 {
+        padding-left: 1.25rem;
+    }
 }
+
 @media (min-width: 1024px) {
-  .lg\:py-5 {
-    padding-top: 3rem;
-    padding-bottom: 3rem;
-  }
+    .lg\:py-5 {
+        padding-top: 3rem;
+        padding-bottom: 3rem;
+    }
 
-  .lg\:px-5 {
-    padding-left: 3rem;
-    padding-right: 3rem;
-  }
+    .lg\:px-5 {
+        padding-left: 3rem;
+        padding-right: 3rem;
+    }
 
-  .lg\:pt-5 {
-    padding-top: 3rem;
-  }
+    .lg\:pt-5 {
+        padding-top: 3rem;
+    }
 
-  .lg\:pr-5 {
-    padding-right: 3rem;
-  }
+    .lg\:pr-5 {
+        padding-right: 3rem;
+    }
 
-  .lg\:pb-5 {
-    padding-bottom: 3rem;
-  }
+    .lg\:pb-5 {
+        padding-bottom: 3rem;
+    }
 
-  .lg\:pl-5 {
-    padding-left: 3rem;
-  }
+    .lg\:pl-5 {
+        padding-left: 3rem;
+    }
 }
+
 /**
  * Margin utils
 */
 @media (min-width: 1024px) {
-  .lg\:my-0 {
-    margin-top: 0;
-    margin-bottom: 0;
-  }
+    .lg\:my-0 {
+        margin-top: 0;
+        margin-bottom: 0;
+    }
 
-  .lg\:mx-0 {
-    margin-left: 0;
-    margin-right: 0;
-  }
+    .lg\:mx-0 {
+        margin-left: 0;
+        margin-right: 0;
+    }
 
-  .lg\:mt-0 {
-    margin-top: 0;
-  }
+    .lg\:mt-0 {
+        margin-top: 0;
+    }
 
-  .lg\:mr-0 {
-    margin-right: 0;
-  }
+    .lg\:mr-0 {
+        margin-right: 0;
+    }
 
-  .lg\:mb-0 {
-    margin-bottom: 0;
-  }
+    .lg\:mb-0 {
+        margin-bottom: 0;
+    }
 
-  .lg\:ml-0 {
-    margin-left: 0;
-  }
+    .lg\:ml-0 {
+        margin-left: 0;
+    }
 }
+
 @media (min-width: 1024px) {
-  .lg\:my-1 {
-    margin-top: 0.25rem;
-    margin-bottom: 0.25rem;
-  }
+    .lg\:my-1 {
+        margin-top: 0.25rem;
+        margin-bottom: 0.25rem;
+    }
 
-  .lg\:mx-1 {
-    margin-left: 0.25rem;
-    margin-right: 0.25rem;
-  }
+    .lg\:mx-1 {
+        margin-left: 0.25rem;
+        margin-right: 0.25rem;
+    }
 
-  .lg\:mt-1 {
-    margin-top: 0.25rem;
-  }
+    .lg\:mt-1 {
+        margin-top: 0.25rem;
+    }
 
-  .lg\:mr-1 {
-    margin-right: 0.25rem;
-  }
+    .lg\:mr-1 {
+        margin-right: 0.25rem;
+    }
 
-  .lg\:mb-1 {
-    margin-bottom: 0.25rem;
-  }
+    .lg\:mb-1 {
+        margin-bottom: 0.25rem;
+    }
 
-  .lg\:ml-1 {
-    margin-left: 0.25rem;
-  }
+    .lg\:ml-1 {
+        margin-left: 0.25rem;
+    }
 }
+
 @media (min-width: 1024px) {
-  .lg\:my-2 {
-    margin-top: 0.5rem;
-    margin-bottom: 0.5rem;
-  }
+    .lg\:my-2 {
+        margin-top: 0.5rem;
+        margin-bottom: 0.5rem;
+    }
 
-  .lg\:mx-2 {
-    margin-left: 0.5rem;
-    margin-right: 0.5rem;
-  }
+    .lg\:mx-2 {
+        margin-left: 0.5rem;
+        margin-right: 0.5rem;
+    }
 
-  .lg\:mt-2 {
-    margin-top: 0.5rem;
-  }
+    .lg\:mt-2 {
+        margin-top: 0.5rem;
+    }
 
-  .lg\:mr-2 {
-    margin-right: 0.5rem;
-  }
+    .lg\:mr-2 {
+        margin-right: 0.5rem;
+    }
 
-  .lg\:mb-2 {
-    margin-bottom: 0.5rem;
-  }
+    .lg\:mb-2 {
+        margin-bottom: 0.5rem;
+    }
 
-  .lg\:ml-2 {
-    margin-left: 0.5rem;
-  }
+    .lg\:ml-2 {
+        margin-left: 0.5rem;
+    }
 }
+
 @media (min-width: 1024px) {
-  .lg\:my-3 {
-    margin-top: 1rem;
-    margin-bottom: 1rem;
-  }
+    .lg\:my-3 {
+        margin-top: 1rem;
+        margin-bottom: 1rem;
+    }
 
-  .lg\:mx-3 {
-    margin-left: 1rem;
-    margin-right: 1rem;
-  }
+    .lg\:mx-3 {
+        margin-left: 1rem;
+        margin-right: 1rem;
+    }
 
-  .lg\:mt-3 {
-    margin-top: 1rem;
-  }
+    .lg\:mt-3 {
+        margin-top: 1rem;
+    }
 
-  .lg\:mr-3 {
-    margin-right: 1rem;
-  }
+    .lg\:mr-3 {
+        margin-right: 1rem;
+    }
 
-  .lg\:mb-3 {
-    margin-bottom: 1rem;
-  }
+    .lg\:mb-3 {
+        margin-bottom: 1rem;
+    }
 
-  .lg\:ml-3 {
-    margin-left: 1rem;
-  }
+    .lg\:ml-3 {
+        margin-left: 1rem;
+    }
 }
+
 @media (min-width: 1024px) {
-  .lg\:my-4 {
-    margin-top: 1.25rem;
-    margin-bottom: 1.25rem;
-  }
+    .lg\:my-4 {
+        margin-top: 1.25rem;
+        margin-bottom: 1.25rem;
+    }
 
-  .lg\:mx-4 {
-    margin-left: 1.25rem;
-    margin-right: 1.25rem;
-  }
+    .lg\:mx-4 {
+        margin-left: 1.25rem;
+        margin-right: 1.25rem;
+    }
 
-  .lg\:mt-4 {
-    margin-top: 1.25rem;
-  }
+    .lg\:mt-4 {
+        margin-top: 1.25rem;
+    }
 
-  .lg\:mr-4 {
-    margin-right: 1.25rem;
-  }
+    .lg\:mr-4 {
+        margin-right: 1.25rem;
+    }
 
-  .lg\:mb-4 {
-    margin-bottom: 1.25rem;
-  }
+    .lg\:mb-4 {
+        margin-bottom: 1.25rem;
+    }
 
-  .lg\:ml-4 {
-    margin-left: 1.25rem;
-  }
+    .lg\:ml-4 {
+        margin-left: 1.25rem;
+    }
 }
+
 @media (min-width: 1024px) {
-  .lg\:my-5 {
-    margin-top: 3rem;
-    margin-bottom: 3rem;
-  }
+    .lg\:my-5 {
+        margin-top: 3rem;
+        margin-bottom: 3rem;
+    }
 
-  .lg\:mx-5 {
-    margin-left: 3rem;
-    margin-right: 3rem;
-  }
+    .lg\:mx-5 {
+        margin-left: 3rem;
+        margin-right: 3rem;
+    }
 
-  .lg\:mt-5 {
-    margin-top: 3rem;
-  }
+    .lg\:mt-5 {
+        margin-top: 3rem;
+    }
 
-  .lg\:mr-5 {
-    margin-right: 3rem;
-  }
+    .lg\:mr-5 {
+        margin-right: 3rem;
+    }
 
-  .lg\:mb-5 {
-    margin-bottom: 3rem;
-  }
+    .lg\:mb-5 {
+        margin-bottom: 3rem;
+    }
 
-  .lg\:ml-5 {
-    margin-left: 3rem;
-  }
+    .lg\:ml-5 {
+        margin-left: 3rem;
+    }
 }
+
 .xl\:hide {
-  display: block;
+    display: block;
 }
+
 @media (min-width: 768px) {
-  .xl\:hide {
-    display: block;
-  }
+    .xl\:hide {
+        display: block;
+    }
 }
+
 @media (min-width: 1024px) {
-  .xl\:hide {
-    display: block;
-  }
+    .xl\:hide {
+        display: block;
+    }
 }
+
 @media (min-width: 1280px) {
-  .xl\:hide {
-    display: none;
-  }
+    .xl\:hide {
+        display: none;
+    }
 }
 
 .xl\:show {
-  display: none;
+    display: none;
 }
+
 @media (min-width: 768px) {
-  .xl\:show {
-    display: none;
-  }
+    .xl\:show {
+        display: none;
+    }
 }
+
 @media (min-width: 1024px) {
-  .xl\:show {
-    display: none;
-  }
-}
-@media (min-width: 1280px) {
-  .xl\:show {
-    display: block;
-  }
+    .xl\:show {
+        display: none;
+    }
 }
 
 @media (min-width: 1280px) {
-  .xl\:text\:left {
-    text-align: left;
-  }
+    .xl\:show {
+        display: block;
+    }
 }
 
 @media (min-width: 1280px) {
-  .xl\:text\:center {
-    text-align: center;
-  }
+    .xl\:text\:left {
+        text-align: left;
+    }
 }
 
 @media (min-width: 1280px) {
-  .xl\:text\:right {
-    text-align: right;
-  }
+    .xl\:text\:center {
+        text-align: center;
+    }
+}
+
+@media (min-width: 1280px) {
+    .xl\:text\:right {
+        text-align: right;
+    }
 }
 
 /**
  * Padding utils
 */
 @media (min-width: 1280px) {
-  .xl\:py-0 {
-    padding-top: 0;
-    padding-bottom: 0;
-  }
+    .xl\:py-0 {
+        padding-top: 0;
+        padding-bottom: 0;
+    }
 
-  .xl\:px-0 {
-    padding-left: 0;
-    padding-right: 0;
-  }
+    .xl\:px-0 {
+        padding-left: 0;
+        padding-right: 0;
+    }
 
-  .xl\:pt-0 {
-    padding-top: 0;
-  }
+    .xl\:pt-0 {
+        padding-top: 0;
+    }
 
-  .xl\:pr-0 {
-    padding-right: 0;
-  }
+    .xl\:pr-0 {
+        padding-right: 0;
+    }
 
-  .xl\:pb-0 {
-    padding-bottom: 0;
-  }
+    .xl\:pb-0 {
+        padding-bottom: 0;
+    }
 
-  .xl\:pl-0 {
-    padding-left: 0;
-  }
+    .xl\:pl-0 {
+        padding-left: 0;
+    }
 }
+
 @media (min-width: 1280px) {
-  .xl\:py-1 {
-    padding-top: 0.25rem;
-    padding-bottom: 0.25rem;
-  }
+    .xl\:py-1 {
+        padding-top: 0.25rem;
+        padding-bottom: 0.25rem;
+    }
 
-  .xl\:px-1 {
-    padding-left: 0.25rem;
-    padding-right: 0.25rem;
-  }
+    .xl\:px-1 {
+        padding-left: 0.25rem;
+        padding-right: 0.25rem;
+    }
 
-  .xl\:pt-1 {
-    padding-top: 0.25rem;
-  }
+    .xl\:pt-1 {
+        padding-top: 0.25rem;
+    }
 
-  .xl\:pr-1 {
-    padding-right: 0.25rem;
-  }
+    .xl\:pr-1 {
+        padding-right: 0.25rem;
+    }
 
-  .xl\:pb-1 {
-    padding-bottom: 0.25rem;
-  }
+    .xl\:pb-1 {
+        padding-bottom: 0.25rem;
+    }
 
-  .xl\:pl-1 {
-    padding-left: 0.25rem;
-  }
+    .xl\:pl-1 {
+        padding-left: 0.25rem;
+    }
 }
+
 @media (min-width: 1280px) {
-  .xl\:py-2 {
-    padding-top: 0.5rem;
-    padding-bottom: 0.5rem;
-  }
+    .xl\:py-2 {
+        padding-top: 0.5rem;
+        padding-bottom: 0.5rem;
+    }
 
-  .xl\:px-2 {
-    padding-left: 0.5rem;
-    padding-right: 0.5rem;
-  }
+    .xl\:px-2 {
+        padding-left: 0.5rem;
+        padding-right: 0.5rem;
+    }
 
-  .xl\:pt-2 {
-    padding-top: 0.5rem;
-  }
+    .xl\:pt-2 {
+        padding-top: 0.5rem;
+    }
 
-  .xl\:pr-2 {
-    padding-right: 0.5rem;
-  }
+    .xl\:pr-2 {
+        padding-right: 0.5rem;
+    }
 
-  .xl\:pb-2 {
-    padding-bottom: 0.5rem;
-  }
+    .xl\:pb-2 {
+        padding-bottom: 0.5rem;
+    }
 
-  .xl\:pl-2 {
-    padding-left: 0.5rem;
-  }
+    .xl\:pl-2 {
+        padding-left: 0.5rem;
+    }
 }
+
 @media (min-width: 1280px) {
-  .xl\:py-3 {
-    padding-top: 1rem;
-    padding-bottom: 1rem;
-  }
+    .xl\:py-3 {
+        padding-top: 1rem;
+        padding-bottom: 1rem;
+    }
 
-  .xl\:px-3 {
-    padding-left: 1rem;
-    padding-right: 1rem;
-  }
+    .xl\:px-3 {
+        padding-left: 1rem;
+        padding-right: 1rem;
+    }
 
-  .xl\:pt-3 {
-    padding-top: 1rem;
-  }
+    .xl\:pt-3 {
+        padding-top: 1rem;
+    }
 
-  .xl\:pr-3 {
-    padding-right: 1rem;
-  }
+    .xl\:pr-3 {
+        padding-right: 1rem;
+    }
 
-  .xl\:pb-3 {
-    padding-bottom: 1rem;
-  }
+    .xl\:pb-3 {
+        padding-bottom: 1rem;
+    }
 
-  .xl\:pl-3 {
-    padding-left: 1rem;
-  }
+    .xl\:pl-3 {
+        padding-left: 1rem;
+    }
 }
+
 @media (min-width: 1280px) {
-  .xl\:py-4 {
-    padding-top: 1.25rem;
-    padding-bottom: 1.25rem;
-  }
+    .xl\:py-4 {
+        padding-top: 1.25rem;
+        padding-bottom: 1.25rem;
+    }
 
-  .xl\:px-4 {
-    padding-left: 1.25rem;
-    padding-right: 1.25rem;
-  }
+    .xl\:px-4 {
+        padding-left: 1.25rem;
+        padding-right: 1.25rem;
+    }
 
-  .xl\:pt-4 {
-    padding-top: 1.25rem;
-  }
+    .xl\:pt-4 {
+        padding-top: 1.25rem;
+    }
 
-  .xl\:pr-4 {
-    padding-right: 1.25rem;
-  }
+    .xl\:pr-4 {
+        padding-right: 1.25rem;
+    }
 
-  .xl\:pb-4 {
-    padding-bottom: 1.25rem;
-  }
+    .xl\:pb-4 {
+        padding-bottom: 1.25rem;
+    }
 
-  .xl\:pl-4 {
-    padding-left: 1.25rem;
-  }
+    .xl\:pl-4 {
+        padding-left: 1.25rem;
+    }
 }
+
 @media (min-width: 1280px) {
-  .xl\:py-5 {
-    padding-top: 3rem;
-    padding-bottom: 3rem;
-  }
+    .xl\:py-5 {
+        padding-top: 3rem;
+        padding-bottom: 3rem;
+    }
 
-  .xl\:px-5 {
-    padding-left: 3rem;
-    padding-right: 3rem;
-  }
+    .xl\:px-5 {
+        padding-left: 3rem;
+        padding-right: 3rem;
+    }
 
-  .xl\:pt-5 {
-    padding-top: 3rem;
-  }
+    .xl\:pt-5 {
+        padding-top: 3rem;
+    }
 
-  .xl\:pr-5 {
-    padding-right: 3rem;
-  }
+    .xl\:pr-5 {
+        padding-right: 3rem;
+    }
 
-  .xl\:pb-5 {
-    padding-bottom: 3rem;
-  }
+    .xl\:pb-5 {
+        padding-bottom: 3rem;
+    }
 
-  .xl\:pl-5 {
-    padding-left: 3rem;
-  }
+    .xl\:pl-5 {
+        padding-left: 3rem;
+    }
 }
+
 /**
  * Margin utils
 */
 @media (min-width: 1280px) {
-  .xl\:my-0 {
-    margin-top: 0;
-    margin-bottom: 0;
-  }
+    .xl\:my-0 {
+        margin-top: 0;
+        margin-bottom: 0;
+    }
 
-  .xl\:mx-0 {
-    margin-left: 0;
-    margin-right: 0;
-  }
+    .xl\:mx-0 {
+        margin-left: 0;
+        margin-right: 0;
+    }
 
-  .xl\:mt-0 {
-    margin-top: 0;
-  }
+    .xl\:mt-0 {
+        margin-top: 0;
+    }
 
-  .xl\:mr-0 {
-    margin-right: 0;
-  }
+    .xl\:mr-0 {
+        margin-right: 0;
+    }
 
-  .xl\:mb-0 {
-    margin-bottom: 0;
-  }
+    .xl\:mb-0 {
+        margin-bottom: 0;
+    }
 
-  .xl\:ml-0 {
-    margin-left: 0;
-  }
+    .xl\:ml-0 {
+        margin-left: 0;
+    }
 }
+
 @media (min-width: 1280px) {
-  .xl\:my-1 {
-    margin-top: 0.25rem;
-    margin-bottom: 0.25rem;
-  }
+    .xl\:my-1 {
+        margin-top: 0.25rem;
+        margin-bottom: 0.25rem;
+    }
 
-  .xl\:mx-1 {
-    margin-left: 0.25rem;
-    margin-right: 0.25rem;
-  }
+    .xl\:mx-1 {
+        margin-left: 0.25rem;
+        margin-right: 0.25rem;
+    }
 
-  .xl\:mt-1 {
-    margin-top: 0.25rem;
-  }
+    .xl\:mt-1 {
+        margin-top: 0.25rem;
+    }
 
-  .xl\:mr-1 {
-    margin-right: 0.25rem;
-  }
+    .xl\:mr-1 {
+        margin-right: 0.25rem;
+    }
 
-  .xl\:mb-1 {
-    margin-bottom: 0.25rem;
-  }
+    .xl\:mb-1 {
+        margin-bottom: 0.25rem;
+    }
 
-  .xl\:ml-1 {
-    margin-left: 0.25rem;
-  }
+    .xl\:ml-1 {
+        margin-left: 0.25rem;
+    }
 }
+
 @media (min-width: 1280px) {
-  .xl\:my-2 {
-    margin-top: 0.5rem;
-    margin-bottom: 0.5rem;
-  }
+    .xl\:my-2 {
+        margin-top: 0.5rem;
+        margin-bottom: 0.5rem;
+    }
 
-  .xl\:mx-2 {
-    margin-left: 0.5rem;
-    margin-right: 0.5rem;
-  }
+    .xl\:mx-2 {
+        margin-left: 0.5rem;
+        margin-right: 0.5rem;
+    }
 
-  .xl\:mt-2 {
-    margin-top: 0.5rem;
-  }
+    .xl\:mt-2 {
+        margin-top: 0.5rem;
+    }
 
-  .xl\:mr-2 {
-    margin-right: 0.5rem;
-  }
+    .xl\:mr-2 {
+        margin-right: 0.5rem;
+    }
 
-  .xl\:mb-2 {
-    margin-bottom: 0.5rem;
-  }
+    .xl\:mb-2 {
+        margin-bottom: 0.5rem;
+    }
 
-  .xl\:ml-2 {
-    margin-left: 0.5rem;
-  }
+    .xl\:ml-2 {
+        margin-left: 0.5rem;
+    }
 }
+
 @media (min-width: 1280px) {
-  .xl\:my-3 {
-    margin-top: 1rem;
-    margin-bottom: 1rem;
-  }
+    .xl\:my-3 {
+        margin-top: 1rem;
+        margin-bottom: 1rem;
+    }
 
-  .xl\:mx-3 {
-    margin-left: 1rem;
-    margin-right: 1rem;
-  }
+    .xl\:mx-3 {
+        margin-left: 1rem;
+        margin-right: 1rem;
+    }
 
-  .xl\:mt-3 {
-    margin-top: 1rem;
-  }
+    .xl\:mt-3 {
+        margin-top: 1rem;
+    }
 
-  .xl\:mr-3 {
-    margin-right: 1rem;
-  }
+    .xl\:mr-3 {
+        margin-right: 1rem;
+    }
 
-  .xl\:mb-3 {
-    margin-bottom: 1rem;
-  }
+    .xl\:mb-3 {
+        margin-bottom: 1rem;
+    }
 
-  .xl\:ml-3 {
-    margin-left: 1rem;
-  }
+    .xl\:ml-3 {
+        margin-left: 1rem;
+    }
 }
+
 @media (min-width: 1280px) {
-  .xl\:my-4 {
-    margin-top: 1.25rem;
-    margin-bottom: 1.25rem;
-  }
+    .xl\:my-4 {
+        margin-top: 1.25rem;
+        margin-bottom: 1.25rem;
+    }
 
-  .xl\:mx-4 {
-    margin-left: 1.25rem;
-    margin-right: 1.25rem;
-  }
+    .xl\:mx-4 {
+        margin-left: 1.25rem;
+        margin-right: 1.25rem;
+    }
 
-  .xl\:mt-4 {
-    margin-top: 1.25rem;
-  }
+    .xl\:mt-4 {
+        margin-top: 1.25rem;
+    }
 
-  .xl\:mr-4 {
-    margin-right: 1.25rem;
-  }
+    .xl\:mr-4 {
+        margin-right: 1.25rem;
+    }
 
-  .xl\:mb-4 {
-    margin-bottom: 1.25rem;
-  }
+    .xl\:mb-4 {
+        margin-bottom: 1.25rem;
+    }
 
-  .xl\:ml-4 {
-    margin-left: 1.25rem;
-  }
+    .xl\:ml-4 {
+        margin-left: 1.25rem;
+    }
 }
+
 @media (min-width: 1280px) {
-  .xl\:my-5 {
-    margin-top: 3rem;
-    margin-bottom: 3rem;
-  }
+    .xl\:my-5 {
+        margin-top: 3rem;
+        margin-bottom: 3rem;
+    }
 
-  .xl\:mx-5 {
-    margin-left: 3rem;
-    margin-right: 3rem;
-  }
+    .xl\:mx-5 {
+        margin-left: 3rem;
+        margin-right: 3rem;
+    }
 
-  .xl\:mt-5 {
-    margin-top: 3rem;
-  }
+    .xl\:mt-5 {
+        margin-top: 3rem;
+    }
 
-  .xl\:mr-5 {
-    margin-right: 3rem;
-  }
+    .xl\:mr-5 {
+        margin-right: 3rem;
+    }
 
-  .xl\:mb-5 {
-    margin-bottom: 3rem;
-  }
+    .xl\:mb-5 {
+        margin-bottom: 3rem;
+    }
 
-  .xl\:ml-5 {
-    margin-left: 3rem;
-  }
+    .xl\:ml-5 {
+        margin-left: 3rem;
+    }
 }
+
 .tooltip {
-  position: relative;
+    position: relative;
 }
+
 .tooltip::after {
-  background: rgba(48, 55, 66, 0.95);
-  border-radius: 0.1rem;
-  bottom: 100%;
-  color: white;
-  content: attr(data-tooltip);
-  display: block;
-  left: 50%;
-  max-width: 320px;
-  opacity: 0;
-  overflow: hidden;
-  padding: 0.2rem 0.4rem;
-  pointer-events: none;
-  position: absolute;
-  text-overflow: ellipsis;
-  transform: translate(-50%, 0.4rem);
-  transition: opacity 0.2s, transform 0.2s;
-  white-space: pre;
-  z-index: 300;
-  font-size: 0.7rem;
-  font-size: 0.7rem;
+    background: rgba(48, 55, 66, 0.95);
+    border-radius: 0.1rem;
+    bottom: 100%;
+    color: white;
+    content: attr(data-tooltip);
+    display: block;
+    left: 50%;
+    max-width: 320px;
+    opacity: 0;
+    overflow: hidden;
+    padding: 0.2rem 0.4rem;
+    pointer-events: none;
+    position: absolute;
+    text-overflow: ellipsis;
+    transform: translate(-50%, 0.4rem);
+    transition: opacity 0.2s, transform 0.2s;
+    white-space: pre;
+    z-index: 300;
+    font-size: 0.7rem;
+    font-size: 0.7rem;
 }
+
 @media (min-width: 768px) {
-  .tooltip::after {
-    font-size: 0.8rem;
-  }
+    .tooltip::after {
+        font-size: 0.8rem;
+    }
 }
+
 @media (min-width: 1024px) {
-  .tooltip::after {
-    font-size: 0.9rem;
-  }
+    .tooltip::after {
+        font-size: 0.9rem;
+    }
 }
+
 @media (min-width: 1280px) {
-  .tooltip::after {
-    font-size: 1rem;
-  }
+    .tooltip::after {
+        font-size: 1rem;
+    }
 }
+
 .tooltip:focus::after, .tooltip:hover::after {
-  opacity: 1;
-  transform: translate(-50%, -0.2rem);
+    opacity: 1;
+    transform: translate(-50%, -0.2rem);
 }
+
 .tooltip[disabled], .tooltip.disabled {
-  pointer-events: auto;
+    pointer-events: auto;
 }
+
 .tooltip.tooltip-right::after {
-  bottom: 50%;
-  left: 100%;
-  transform: translate(-0.2rem, 50%);
+    bottom: 50%;
+    left: 100%;
+    transform: translate(-0.2rem, 50%);
 }
+
 .tooltip.tooltip-right:focus::after, .tooltip.tooltip-right:hover::after {
-  transform: translate(0.2rem, 50%);
+    transform: translate(0.2rem, 50%);
 }
+
 .tooltip.tooltip-bottom::after {
-  bottom: auto;
-  top: 100%;
-  transform: translate(-50%, -0.4rem);
+    bottom: auto;
+    top: 100%;
+    transform: translate(-50%, -0.4rem);
 }
+
 .tooltip.tooltip-bottom:focus::after, .tooltip.tooltip-bottom:hover::after {
-  transform: translate(-50%, 0.2rem);
+    transform: translate(-50%, 0.2rem);
 }
+
 .tooltip.tooltip-left::after {
-  bottom: 50%;
-  left: auto;
-  right: 100%;
-  transform: translate(0.4rem, 50%);
+    bottom: 50%;
+    left: auto;
+    right: 100%;
+    transform: translate(0.4rem, 50%);
 }
+
 .tooltip.tooltip-left:focus::after, .tooltip.tooltip-left:hover::after {
-  transform: translate(-0.2rem, 50%);
+    transform: translate(-0.2rem, 50%);
 }
 
 .badge {
-  display: inline-block;
-  margin-left: 4px;
-  font-size: 75%;
-  background-color: #757575;
-  color: white;
-  padding: 0.25em 0.4em;
-  border-radius: 0.25rem;
-  font-weight: 600;
-  line-height: 1;
-  text-align: center;
+    display: inline-block;
+    margin-left: 4px;
+    font-size: 75%;
+    background-color: #757575;
+    color: white;
+    padding: 0.25em 0.4em;
+    border-radius: 0.25rem;
+    font-weight: 600;
+    line-height: 1;
+    text-align: center;
 }
+
 .badge.badge\:rounded {
-  padding-right: 0.6em;
-  padding-left: 0.6em;
-  border-radius: 10rem;
+    padding-right: 0.6em;
+    padding-left: 0.6em;
+    border-radius: 10rem;
 }
+
 .badge.badge\:light {
-  font-weight: normal;
+    font-weight: normal;
 }
 
 .background\:white {
-  background-color: white !important;
-  color: #1a1919 !important;
+    background-color: white !important;
+    color: #1a1919 !important;
 }
 
 .hover\:background\:white:hover {
-  background-color: white !important;
-  color: #1a1919 !important;
+    background-color: white !important;
+    color: #1a1919 !important;
 }
 
 .text\:white {
-  color: white !important;
+    color: white !important;
 }
 
 .hover\:text\:white:hover {
-  color: white !important;
+    color: white !important;
 }
 
 .background\:pink {
-  background-color: #e91e63 !important;
-  color: white !important;
+    background-color: #e91e63 !important;
+    color: white !important;
 }
 
 .hover\:background\:pink:hover {
-  background-color: #e91e63 !important;
-  color: white !important;
+    background-color: #e91e63 !important;
+    color: white !important;
 }
 
 .text\:pink {
-  color: #e91e63 !important;
+    color: #e91e63 !important;
 }
 
 .hover\:text\:pink:hover {
-  color: #e91e63 !important;
+    color: #e91e63 !important;
 }
 
 .background\:pink-1 {
-  background-color: #d81b60 !important;
-  color: white !important;
+    background-color: #d81b60 !important;
+    color: white !important;
 }
 
 .hover\:background\:pink-1:hover {
-  background-color: #d81b60 !important;
-  color: white !important;
+    background-color: #d81b60 !important;
+    color: white !important;
 }
 
 .text\:pink-1 {
-  color: #d81b60 !important;
+    color: #d81b60 !important;
 }
 
 .hover\:text\:pink-1:hover {
-  color: #d81b60 !important;
+    color: #d81b60 !important;
 }
 
 .background\:pink-2 {
-  background-color: #c2185b !important;
-  color: white !important;
+    background-color: #c2185b !important;
+    color: white !important;
 }
 
 .hover\:background\:pink-2:hover {
-  background-color: #c2185b !important;
-  color: white !important;
+    background-color: #c2185b !important;
+    color: white !important;
 }
 
 .text\:pink-2 {
-  color: #c2185b !important;
+    color: #c2185b !important;
 }
 
 .hover\:text\:pink-2:hover {
-  color: #c2185b !important;
+    color: #c2185b !important;
 }
 
 .background\:pink-3 {
-  background-color: #ad1457 !important;
-  color: white !important;
+    background-color: #ad1457 !important;
+    color: white !important;
 }
 
 .hover\:background\:pink-3:hover {
-  background-color: #ad1457 !important;
-  color: white !important;
+    background-color: #ad1457 !important;
+    color: white !important;
 }
 
 .text\:pink-3 {
-  color: #ad1457 !important;
+    color: #ad1457 !important;
 }
 
 .hover\:text\:pink-3:hover {
-  color: #ad1457 !important;
+    color: #ad1457 !important;
 }
 
 .background\:pink-4 {
-  background-color: #880e4f !important;
-  color: white !important;
+    background-color: #880e4f !important;
+    color: white !important;
 }
 
 .hover\:background\:pink-4:hover {
-  background-color: #880e4f !important;
-  color: white !important;
+    background-color: #880e4f !important;
+    color: white !important;
 }
 
 .text\:pink-4 {
-  color: #880e4f !important;
+    color: #880e4f !important;
 }
 
 .hover\:text\:pink-4:hover {
-  color: #880e4f !important;
+    color: #880e4f !important;
 }
 
 .background\:purple {
-  background-color: #9c27b0 !important;
-  color: white !important;
+    background-color: #9c27b0 !important;
+    color: white !important;
 }
 
 .hover\:background\:purple:hover {
-  background-color: #9c27b0 !important;
-  color: white !important;
+    background-color: #9c27b0 !important;
+    color: white !important;
 }
 
 .text\:purple {
-  color: #9c27b0 !important;
+    color: #9c27b0 !important;
 }
 
 .hover\:text\:purple:hover {
-  color: #9c27b0 !important;
+    color: #9c27b0 !important;
 }
 
 .background\:purple-1 {
-  background-color: #8e24aa !important;
-  color: white !important;
+    background-color: #8e24aa !important;
+    color: white !important;
 }
 
 .hover\:background\:purple-1:hover {
-  background-color: #8e24aa !important;
-  color: white !important;
+    background-color: #8e24aa !important;
+    color: white !important;
 }
 
 .text\:purple-1 {
-  color: #8e24aa !important;
+    color: #8e24aa !important;
 }
 
 .hover\:text\:purple-1:hover {
-  color: #8e24aa !important;
+    color: #8e24aa !important;
 }
 
 .background\:purple-2 {
-  background-color: #7b1fa2 !important;
-  color: white !important;
+    background-color: #7b1fa2 !important;
+    color: white !important;
 }
 
 .hover\:background\:purple-2:hover {
-  background-color: #7b1fa2 !important;
-  color: white !important;
+    background-color: #7b1fa2 !important;
+    color: white !important;
 }
 
 .text\:purple-2 {
-  color: #7b1fa2 !important;
+    color: #7b1fa2 !important;
 }
 
 .hover\:text\:purple-2:hover {
-  color: #7b1fa2 !important;
+    color: #7b1fa2 !important;
 }
 
 .background\:purple-3 {
-  background-color: #6a1b9a !important;
-  color: white !important;
+    background-color: #6a1b9a !important;
+    color: white !important;
 }
 
 .hover\:background\:purple-3:hover {
-  background-color: #6a1b9a !important;
-  color: white !important;
+    background-color: #6a1b9a !important;
+    color: white !important;
 }
 
 .text\:purple-3 {
-  color: #6a1b9a !important;
+    color: #6a1b9a !important;
 }
 
 .hover\:text\:purple-3:hover {
-  color: #6a1b9a !important;
+    color: #6a1b9a !important;
 }
 
 .background\:purple-4 {
-  background-color: #4a148c !important;
-  color: white !important;
+    background-color: #4a148c !important;
+    color: white !important;
 }
 
 .hover\:background\:purple-4:hover {
-  background-color: #4a148c !important;
-  color: white !important;
+    background-color: #4a148c !important;
+    color: white !important;
 }
 
 .text\:purple-4 {
-  color: #4a148c !important;
+    color: #4a148c !important;
 }
 
 .hover\:text\:purple-4:hover {
-  color: #4a148c !important;
+    color: #4a148c !important;
 }
 
 .background\:deep-purple {
-  background-color: #4a148c !important;
-  color: white !important;
+    background-color: #4a148c !important;
+    color: white !important;
 }
 
 .hover\:background\:deep-purple:hover {
-  background-color: #4a148c !important;
-  color: white !important;
+    background-color: #4a148c !important;
+    color: white !important;
 }
 
 .text\:deep-purple {
-  color: #4a148c !important;
+    color: #4a148c !important;
 }
 
 .hover\:text\:deep-purple:hover {
-  color: #4a148c !important;
+    color: #4a148c !important;
 }
 
 .background\:deep-purple-1 {
-  background-color: #5e35b1 !important;
-  color: white !important;
+    background-color: #5e35b1 !important;
+    color: white !important;
 }
 
 .hover\:background\:deep-purple-1:hover {
-  background-color: #5e35b1 !important;
-  color: white !important;
+    background-color: #5e35b1 !important;
+    color: white !important;
 }
 
 .text\:deep-purple-1 {
-  color: #5e35b1 !important;
+    color: #5e35b1 !important;
 }
 
 .hover\:text\:deep-purple-1:hover {
-  color: #5e35b1 !important;
+    color: #5e35b1 !important;
 }
 
 .background\:deep-purple-2 {
-  background-color: #512da8 !important;
-  color: white !important;
+    background-color: #512da8 !important;
+    color: white !important;
 }
 
 .hover\:background\:deep-purple-2:hover {
-  background-color: #512da8 !important;
-  color: white !important;
+    background-color: #512da8 !important;
+    color: white !important;
 }
 
 .text\:deep-purple-2 {
-  color: #512da8 !important;
+    color: #512da8 !important;
 }
 
 .hover\:text\:deep-purple-2:hover {
-  color: #512da8 !important;
+    color: #512da8 !important;
 }
 
 .background\:deep-purple-3 {
-  background-color: #4527a0 !important;
-  color: white !important;
+    background-color: #4527a0 !important;
+    color: white !important;
 }
 
 .hover\:background\:deep-purple-3:hover {
-  background-color: #4527a0 !important;
-  color: white !important;
+    background-color: #4527a0 !important;
+    color: white !important;
 }
 
 .text\:deep-purple-3 {
-  color: #4527a0 !important;
+    color: #4527a0 !important;
 }
 
 .hover\:text\:deep-purple-3:hover {
-  color: #4527a0 !important;
+    color: #4527a0 !important;
 }
 
 .background\:deep-purple-4 {
-  background-color: #311b92 !important;
-  color: white !important;
+    background-color: #311b92 !important;
+    color: white !important;
 }
 
 .hover\:background\:deep-purple-4:hover {
-  background-color: #311b92 !important;
-  color: white !important;
+    background-color: #311b92 !important;
+    color: white !important;
 }
 
 .text\:deep-purple-4 {
-  color: #311b92 !important;
+    color: #311b92 !important;
 }
 
 .hover\:text\:deep-purple-4:hover {
-  color: #311b92 !important;
+    color: #311b92 !important;
 }
 
 .background\:blue {
-  background-color: #2196f3 !important;
-  color: white !important;
+    background-color: #2196f3 !important;
+    color: white !important;
 }
 
 .hover\:background\:blue:hover {
-  background-color: #2196f3 !important;
-  color: white !important;
+    background-color: #2196f3 !important;
+    color: white !important;
 }
 
 .text\:blue {
-  color: #2196f3 !important;
+    color: #2196f3 !important;
 }
 
 .hover\:text\:blue:hover {
-  color: #2196f3 !important;
+    color: #2196f3 !important;
 }
 
 .background\:blue-1 {
-  background-color: #1e88e5 !important;
-  color: white !important;
+    background-color: #1e88e5 !important;
+    color: white !important;
 }
 
 .hover\:background\:blue-1:hover {
-  background-color: #1e88e5 !important;
-  color: white !important;
+    background-color: #1e88e5 !important;
+    color: white !important;
 }
 
 .text\:blue-1 {
-  color: #1e88e5 !important;
+    color: #1e88e5 !important;
 }
 
 .hover\:text\:blue-1:hover {
-  color: #1e88e5 !important;
+    color: #1e88e5 !important;
 }
 
 .background\:blue-2 {
-  background-color: #1976d2 !important;
-  color: white !important;
+    background-color: #1976d2 !important;
+    color: white !important;
 }
 
 .hover\:background\:blue-2:hover {
-  background-color: #1976d2 !important;
-  color: white !important;
+    background-color: #1976d2 !important;
+    color: white !important;
 }
 
 .text\:blue-2 {
-  color: #1976d2 !important;
+    color: #1976d2 !important;
 }
 
 .hover\:text\:blue-2:hover {
-  color: #1976d2 !important;
+    color: #1976d2 !important;
 }
 
 .background\:blue-3 {
-  background-color: #1565c0 !important;
-  color: white !important;
+    background-color: #1565c0 !important;
+    color: white !important;
 }
 
 .hover\:background\:blue-3:hover {
-  background-color: #1565c0 !important;
-  color: white !important;
+    background-color: #1565c0 !important;
+    color: white !important;
 }
 
 .text\:blue-3 {
-  color: #1565c0 !important;
+    color: #1565c0 !important;
 }
 
 .hover\:text\:blue-3:hover {
-  color: #1565c0 !important;
+    color: #1565c0 !important;
 }
 
 .background\:blue-4 {
-  background-color: #0d47a1 !important;
-  color: white !important;
+    background-color: #0d47a1 !important;
+    color: white !important;
 }
 
 .hover\:background\:blue-4:hover {
-  background-color: #0d47a1 !important;
-  color: white !important;
+    background-color: #0d47a1 !important;
+    color: white !important;
 }
 
 .text\:blue-4 {
-  color: #0d47a1 !important;
+    color: #0d47a1 !important;
 }
 
 .hover\:text\:blue-4:hover {
-  color: #0d47a1 !important;
+    color: #0d47a1 !important;
 }
 
 .background\:light-blue {
-  background-color: #03a9f4 !important;
-  color: white !important;
+    background-color: #03a9f4 !important;
+    color: white !important;
 }
 
 .hover\:background\:light-blue:hover {
-  background-color: #03a9f4 !important;
-  color: white !important;
+    background-color: #03a9f4 !important;
+    color: white !important;
 }
 
 .text\:light-blue {
-  color: #03a9f4 !important;
+    color: #03a9f4 !important;
 }
 
 .hover\:text\:light-blue:hover {
-  color: #03a9f4 !important;
+    color: #03a9f4 !important;
 }
 
 .background\:light-blue-1 {
-  background-color: #039be5 !important;
-  color: white !important;
+    background-color: #039be5 !important;
+    color: white !important;
 }
 
 .hover\:background\:light-blue-1:hover {
-  background-color: #039be5 !important;
-  color: white !important;
+    background-color: #039be5 !important;
+    color: white !important;
 }
 
 .text\:light-blue-1 {
-  color: #039be5 !important;
+    color: #039be5 !important;
 }
 
 .hover\:text\:light-blue-1:hover {
-  color: #039be5 !important;
+    color: #039be5 !important;
 }
 
 .background\:light-blue-2 {
-  background-color: #0288d1 !important;
-  color: white !important;
+    background-color: #0288d1 !important;
+    color: white !important;
 }
 
 .hover\:background\:light-blue-2:hover {
-  background-color: #0288d1 !important;
-  color: white !important;
+    background-color: #0288d1 !important;
+    color: white !important;
 }
 
 .text\:light-blue-2 {
-  color: #0288d1 !important;
+    color: #0288d1 !important;
 }
 
 .hover\:text\:light-blue-2:hover {
-  color: #0288d1 !important;
+    color: #0288d1 !important;
 }
 
 .background\:light-blue-3 {
-  background-color: #0277bd !important;
-  color: white !important;
+    background-color: #0277bd !important;
+    color: white !important;
 }
 
 .hover\:background\:light-blue-3:hover {
-  background-color: #0277bd !important;
-  color: white !important;
+    background-color: #0277bd !important;
+    color: white !important;
 }
 
 .text\:light-blue-3 {
-  color: #0277bd !important;
+    color: #0277bd !important;
 }
 
 .hover\:text\:light-blue-3:hover {
-  color: #0277bd !important;
+    color: #0277bd !important;
 }
 
 .background\:light-blue-4 {
-  background-color: #01579b !important;
-  color: white !important;
+    background-color: #01579b !important;
+    color: white !important;
 }
 
 .hover\:background\:light-blue-4:hover {
-  background-color: #01579b !important;
-  color: white !important;
+    background-color: #01579b !important;
+    color: white !important;
 }
 
 .text\:light-blue-4 {
-  color: #01579b !important;
+    color: #01579b !important;
 }
 
 .hover\:text\:light-blue-4:hover {
-  color: #01579b !important;
+    color: #01579b !important;
 }
 
 .background\:indigo {
-  background-color: #3f51b5 !important;
-  color: white !important;
+    background-color: #3f51b5 !important;
+    color: white !important;
 }
 
 .hover\:background\:indigo:hover {
-  background-color: #3f51b5 !important;
-  color: white !important;
+    background-color: #3f51b5 !important;
+    color: white !important;
 }
 
 .text\:indigo {
-  color: #3f51b5 !important;
+    color: #3f51b5 !important;
 }
 
 .hover\:text\:indigo:hover {
-  color: #3f51b5 !important;
+    color: #3f51b5 !important;
 }
 
 .background\:indigo-1 {
-  background-color: #3949ab !important;
-  color: white !important;
+    background-color: #3949ab !important;
+    color: white !important;
 }
 
 .hover\:background\:indigo-1:hover {
-  background-color: #3949ab !important;
-  color: white !important;
+    background-color: #3949ab !important;
+    color: white !important;
 }
 
 .text\:indigo-1 {
-  color: #3949ab !important;
+    color: #3949ab !important;
 }
 
 .hover\:text\:indigo-1:hover {
-  color: #3949ab !important;
+    color: #3949ab !important;
 }
 
 .background\:indigo-2 {
-  background-color: #303f9f !important;
-  color: white !important;
+    background-color: #303f9f !important;
+    color: white !important;
 }
 
 .hover\:background\:indigo-2:hover {
-  background-color: #303f9f !important;
-  color: white !important;
+    background-color: #303f9f !important;
+    color: white !important;
 }
 
 .text\:indigo-2 {
-  color: #303f9f !important;
+    color: #303f9f !important;
 }
 
 .hover\:text\:indigo-2:hover {
-  color: #303f9f !important;
+    color: #303f9f !important;
 }
 
 .background\:indigo-3 {
-  background-color: #283593 !important;
-  color: white !important;
+    background-color: #283593 !important;
+    color: white !important;
 }
 
 .hover\:background\:indigo-3:hover {
-  background-color: #283593 !important;
-  color: white !important;
+    background-color: #283593 !important;
+    color: white !important;
 }
 
 .text\:indigo-3 {
-  color: #283593 !important;
+    color: #283593 !important;
 }
 
 .hover\:text\:indigo-3:hover {
-  color: #283593 !important;
+    color: #283593 !important;
 }
 
 .background\:indigo-4 {
-  background-color: #1a237e !important;
-  color: white !important;
+    background-color: #1a237e !important;
+    color: white !important;
 }
 
 .hover\:background\:indigo-4:hover {
-  background-color: #1a237e !important;
-  color: white !important;
+    background-color: #1a237e !important;
+    color: white !important;
 }
 
 .text\:indigo-4 {
-  color: #1a237e !important;
+    color: #1a237e !important;
 }
 
 .hover\:text\:indigo-4:hover {
-  color: #1a237e !important;
+    color: #1a237e !important;
 }
 
 .background\:teal {
-  background-color: #009688 !important;
-  color: white !important;
+    background-color: #009688 !important;
+    color: white !important;
 }
 
 .hover\:background\:teal:hover {
-  background-color: #009688 !important;
-  color: white !important;
+    background-color: #009688 !important;
+    color: white !important;
 }
 
 .text\:teal {
-  color: #009688 !important;
+    color: #009688 !important;
 }
 
 .hover\:text\:teal:hover {
-  color: #009688 !important;
+    color: #009688 !important;
 }
 
 .background\:teal-1 {
-  background-color: #00897b !important;
-  color: white !important;
+    background-color: #00897b !important;
+    color: white !important;
 }
 
 .hover\:background\:teal-1:hover {
-  background-color: #00897b !important;
-  color: white !important;
+    background-color: #00897b !important;
+    color: white !important;
 }
 
 .text\:teal-1 {
-  color: #00897b !important;
+    color: #00897b !important;
 }
 
 .hover\:text\:teal-1:hover {
-  color: #00897b !important;
+    color: #00897b !important;
 }
 
 .background\:teal-2 {
-  background-color: #00796b !important;
-  color: white !important;
+    background-color: #00796b !important;
+    color: white !important;
 }
 
 .hover\:background\:teal-2:hover {
-  background-color: #00796b !important;
-  color: white !important;
+    background-color: #00796b !important;
+    color: white !important;
 }
 
 .text\:teal-2 {
-  color: #00796b !important;
+    color: #00796b !important;
 }
 
 .hover\:text\:teal-2:hover {
-  color: #00796b !important;
+    color: #00796b !important;
 }
 
 .background\:teal-3 {
-  background-color: #00695c !important;
-  color: white !important;
+    background-color: #00695c !important;
+    color: white !important;
 }
 
 .hover\:background\:teal-3:hover {
-  background-color: #00695c !important;
-  color: white !important;
+    background-color: #00695c !important;
+    color: white !important;
 }
 
 .text\:teal-3 {
-  color: #00695c !important;
+    color: #00695c !important;
 }
 
 .hover\:text\:teal-3:hover {
-  color: #00695c !important;
+    color: #00695c !important;
 }
 
 .background\:teal-4 {
-  background-color: #004d40 !important;
-  color: white !important;
+    background-color: #004d40 !important;
+    color: white !important;
 }
 
 .hover\:background\:teal-4:hover {
-  background-color: #004d40 !important;
-  color: white !important;
+    background-color: #004d40 !important;
+    color: white !important;
 }
 
 .text\:teal-4 {
-  color: #004d40 !important;
+    color: #004d40 !important;
 }
 
 .hover\:text\:teal-4:hover {
-  color: #004d40 !important;
+    color: #004d40 !important;
 }
 
 .background\:cyan {
-  background-color: #00bcd4 !important;
-  color: white !important;
+    background-color: #00bcd4 !important;
+    color: white !important;
 }
 
 .hover\:background\:cyan:hover {
-  background-color: #00bcd4 !important;
-  color: white !important;
+    background-color: #00bcd4 !important;
+    color: white !important;
 }
 
 .text\:cyan {
-  color: #00bcd4 !important;
+    color: #00bcd4 !important;
 }
 
 .hover\:text\:cyan:hover {
-  color: #00bcd4 !important;
+    color: #00bcd4 !important;
 }
 
 .background\:cyan-1 {
-  background-color: #00acc1 !important;
-  color: white !important;
+    background-color: #00acc1 !important;
+    color: white !important;
 }
 
 .hover\:background\:cyan-1:hover {
-  background-color: #00acc1 !important;
-  color: white !important;
+    background-color: #00acc1 !important;
+    color: white !important;
 }
 
 .text\:cyan-1 {
-  color: #00acc1 !important;
+    color: #00acc1 !important;
 }
 
 .hover\:text\:cyan-1:hover {
-  color: #00acc1 !important;
+    color: #00acc1 !important;
 }
 
 .background\:cyan-2 {
-  background-color: #0097a7 !important;
-  color: white !important;
+    background-color: #0097a7 !important;
+    color: white !important;
 }
 
 .hover\:background\:cyan-2:hover {
-  background-color: #0097a7 !important;
-  color: white !important;
+    background-color: #0097a7 !important;
+    color: white !important;
 }
 
 .text\:cyan-2 {
-  color: #0097a7 !important;
+    color: #0097a7 !important;
 }
 
 .hover\:text\:cyan-2:hover {
-  color: #0097a7 !important;
+    color: #0097a7 !important;
 }
 
 .background\:cyan-3 {
-  background-color: #00838f !important;
-  color: white !important;
+    background-color: #00838f !important;
+    color: white !important;
 }
 
 .hover\:background\:cyan-3:hover {
-  background-color: #00838f !important;
-  color: white !important;
+    background-color: #00838f !important;
+    color: white !important;
 }
 
 .text\:cyan-3 {
-  color: #00838f !important;
+    color: #00838f !important;
 }
 
 .hover\:text\:cyan-3:hover {
-  color: #00838f !important;
+    color: #00838f !important;
 }
 
 .background\:cyan-4 {
-  background-color: #006064 !important;
-  color: white !important;
+    background-color: #006064 !important;
+    color: white !important;
 }
 
 .hover\:background\:cyan-4:hover {
-  background-color: #006064 !important;
-  color: white !important;
+    background-color: #006064 !important;
+    color: white !important;
 }
 
 .text\:cyan-4 {
-  color: #006064 !important;
+    color: #006064 !important;
 }
 
 .hover\:text\:cyan-4:hover {
-  color: #006064 !important;
+    color: #006064 !important;
 }
 
 .background\:red {
-  background-color: #b71c1c !important;
-  color: white !important;
+    background-color: #b71c1c !important;
+    color: white !important;
 }
 
 .hover\:background\:red:hover {
-  background-color: #b71c1c !important;
-  color: white !important;
+    background-color: #b71c1c !important;
+    color: white !important;
 }
 
 .text\:red {
-  color: #b71c1c !important;
+    color: #b71c1c !important;
 }
 
 .hover\:text\:red:hover {
-  color: #b71c1c !important;
+    color: #b71c1c !important;
 }
 
 .background\:red-1 {
-  background-color: #e53935 !important;
-  color: white !important;
+    background-color: #e53935 !important;
+    color: white !important;
 }
 
 .hover\:background\:red-1:hover {
-  background-color: #e53935 !important;
-  color: white !important;
+    background-color: #e53935 !important;
+    color: white !important;
 }
 
 .text\:red-1 {
-  color: #e53935 !important;
+    color: #e53935 !important;
 }
 
 .hover\:text\:red-1:hover {
-  color: #e53935 !important;
+    color: #e53935 !important;
 }
 
 .background\:red-2 {
-  background-color: #d32f2f !important;
-  color: white !important;
+    background-color: #d32f2f !important;
+    color: white !important;
 }
 
 .hover\:background\:red-2:hover {
-  background-color: #d32f2f !important;
-  color: white !important;
+    background-color: #d32f2f !important;
+    color: white !important;
 }
 
 .text\:red-2 {
-  color: #d32f2f !important;
+    color: #d32f2f !important;
 }
 
 .hover\:text\:red-2:hover {
-  color: #d32f2f !important;
+    color: #d32f2f !important;
 }
 
 .background\:red-3 {
-  background-color: #c62828 !important;
-  color: white !important;
+    background-color: #c62828 !important;
+    color: white !important;
 }
 
 .hover\:background\:red-3:hover {
-  background-color: #c62828 !important;
-  color: white !important;
+    background-color: #c62828 !important;
+    color: white !important;
 }
 
 .text\:red-3 {
-  color: #c62828 !important;
+    color: #c62828 !important;
 }
 
 .hover\:text\:red-3:hover {
-  color: #c62828 !important;
+    color: #c62828 !important;
 }
 
 .background\:red-4 {
-  background-color: #b71c1c !important;
-  color: white !important;
+    background-color: #b71c1c !important;
+    color: white !important;
 }
 
 .hover\:background\:red-4:hover {
-  background-color: #b71c1c !important;
-  color: white !important;
+    background-color: #b71c1c !important;
+    color: white !important;
 }
 
 .text\:red-4 {
-  color: #b71c1c !important;
+    color: #b71c1c !important;
 }
 
 .hover\:text\:red-4:hover {
-  color: #b71c1c !important;
+    color: #b71c1c !important;
 }
 
 .background\:green {
-  background-color: #4caf50 !important;
-  color: white !important;
+    background-color: #4caf50 !important;
+    color: white !important;
 }
 
 .hover\:background\:green:hover {
-  background-color: #4caf50 !important;
-  color: white !important;
+    background-color: #4caf50 !important;
+    color: white !important;
 }
 
 .text\:green {
-  color: #4caf50 !important;
+    color: #4caf50 !important;
 }
 
 .hover\:text\:green:hover {
-  color: #4caf50 !important;
+    color: #4caf50 !important;
 }
 
 .background\:green-1 {
-  background-color: #43a047 !important;
-  color: white !important;
+    background-color: #43a047 !important;
+    color: white !important;
 }
 
 .hover\:background\:green-1:hover {
-  background-color: #43a047 !important;
-  color: white !important;
+    background-color: #43a047 !important;
+    color: white !important;
 }
 
 .text\:green-1 {
-  color: #43a047 !important;
+    color: #43a047 !important;
 }
 
 .hover\:text\:green-1:hover {
-  color: #43a047 !important;
+    color: #43a047 !important;
 }
 
 .background\:green-2 {
-  background-color: #388e3c !important;
-  color: white !important;
+    background-color: #388e3c !important;
+    color: white !important;
 }
 
 .hover\:background\:green-2:hover {
-  background-color: #388e3c !important;
-  color: white !important;
+    background-color: #388e3c !important;
+    color: white !important;
 }
 
 .text\:green-2 {
-  color: #388e3c !important;
+    color: #388e3c !important;
 }
 
 .hover\:text\:green-2:hover {
-  color: #388e3c !important;
+    color: #388e3c !important;
 }
 
 .background\:green-3 {
-  background-color: #2e7d32 !important;
-  color: white !important;
+    background-color: #2e7d32 !important;
+    color: white !important;
 }
 
 .hover\:background\:green-3:hover {
-  background-color: #2e7d32 !important;
-  color: white !important;
+    background-color: #2e7d32 !important;
+    color: white !important;
 }
 
 .text\:green-3 {
-  color: #2e7d32 !important;
+    color: #2e7d32 !important;
 }
 
 .hover\:text\:green-3:hover {
-  color: #2e7d32 !important;
+    color: #2e7d32 !important;
 }
 
 .background\:green-4 {
-  background-color: #1b5e20 !important;
-  color: white !important;
+    background-color: #1b5e20 !important;
+    color: white !important;
 }
 
 .hover\:background\:green-4:hover {
-  background-color: #1b5e20 !important;
-  color: white !important;
+    background-color: #1b5e20 !important;
+    color: white !important;
 }
 
 .text\:green-4 {
-  color: #1b5e20 !important;
+    color: #1b5e20 !important;
 }
 
 .hover\:text\:green-4:hover {
-  color: #1b5e20 !important;
+    color: #1b5e20 !important;
 }
 
 .background\:light-green {
-  background-color: #8bc34a !important;
-  color: white !important;
+    background-color: #8bc34a !important;
+    color: white !important;
 }
 
 .hover\:background\:light-green:hover {
-  background-color: #8bc34a !important;
-  color: white !important;
+    background-color: #8bc34a !important;
+    color: white !important;
 }
 
 .text\:light-green {
-  color: #8bc34a !important;
+    color: #8bc34a !important;
 }
 
 .hover\:text\:light-green:hover {
-  color: #8bc34a !important;
+    color: #8bc34a !important;
 }
 
 .background\:light-green-1 {
-  background-color: #7cb342 !important;
-  color: white !important;
+    background-color: #7cb342 !important;
+    color: white !important;
 }
 
 .hover\:background\:light-green-1:hover {
-  background-color: #7cb342 !important;
-  color: white !important;
+    background-color: #7cb342 !important;
+    color: white !important;
 }
 
 .text\:light-green-1 {
-  color: #7cb342 !important;
+    color: #7cb342 !important;
 }
 
 .hover\:text\:light-green-1:hover {
-  color: #7cb342 !important;
+    color: #7cb342 !important;
 }
 
 .background\:light-green-2 {
-  background-color: #689f38 !important;
-  color: white !important;
+    background-color: #689f38 !important;
+    color: white !important;
 }
 
 .hover\:background\:light-green-2:hover {
-  background-color: #689f38 !important;
-  color: white !important;
+    background-color: #689f38 !important;
+    color: white !important;
 }
 
 .text\:light-green-2 {
-  color: #689f38 !important;
+    color: #689f38 !important;
 }
 
 .hover\:text\:light-green-2:hover {
-  color: #689f38 !important;
+    color: #689f38 !important;
 }
 
 .background\:light-green-3 {
-  background-color: #558b2f !important;
-  color: white !important;
+    background-color: #558b2f !important;
+    color: white !important;
 }
 
 .hover\:background\:light-green-3:hover {
-  background-color: #558b2f !important;
-  color: white !important;
+    background-color: #558b2f !important;
+    color: white !important;
 }
 
 .text\:light-green-3 {
-  color: #558b2f !important;
+    color: #558b2f !important;
 }
 
 .hover\:text\:light-green-3:hover {
-  color: #558b2f !important;
+    color: #558b2f !important;
 }
 
 .background\:light-green-4 {
-  background-color: #33691e !important;
-  color: white !important;
+    background-color: #33691e !important;
+    color: white !important;
 }
 
 .hover\:background\:light-green-4:hover {
-  background-color: #33691e !important;
-  color: white !important;
+    background-color: #33691e !important;
+    color: white !important;
 }
 
 .text\:light-green-4 {
-  color: #33691e !important;
+    color: #33691e !important;
 }
 
 .hover\:text\:light-green-4:hover {
-  color: #33691e !important;
+    color: #33691e !important;
 }
 
 .background\:lime {
-  background-color: #cddc39 !important;
-  color: white !important;
+    background-color: #cddc39 !important;
+    color: white !important;
 }
 
 .hover\:background\:lime:hover {
-  background-color: #cddc39 !important;
-  color: white !important;
+    background-color: #cddc39 !important;
+    color: white !important;
 }
 
 .text\:lime {
-  color: #cddc39 !important;
+    color: #cddc39 !important;
 }
 
 .hover\:text\:lime:hover {
-  color: #cddc39 !important;
+    color: #cddc39 !important;
 }
 
 .background\:lime-1 {
-  background-color: #c0ca33 !important;
-  color: white !important;
+    background-color: #c0ca33 !important;
+    color: white !important;
 }
 
 .hover\:background\:lime-1:hover {
-  background-color: #c0ca33 !important;
-  color: white !important;
+    background-color: #c0ca33 !important;
+    color: white !important;
 }
 
 .text\:lime-1 {
-  color: #c0ca33 !important;
+    color: #c0ca33 !important;
 }
 
 .hover\:text\:lime-1:hover {
-  color: #c0ca33 !important;
+    color: #c0ca33 !important;
 }
 
 .background\:lime-2 {
-  background-color: #afb42b !important;
-  color: white !important;
+    background-color: #afb42b !important;
+    color: white !important;
 }
 
 .hover\:background\:lime-2:hover {
-  background-color: #afb42b !important;
-  color: white !important;
+    background-color: #afb42b !important;
+    color: white !important;
 }
 
 .text\:lime-2 {
-  color: #afb42b !important;
+    color: #afb42b !important;
 }
 
 .hover\:text\:lime-2:hover {
-  color: #afb42b !important;
+    color: #afb42b !important;
 }
 
 .background\:lime-3 {
-  background-color: #9e9d24 !important;
-  color: white !important;
+    background-color: #9e9d24 !important;
+    color: white !important;
 }
 
 .hover\:background\:lime-3:hover {
-  background-color: #9e9d24 !important;
-  color: white !important;
+    background-color: #9e9d24 !important;
+    color: white !important;
 }
 
 .text\:lime-3 {
-  color: #9e9d24 !important;
+    color: #9e9d24 !important;
 }
 
 .hover\:text\:lime-3:hover {
-  color: #9e9d24 !important;
+    color: #9e9d24 !important;
 }
 
 .background\:lime-4 {
-  background-color: #827717 !important;
-  color: white !important;
+    background-color: #827717 !important;
+    color: white !important;
 }
 
 .hover\:background\:lime-4:hover {
-  background-color: #827717 !important;
-  color: white !important;
+    background-color: #827717 !important;
+    color: white !important;
 }
 
 .text\:lime-4 {
-  color: #827717 !important;
+    color: #827717 !important;
 }
 
 .hover\:text\:lime-4:hover {
-  color: #827717 !important;
+    color: #827717 !important;
 }
 
 .background\:orange {
-  background-color: #ff9800 !important;
-  color: white !important;
+    background-color: #ff9800 !important;
+    color: white !important;
 }
 
 .hover\:background\:orange:hover {
-  background-color: #ff9800 !important;
-  color: white !important;
+    background-color: #ff9800 !important;
+    color: white !important;
 }
 
 .text\:orange {
-  color: #ff9800 !important;
+    color: #ff9800 !important;
 }
 
 .hover\:text\:orange:hover {
-  color: #ff9800 !important;
+    color: #ff9800 !important;
 }
 
 .background\:orange-1 {
-  background-color: #fb8c00 !important;
-  color: white !important;
+    background-color: #fb8c00 !important;
+    color: white !important;
 }
 
 .hover\:background\:orange-1:hover {
-  background-color: #fb8c00 !important;
-  color: white !important;
+    background-color: #fb8c00 !important;
+    color: white !important;
 }
 
 .text\:orange-1 {
-  color: #fb8c00 !important;
+    color: #fb8c00 !important;
 }
 
 .hover\:text\:orange-1:hover {
-  color: #fb8c00 !important;
+    color: #fb8c00 !important;
 }
 
 .background\:orange-2 {
-  background-color: #f57c00 !important;
-  color: white !important;
+    background-color: #f57c00 !important;
+    color: white !important;
 }
 
 .hover\:background\:orange-2:hover {
-  background-color: #f57c00 !important;
-  color: white !important;
+    background-color: #f57c00 !important;
+    color: white !important;
 }
 
 .text\:orange-2 {
-  color: #f57c00 !important;
+    color: #f57c00 !important;
 }
 
 .hover\:text\:orange-2:hover {
-  color: #f57c00 !important;
+    color: #f57c00 !important;
 }
 
 .background\:orange-3 {
-  background-color: #ef6c00 !important;
-  color: white !important;
+    background-color: #ef6c00 !important;
+    color: white !important;
 }
 
 .hover\:background\:orange-3:hover {
-  background-color: #ef6c00 !important;
-  color: white !important;
+    background-color: #ef6c00 !important;
+    color: white !important;
 }
 
 .text\:orange-3 {
-  color: #ef6c00 !important;
+    color: #ef6c00 !important;
 }
 
 .hover\:text\:orange-3:hover {
-  color: #ef6c00 !important;
+    color: #ef6c00 !important;
 }
 
 .background\:orange-4 {
-  background-color: #e65100 !important;
-  color: white !important;
+    background-color: #e65100 !important;
+    color: white !important;
 }
 
 .hover\:background\:orange-4:hover {
-  background-color: #e65100 !important;
-  color: white !important;
+    background-color: #e65100 !important;
+    color: white !important;
 }
 
 .text\:orange-4 {
-  color: #e65100 !important;
+    color: #e65100 !important;
 }
 
 .hover\:text\:orange-4:hover {
-  color: #e65100 !important;
+    color: #e65100 !important;
 }
 
 .background\:amber {
-  background-color: #ffc107 !important;
-  color: white !important;
+    background-color: #ffc107 !important;
+    color: white !important;
 }
 
 .hover\:background\:amber:hover {
-  background-color: #ffc107 !important;
-  color: white !important;
+    background-color: #ffc107 !important;
+    color: white !important;
 }
 
 .text\:amber {
-  color: #ffc107 !important;
+    color: #ffc107 !important;
 }
 
 .hover\:text\:amber:hover {
-  color: #ffc107 !important;
+    color: #ffc107 !important;
 }
 
 .background\:amber-1 {
-  background-color: #ffb300 !important;
-  color: white !important;
+    background-color: #ffb300 !important;
+    color: white !important;
 }
 
 .hover\:background\:amber-1:hover {
-  background-color: #ffb300 !important;
-  color: white !important;
+    background-color: #ffb300 !important;
+    color: white !important;
 }
 
 .text\:amber-1 {
-  color: #ffb300 !important;
+    color: #ffb300 !important;
 }
 
 .hover\:text\:amber-1:hover {
-  color: #ffb300 !important;
+    color: #ffb300 !important;
 }
 
 .background\:amber-2 {
-  background-color: #ffa000 !important;
-  color: white !important;
+    background-color: #ffa000 !important;
+    color: white !important;
 }
 
 .hover\:background\:amber-2:hover {
-  background-color: #ffa000 !important;
-  color: white !important;
+    background-color: #ffa000 !important;
+    color: white !important;
 }
 
 .text\:amber-2 {
-  color: #ffa000 !important;
+    color: #ffa000 !important;
 }
 
 .hover\:text\:amber-2:hover {
-  color: #ffa000 !important;
+    color: #ffa000 !important;
 }
 
 .background\:amber-3 {
-  background-color: #ff8f00 !important;
-  color: white !important;
+    background-color: #ff8f00 !important;
+    color: white !important;
 }
 
 .hover\:background\:amber-3:hover {
-  background-color: #ff8f00 !important;
-  color: white !important;
+    background-color: #ff8f00 !important;
+    color: white !important;
 }
 
 .text\:amber-3 {
-  color: #ff8f00 !important;
+    color: #ff8f00 !important;
 }
 
 .hover\:text\:amber-3:hover {
-  color: #ff8f00 !important;
+    color: #ff8f00 !important;
 }
 
 .background\:amber-4 {
-  background-color: #ff6f00 !important;
-  color: white !important;
+    background-color: #ff6f00 !important;
+    color: white !important;
 }
 
 .hover\:background\:amber-4:hover {
-  background-color: #ff6f00 !important;
-  color: white !important;
+    background-color: #ff6f00 !important;
+    color: white !important;
 }
 
 .text\:amber-4 {
-  color: #ff6f00 !important;
+    color: #ff6f00 !important;
 }
 
 .hover\:text\:amber-4:hover {
-  color: #ff6f00 !important;
+    color: #ff6f00 !important;
 }
 
 .background\:yellow {
-  background-color: #ffeb3b !important;
-  color: white !important;
+    background-color: #ffeb3b !important;
+    color: white !important;
 }
 
 .hover\:background\:yellow:hover {
-  background-color: #ffeb3b !important;
-  color: white !important;
+    background-color: #ffeb3b !important;
+    color: white !important;
 }
 
 .text\:yellow {
-  color: #ffeb3b !important;
+    color: #ffeb3b !important;
 }
 
 .hover\:text\:yellow:hover {
-  color: #ffeb3b !important;
+    color: #ffeb3b !important;
 }
 
 .background\:yellow-1 {
-  background-color: #fdd835 !important;
-  color: white !important;
+    background-color: #fdd835 !important;
+    color: white !important;
 }
 
 .hover\:background\:yellow-1:hover {
-  background-color: #fdd835 !important;
-  color: white !important;
+    background-color: #fdd835 !important;
+    color: white !important;
 }
 
 .text\:yellow-1 {
-  color: #fdd835 !important;
+    color: #fdd835 !important;
 }
 
 .hover\:text\:yellow-1:hover {
-  color: #fdd835 !important;
+    color: #fdd835 !important;
 }
 
 .background\:yellow-2 {
-  background-color: #fbc02d !important;
-  color: white !important;
+    background-color: #fbc02d !important;
+    color: white !important;
 }
 
 .hover\:background\:yellow-2:hover {
-  background-color: #fbc02d !important;
-  color: white !important;
+    background-color: #fbc02d !important;
+    color: white !important;
 }
 
 .text\:yellow-2 {
-  color: #fbc02d !important;
+    color: #fbc02d !important;
 }
 
 .hover\:text\:yellow-2:hover {
-  color: #fbc02d !important;
+    color: #fbc02d !important;
 }
 
 .background\:yellow-3 {
-  background-color: #f9a825 !important;
-  color: white !important;
+    background-color: #f9a825 !important;
+    color: white !important;
 }
 
 .hover\:background\:yellow-3:hover {
-  background-color: #f9a825 !important;
-  color: white !important;
+    background-color: #f9a825 !important;
+    color: white !important;
 }
 
 .text\:yellow-3 {
-  color: #f9a825 !important;
+    color: #f9a825 !important;
 }
 
 .hover\:text\:yellow-3:hover {
-  color: #f9a825 !important;
+    color: #f9a825 !important;
 }
 
 .background\:yellow-4 {
-  background-color: #f57f17 !important;
-  color: white !important;
+    background-color: #f57f17 !important;
+    color: white !important;
 }
 
 .hover\:background\:yellow-4:hover {
-  background-color: #f57f17 !important;
-  color: white !important;
+    background-color: #f57f17 !important;
+    color: white !important;
 }
 
 .text\:yellow-4 {
-  color: #f57f17 !important;
+    color: #f57f17 !important;
 }
 
 .hover\:text\:yellow-4:hover {
-  color: #f57f17 !important;
+    color: #f57f17 !important;
 }
 
 .background\:light-grey-4 {
-  background-color: #fafafa !important;
-  color: black !important;
+    background-color: #fafafa !important;
+    color: black !important;
 }
 
 .hover\:background\:light-grey-4:hover {
-  background-color: #fafafa !important;
-  color: black !important;
+    background-color: #fafafa !important;
+    color: black !important;
 }
 
 .text\:light-grey-4 {
-  color: #fafafa !important;
+    color: #fafafa !important;
 }
 
 .hover\:text\:light-grey-4:hover {
-  color: #fafafa !important;
+    color: #fafafa !important;
 }
 
 .background\:light-grey-3 {
-  background-color: #f5f5f5 !important;
-  color: black !important;
+    background-color: #f5f5f5 !important;
+    color: black !important;
 }
 
 .hover\:background\:light-grey-3:hover {
-  background-color: #f5f5f5 !important;
-  color: black !important;
+    background-color: #f5f5f5 !important;
+    color: black !important;
 }
 
 .text\:light-grey-3 {
-  color: #f5f5f5 !important;
+    color: #f5f5f5 !important;
 }
 
 .hover\:text\:light-grey-3:hover {
-  color: #f5f5f5 !important;
+    color: #f5f5f5 !important;
 }
 
 .background\:light-grey-2 {
-  background-color: #eeeeee !important;
-  color: black !important;
+    background-color: #eeeeee !important;
+    color: black !important;
 }
 
 .hover\:background\:light-grey-2:hover {
-  background-color: #eeeeee !important;
-  color: black !important;
+    background-color: #eeeeee !important;
+    color: black !important;
 }
 
 .text\:light-grey-2 {
-  color: #eeeeee !important;
+    color: #eeeeee !important;
 }
 
 .hover\:text\:light-grey-2:hover {
-  color: #eeeeee !important;
+    color: #eeeeee !important;
 }
 
 .background\:light-grey-1 {
-  background-color: #e0e0e0 !important;
-  color: black !important;
+    background-color: #e0e0e0 !important;
+    color: black !important;
 }
 
 .hover\:background\:light-grey-1:hover {
-  background-color: #e0e0e0 !important;
-  color: black !important;
+    background-color: #e0e0e0 !important;
+    color: black !important;
 }
 
 .text\:light-grey-1 {
-  color: #e0e0e0 !important;
+    color: #e0e0e0 !important;
 }
 
 .hover\:text\:light-grey-1:hover {
-  color: #e0e0e0 !important;
+    color: #e0e0e0 !important;
 }
 
 .background\:light-grey {
-  background-color: #9e9e9e !important;
-  color: black !important;
+    background-color: #9e9e9e !important;
+    color: black !important;
 }
 
 .hover\:background\:light-grey:hover {
-  background-color: #9e9e9e !important;
-  color: black !important;
+    background-color: #9e9e9e !important;
+    color: black !important;
 }
 
 .text\:light-grey {
-  color: #9e9e9e !important;
+    color: #9e9e9e !important;
 }
 
 .hover\:text\:light-grey:hover {
-  color: #9e9e9e !important;
+    color: #9e9e9e !important;
 }
 
 .background\:grey {
-  background-color: #bdbdbd !important;
-  color: black !important;
+    background-color: #bdbdbd !important;
+    color: black !important;
 }
 
 .hover\:background\:grey:hover {
-  background-color: #bdbdbd !important;
-  color: black !important;
+    background-color: #bdbdbd !important;
+    color: black !important;
 }
 
 .text\:grey {
-  color: #bdbdbd !important;
+    color: #bdbdbd !important;
 }
 
 .hover\:text\:grey:hover {
-  color: #bdbdbd !important;
+    color: #bdbdbd !important;
 }
 
 .background\:grey-1 {
-  background-color: #757575 !important;
-  color: white !important;
+    background-color: #757575 !important;
+    color: white !important;
 }
 
 .hover\:background\:grey-1:hover {
-  background-color: #757575 !important;
-  color: white !important;
+    background-color: #757575 !important;
+    color: white !important;
 }
 
 .text\:grey-1 {
-  color: #757575 !important;
+    color: #757575 !important;
 }
 
 .hover\:text\:grey-1:hover {
-  color: #757575 !important;
+    color: #757575 !important;
 }
 
 .background\:grey-2 {
-  background-color: #616161 !important;
-  color: white !important;
+    background-color: #616161 !important;
+    color: white !important;
 }
 
 .hover\:background\:grey-2:hover {
-  background-color: #616161 !important;
-  color: white !important;
+    background-color: #616161 !important;
+    color: white !important;
 }
 
 .text\:grey-2 {
-  color: #616161 !important;
+    color: #616161 !important;
 }
 
 .hover\:text\:grey-2:hover {
-  color: #616161 !important;
+    color: #616161 !important;
 }
 
 .background\:grey-3 {
-  background-color: #424242 !important;
-  color: white !important;
+    background-color: #424242 !important;
+    color: white !important;
 }
 
 .hover\:background\:grey-3:hover {
-  background-color: #424242 !important;
-  color: white !important;
+    background-color: #424242 !important;
+    color: white !important;
 }
 
 .text\:grey-3 {
-  color: #424242 !important;
+    color: #424242 !important;
 }
 
 .hover\:text\:grey-3:hover {
-  color: #424242 !important;
+    color: #424242 !important;
 }
 
 .background\:grey-4 {
-  background-color: #212121 !important;
-  color: white !important;
+    background-color: #212121 !important;
+    color: white !important;
 }
 
 .hover\:background\:grey-4:hover {
-  background-color: #212121 !important;
-  color: white !important;
+    background-color: #212121 !important;
+    color: white !important;
 }
 
 .text\:grey-4 {
-  color: #212121 !important;
+    color: #212121 !important;
 }
 
 .hover\:text\:grey-4:hover {
-  color: #212121 !important;
+    color: #212121 !important;
 }
 
 .background\:black {
-  background-color: #000000 !important;
-  color: white !important;
+    background-color: #000000 !important;
+    color: white !important;
 }
 
 .hover\:background\:black:hover {
-  background-color: #000000 !important;
-  color: white !important;
+    background-color: #000000 !important;
+    color: white !important;
 }
 
 .text\:black {
-  color: #000000 !important;
+    color: #000000 !important;
 }
 
 .hover\:text\:black:hover {
-  color: #000000 !important;
+    color: #000000 !important;
 }
 
 .btn {
-  padding: 0.8rem 1rem;
-  display: inline-block;
-  border-radius: 4px;
-  transition: 0.4s;
+    padding: 0.8rem 1rem;
+    display: inline-block;
+    border-radius: 4px;
+    transition: 0.4s;
 }
+
 .btn:active, .btn:focus, .btn:hover {
-  cursor: pointer;
-  background-color: rgba(117, 117, 117, 0.2);
+    cursor: pointer;
+    background-color: rgba(117, 117, 117, 0.2);
 }
+
 .btn.btn\:rounded {
-  border-radius: 10rem;
+    border-radius: 10rem;
 }
+
 .btn.border\:white:hover {
-  background-color: white !important;
-  color: #1a1919 !important;
+    background-color: white !important;
+    color: #1a1919 !important;
 }
+
 .btn.background\:white:hover {
-  background-color: #e6e6e6 !important;
-  color: #1a1919 !important;
+    background-color: #e6e6e6 !important;
+    color: #1a1919 !important;
 }
+
 .btn.border\:pink:hover {
-  background-color: #e91e63 !important;
-  color: white !important;
+    background-color: #e91e63 !important;
+    color: white !important;
 }
+
 .btn.background\:pink:hover {
-  background-color: #c1134e !important;
-  color: white !important;
+    background-color: #c1134e !important;
+    color: white !important;
 }
+
 .btn.border\:pink-1:hover {
-  background-color: #d81b60 !important;
-  color: white !important;
+    background-color: #d81b60 !important;
+    color: white !important;
 }
+
 .btn.background\:pink-1:hover {
-  background-color: #ab154c !important;
-  color: white !important;
+    background-color: #ab154c !important;
+    color: white !important;
 }
+
 .btn.border\:pink-2:hover {
-  background-color: #c2185b !important;
-  color: white !important;
+    background-color: #c2185b !important;
+    color: white !important;
 }
+
 .btn.background\:pink-2:hover {
-  background-color: #951246 !important;
-  color: white !important;
+    background-color: #951246 !important;
+    color: white !important;
 }
+
 .btn.border\:pink-3:hover {
-  background-color: #ad1457 !important;
-  color: white !important;
+    background-color: #ad1457 !important;
+    color: white !important;
 }
+
 .btn.background\:pink-3:hover {
-  background-color: #7f0f40 !important;
-  color: white !important;
+    background-color: #7f0f40 !important;
+    color: white !important;
 }
+
 .btn.border\:pink-4:hover {
-  background-color: #880e4f !important;
-  color: white !important;
+    background-color: #880e4f !important;
+    color: white !important;
 }
+
 .btn.background\:pink-4:hover {
-  background-color: #5a0934 !important;
-  color: white !important;
+    background-color: #5a0934 !important;
+    color: white !important;
 }
+
 .btn.border\:purple:hover {
-  background-color: #9c27b0 !important;
-  color: white !important;
+    background-color: #9c27b0 !important;
+    color: white !important;
 }
+
 .btn.background\:purple:hover {
-  background-color: #771e86 !important;
-  color: white !important;
+    background-color: #771e86 !important;
+    color: white !important;
 }
+
 .btn.border\:purple-1:hover {
-  background-color: #8e24aa !important;
-  color: white !important;
+    background-color: #8e24aa !important;
+    color: white !important;
 }
+
 .btn.background\:purple-1:hover {
-  background-color: #6b1b80 !important;
-  color: white !important;
+    background-color: #6b1b80 !important;
+    color: white !important;
 }
+
 .btn.border\:purple-2:hover {
-  background-color: #7b1fa2 !important;
-  color: white !important;
+    background-color: #7b1fa2 !important;
+    color: white !important;
 }
+
 .btn.background\:purple-2:hover {
-  background-color: #5a1777 !important;
-  color: white !important;
+    background-color: #5a1777 !important;
+    color: white !important;
 }
+
 .btn.border\:purple-3:hover {
-  background-color: #6a1b9a !important;
-  color: white !important;
+    background-color: #6a1b9a !important;
+    color: white !important;
 }
+
 .btn.background\:purple-3:hover {
-  background-color: #4c136f !important;
-  color: white !important;
+    background-color: #4c136f !important;
+    color: white !important;
 }
+
 .btn.border\:purple-4:hover {
-  background-color: #4a148c !important;
-  color: white !important;
+    background-color: #4a148c !important;
+    color: white !important;
 }
+
 .btn.background\:purple-4:hover {
-  background-color: #320e5f !important;
-  color: white !important;
+    background-color: #320e5f !important;
+    color: white !important;
 }
+
 .btn.border\:deep-purple:hover {
-  background-color: #4a148c !important;
-  color: white !important;
+    background-color: #4a148c !important;
+    color: white !important;
 }
+
 .btn.background\:deep-purple:hover {
-  background-color: #320e5f !important;
-  color: white !important;
+    background-color: #320e5f !important;
+    color: white !important;
 }
+
 .btn.border\:deep-purple-1:hover {
-  background-color: #5e35b1 !important;
-  color: white !important;
+    background-color: #5e35b1 !important;
+    color: white !important;
 }
+
 .btn.background\:deep-purple-1:hover {
-  background-color: #49298a !important;
-  color: white !important;
+    background-color: #49298a !important;
+    color: white !important;
 }
+
 .btn.border\:deep-purple-2:hover {
-  background-color: #512da8 !important;
-  color: white !important;
+    background-color: #512da8 !important;
+    color: white !important;
 }
+
 .btn.background\:deep-purple-2:hover {
-  background-color: #3e2280 !important;
-  color: white !important;
+    background-color: #3e2280 !important;
+    color: white !important;
 }
+
 .btn.border\:deep-purple-3:hover {
-  background-color: #4527a0 !important;
-  color: white !important;
+    background-color: #4527a0 !important;
+    color: white !important;
 }
+
 .btn.background\:deep-purple-3:hover {
-  background-color: #331d77 !important;
-  color: white !important;
+    background-color: #331d77 !important;
+    color: white !important;
 }
+
 .btn.border\:deep-purple-4:hover {
-  background-color: #311b92 !important;
-  color: white !important;
+    background-color: #311b92 !important;
+    color: white !important;
 }
+
 .btn.background\:deep-purple-4:hover {
-  background-color: #231367 !important;
-  color: white !important;
+    background-color: #231367 !important;
+    color: white !important;
 }
+
 .btn.border\:blue:hover {
-  background-color: #2196f3 !important;
-  color: white !important;
+    background-color: #2196f3 !important;
+    color: white !important;
 }
+
 .btn.background\:blue:hover {
-  background-color: #0c7cd5 !important;
-  color: white !important;
+    background-color: #0c7cd5 !important;
+    color: white !important;
 }
+
 .btn.border\:blue-1:hover {
-  background-color: #1e88e5 !important;
-  color: white !important;
+    background-color: #1e88e5 !important;
+    color: white !important;
 }
+
 .btn.background\:blue-1:hover {
-  background-color: #166dba !important;
-  color: white !important;
+    background-color: #166dba !important;
+    color: white !important;
 }
+
 .btn.border\:blue-2:hover {
-  background-color: #1976d2 !important;
-  color: white !important;
+    background-color: #1976d2 !important;
+    color: white !important;
 }
+
 .btn.background\:blue-2:hover {
-  background-color: #145ca4 !important;
-  color: white !important;
+    background-color: #145ca4 !important;
+    color: white !important;
 }
+
 .btn.border\:blue-3:hover {
-  background-color: #1565c0 !important;
-  color: white !important;
+    background-color: #1565c0 !important;
+    color: white !important;
 }
+
 .btn.background\:blue-3:hover {
-  background-color: #104d92 !important;
-  color: white !important;
+    background-color: #104d92 !important;
+    color: white !important;
 }
+
 .btn.border\:blue-4:hover {
-  background-color: #0d47a1 !important;
-  color: white !important;
+    background-color: #0d47a1 !important;
+    color: white !important;
 }
+
 .btn.background\:blue-4:hover {
-  background-color: #093272 !important;
-  color: white !important;
+    background-color: #093272 !important;
+    color: white !important;
 }
+
 .btn.border\:light-blue:hover {
-  background-color: #03a9f4 !important;
-  color: white !important;
+    background-color: #03a9f4 !important;
+    color: white !important;
 }
+
 .btn.background\:light-blue:hover {
-  background-color: #0286c2 !important;
-  color: white !important;
+    background-color: #0286c2 !important;
+    color: white !important;
 }
+
 .btn.border\:light-blue-1:hover {
-  background-color: #039be5 !important;
-  color: white !important;
+    background-color: #039be5 !important;
+    color: white !important;
 }
+
 .btn.background\:light-blue-1:hover {
-  background-color: #0279b3 !important;
-  color: white !important;
+    background-color: #0279b3 !important;
+    color: white !important;
 }
+
 .btn.border\:light-blue-2:hover {
-  background-color: #0288d1 !important;
-  color: white !important;
+    background-color: #0288d1 !important;
+    color: white !important;
 }
+
 .btn.background\:light-blue-2:hover {
-  background-color: #02679e !important;
-  color: white !important;
+    background-color: #02679e !important;
+    color: white !important;
 }
+
 .btn.border\:light-blue-3:hover {
-  background-color: #0277bd !important;
-  color: white !important;
+    background-color: #0277bd !important;
+    color: white !important;
 }
+
 .btn.background\:light-blue-3:hover {
-  background-color: #01578b !important;
-  color: white !important;
+    background-color: #01578b !important;
+    color: white !important;
 }
+
 .btn.border\:light-blue-4:hover {
-  background-color: #01579b !important;
-  color: white !important;
+    background-color: #01579b !important;
+    color: white !important;
 }
+
 .btn.background\:light-blue-4:hover {
-  background-color: #013b68 !important;
-  color: white !important;
+    background-color: #013b68 !important;
+    color: white !important;
 }
+
 .btn.border\:indigo:hover {
-  background-color: #3f51b5 !important;
-  color: white !important;
+    background-color: #3f51b5 !important;
+    color: white !important;
 }
+
 .btn.background\:indigo:hover {
-  background-color: #32408f !important;
-  color: white !important;
+    background-color: #32408f !important;
+    color: white !important;
 }
+
 .btn.border\:indigo-1:hover {
-  background-color: #3949ab !important;
-  color: white !important;
+    background-color: #3949ab !important;
+    color: white !important;
 }
+
 .btn.background\:indigo-1:hover {
-  background-color: #2c3985 !important;
-  color: white !important;
+    background-color: #2c3985 !important;
+    color: white !important;
 }
+
 .btn.border\:indigo-2:hover {
-  background-color: #303f9f !important;
-  color: white !important;
+    background-color: #303f9f !important;
+    color: white !important;
 }
+
 .btn.background\:indigo-2:hover {
-  background-color: #242f78 !important;
-  color: white !important;
+    background-color: #242f78 !important;
+    color: white !important;
 }
+
 .btn.border\:indigo-3:hover {
-  background-color: #283593 !important;
-  color: white !important;
+    background-color: #283593 !important;
+    color: white !important;
 }
+
 .btn.background\:indigo-3:hover {
-  background-color: #1d276b !important;
-  color: white !important;
+    background-color: #1d276b !important;
+    color: white !important;
 }
+
 .btn.border\:indigo-4:hover {
-  background-color: #1a237e !important;
-  color: white !important;
+    background-color: #1a237e !important;
+    color: white !important;
 }
+
 .btn.background\:indigo-4:hover {
-  background-color: #111754 !important;
-  color: white !important;
+    background-color: #111754 !important;
+    color: white !important;
 }
+
 .btn.border\:teal:hover {
-  background-color: #009688 !important;
-  color: white !important;
+    background-color: #009688 !important;
+    color: white !important;
 }
+
 .btn.background\:teal:hover {
-  background-color: #00635a !important;
-  color: white !important;
+    background-color: #00635a !important;
+    color: white !important;
 }
+
 .btn.border\:teal-1:hover {
-  background-color: #00897b !important;
-  color: white !important;
+    background-color: #00897b !important;
+    color: white !important;
 }
+
 .btn.background\:teal-1:hover {
-  background-color: #00564d !important;
-  color: white !important;
+    background-color: #00564d !important;
+    color: white !important;
 }
+
 .btn.border\:teal-2:hover {
-  background-color: #00796b !important;
-  color: white !important;
+    background-color: #00796b !important;
+    color: white !important;
 }
+
 .btn.background\:teal-2:hover {
-  background-color: #00463e !important;
-  color: white !important;
+    background-color: #00463e !important;
+    color: white !important;
 }
+
 .btn.border\:teal-3:hover {
-  background-color: #00695c !important;
-  color: white !important;
+    background-color: #00695c !important;
+    color: white !important;
 }
+
 .btn.background\:teal-3:hover {
-  background-color: #00362f !important;
-  color: white !important;
+    background-color: #00362f !important;
+    color: white !important;
 }
+
 .btn.border\:teal-4:hover {
-  background-color: #004d40 !important;
-  color: white !important;
+    background-color: #004d40 !important;
+    color: white !important;
 }
+
 .btn.background\:teal-4:hover {
-  background-color: #001a16 !important;
-  color: white !important;
+    background-color: #001a16 !important;
+    color: white !important;
 }
+
 .btn.border\:cyan:hover {
-  background-color: #00bcd4 !important;
-  color: white !important;
+    background-color: #00bcd4 !important;
+    color: white !important;
 }
+
 .btn.background\:cyan:hover {
-  background-color: #008fa1 !important;
-  color: white !important;
+    background-color: #008fa1 !important;
+    color: white !important;
 }
+
 .btn.border\:cyan-1:hover {
-  background-color: #00acc1 !important;
-  color: white !important;
+    background-color: #00acc1 !important;
+    color: white !important;
 }
+
 .btn.background\:cyan-1:hover {
-  background-color: #007f8e !important;
-  color: white !important;
+    background-color: #007f8e !important;
+    color: white !important;
 }
+
 .btn.border\:cyan-2:hover {
-  background-color: #0097a7 !important;
-  color: white !important;
+    background-color: #0097a7 !important;
+    color: white !important;
 }
+
 .btn.background\:cyan-2:hover {
-  background-color: #006974 !important;
-  color: white !important;
+    background-color: #006974 !important;
+    color: white !important;
 }
+
 .btn.border\:cyan-3:hover {
-  background-color: #00838f !important;
-  color: white !important;
+    background-color: #00838f !important;
+    color: white !important;
 }
+
 .btn.background\:cyan-3:hover {
-  background-color: #00545c !important;
-  color: white !important;
+    background-color: #00545c !important;
+    color: white !important;
 }
+
 .btn.border\:cyan-4:hover {
-  background-color: #006064 !important;
-  color: white !important;
+    background-color: #006064 !important;
+    color: white !important;
 }
+
 .btn.background\:cyan-4:hover {
-  background-color: #002f31 !important;
-  color: white !important;
+    background-color: #002f31 !important;
+    color: white !important;
 }
+
 .btn.border\:red:hover {
-  background-color: #b71c1c !important;
-  color: white !important;
+    background-color: #b71c1c !important;
+    color: white !important;
 }
+
 .btn.background\:red:hover {
-  background-color: #8b1515 !important;
-  color: white !important;
+    background-color: #8b1515 !important;
+    color: white !important;
 }
+
 .btn.border\:red-1:hover {
-  background-color: #e53935 !important;
-  color: white !important;
+    background-color: #e53935 !important;
+    color: white !important;
 }
+
 .btn.background\:red-1:hover {
-  background-color: #cd1e1a !important;
-  color: white !important;
+    background-color: #cd1e1a !important;
+    color: white !important;
 }
+
 .btn.border\:red-2:hover {
-  background-color: #d32f2f !important;
-  color: white !important;
+    background-color: #d32f2f !important;
+    color: white !important;
 }
+
 .btn.background\:red-2:hover {
-  background-color: #ab2424 !important;
-  color: white !important;
+    background-color: #ab2424 !important;
+    color: white !important;
 }
+
 .btn.border\:red-3:hover {
-  background-color: #c62828 !important;
-  color: white !important;
+    background-color: #c62828 !important;
+    color: white !important;
 }
+
 .btn.background\:red-3:hover {
-  background-color: #9c1f1f !important;
-  color: white !important;
+    background-color: #9c1f1f !important;
+    color: white !important;
 }
+
 .btn.border\:red-4:hover {
-  background-color: #b71c1c !important;
-  color: white !important;
+    background-color: #b71c1c !important;
+    color: white !important;
 }
+
 .btn.background\:red-4:hover {
-  background-color: #8b1515 !important;
-  color: white !important;
+    background-color: #8b1515 !important;
+    color: white !important;
 }
+
 .btn.border\:green:hover {
-  background-color: #4caf50 !important;
-  color: white !important;
+    background-color: #4caf50 !important;
+    color: white !important;
 }
+
 .btn.background\:green:hover {
-  background-color: #3d8b40 !important;
-  color: white !important;
+    background-color: #3d8b40 !important;
+    color: white !important;
 }
+
 .btn.border\:green-1:hover {
-  background-color: #43a047 !important;
-  color: white !important;
+    background-color: #43a047 !important;
+    color: white !important;
 }
+
 .btn.background\:green-1:hover {
-  background-color: #347c37 !important;
-  color: white !important;
+    background-color: #347c37 !important;
+    color: white !important;
 }
+
 .btn.border\:green-2:hover {
-  background-color: #388e3c !important;
-  color: white !important;
+    background-color: #388e3c !important;
+    color: white !important;
 }
+
 .btn.background\:green-2:hover {
-  background-color: #2a692d !important;
-  color: white !important;
+    background-color: #2a692d !important;
+    color: white !important;
 }
+
 .btn.border\:green-3:hover {
-  background-color: #2e7d32 !important;
-  color: white !important;
+    background-color: #2e7d32 !important;
+    color: white !important;
 }
+
 .btn.background\:green-3:hover {
-  background-color: #205823 !important;
-  color: white !important;
+    background-color: #205823 !important;
+    color: white !important;
 }
+
 .btn.border\:green-4:hover {
-  background-color: #1b5e20 !important;
-  color: white !important;
+    background-color: #1b5e20 !important;
+    color: white !important;
 }
+
 .btn.background\:green-4:hover {
-  background-color: #103613 !important;
-  color: white !important;
+    background-color: #103613 !important;
+    color: white !important;
 }
+
 .btn.border\:light-green:hover {
-  background-color: #8bc34a !important;
-  color: white !important;
+    background-color: #8bc34a !important;
+    color: white !important;
 }
+
 .btn.background\:light-green:hover {
-  background-color: #71a436 !important;
-  color: white !important;
+    background-color: #71a436 !important;
+    color: white !important;
 }
+
 .btn.border\:light-green-1:hover {
-  background-color: #7cb342 !important;
-  color: white !important;
+    background-color: #7cb342 !important;
+    color: white !important;
 }
+
 .btn.background\:light-green-1:hover {
-  background-color: #628e34 !important;
-  color: white !important;
+    background-color: #628e34 !important;
+    color: white !important;
 }
+
 .btn.border\:light-green-2:hover {
-  background-color: #689f38 !important;
-  color: white !important;
+    background-color: #689f38 !important;
+    color: white !important;
 }
+
 .btn.background\:light-green-2:hover {
-  background-color: #4f792b !important;
-  color: white !important;
+    background-color: #4f792b !important;
+    color: white !important;
 }
+
 .btn.border\:light-green-3:hover {
-  background-color: #558b2f !important;
-  color: white !important;
+    background-color: #558b2f !important;
+    color: white !important;
 }
+
 .btn.background\:light-green-3:hover {
-  background-color: #3e6522 !important;
-  color: white !important;
+    background-color: #3e6522 !important;
+    color: white !important;
 }
+
 .btn.border\:light-green-4:hover {
-  background-color: #33691e !important;
-  color: white !important;
+    background-color: #33691e !important;
+    color: white !important;
 }
+
 .btn.background\:light-green-4:hover {
-  background-color: #204113 !important;
-  color: white !important;
+    background-color: #204113 !important;
+    color: white !important;
 }
+
 .btn.border\:lime:hover {
-  background-color: #cddc39 !important;
-  color: white !important;
+    background-color: #cddc39 !important;
+    color: white !important;
 }
+
 .btn.background\:lime:hover {
-  background-color: #b2c022 !important;
-  color: white !important;
+    background-color: #b2c022 !important;
+    color: white !important;
 }
+
 .btn.border\:lime-1:hover {
-  background-color: #c0ca33 !important;
-  color: white !important;
+    background-color: #c0ca33 !important;
+    color: white !important;
 }
+
 .btn.background\:lime-1:hover {
-  background-color: #99a129 !important;
-  color: white !important;
+    background-color: #99a129 !important;
+    color: white !important;
 }
+
 .btn.border\:lime-2:hover {
-  background-color: #afb42b !important;
-  color: white !important;
+    background-color: #afb42b !important;
+    color: white !important;
 }
+
 .btn.background\:lime-2:hover {
-  background-color: #878b21 !important;
-  color: white !important;
+    background-color: #878b21 !important;
+    color: white !important;
 }
+
 .btn.border\:lime-3:hover {
-  background-color: #9e9d24 !important;
-  color: white !important;
+    background-color: #9e9d24 !important;
+    color: white !important;
 }
+
 .btn.background\:lime-3:hover {
-  background-color: #74741b !important;
-  color: white !important;
+    background-color: #74741b !important;
+    color: white !important;
 }
+
 .btn.border\:lime-4:hover {
-  background-color: #827717 !important;
-  color: white !important;
+    background-color: #827717 !important;
+    color: white !important;
 }
+
 .btn.background\:lime-4:hover {
-  background-color: #574f0f !important;
-  color: white !important;
+    background-color: #574f0f !important;
+    color: white !important;
 }
+
 .btn.border\:orange:hover {
-  background-color: #ff9800 !important;
-  color: white !important;
+    background-color: #ff9800 !important;
+    color: white !important;
 }
+
 .btn.background\:orange:hover {
-  background-color: #cc7a00 !important;
-  color: white !important;
+    background-color: #cc7a00 !important;
+    color: white !important;
 }
+
 .btn.border\:orange-1:hover {
-  background-color: #fb8c00 !important;
-  color: white !important;
+    background-color: #fb8c00 !important;
+    color: white !important;
 }
+
 .btn.background\:orange-1:hover {
-  background-color: #c87000 !important;
-  color: white !important;
+    background-color: #c87000 !important;
+    color: white !important;
 }
+
 .btn.border\:orange-2:hover {
-  background-color: #f57c00 !important;
-  color: white !important;
+    background-color: #f57c00 !important;
+    color: white !important;
 }
+
 .btn.background\:orange-2:hover {
-  background-color: #c26200 !important;
-  color: white !important;
+    background-color: #c26200 !important;
+    color: white !important;
 }
+
 .btn.border\:orange-3:hover {
-  background-color: #ef6c00 !important;
-  color: white !important;
+    background-color: #ef6c00 !important;
+    color: white !important;
 }
+
 .btn.background\:orange-3:hover {
-  background-color: #bc5500 !important;
-  color: white !important;
+    background-color: #bc5500 !important;
+    color: white !important;
 }
+
 .btn.border\:orange-4:hover {
-  background-color: #e65100 !important;
-  color: white !important;
+    background-color: #e65100 !important;
+    color: white !important;
 }
+
 .btn.background\:orange-4:hover {
-  background-color: #b33f00 !important;
-  color: white !important;
+    background-color: #b33f00 !important;
+    color: white !important;
 }
+
 .btn.border\:amber:hover {
-  background-color: #ffc107 !important;
-  color: white !important;
+    background-color: #ffc107 !important;
+    color: white !important;
 }
+
 .btn.background\:amber:hover {
-  background-color: #d39e00 !important;
-  color: white !important;
+    background-color: #d39e00 !important;
+    color: white !important;
 }
+
 .btn.border\:amber-1:hover {
-  background-color: #ffb300 !important;
-  color: white !important;
+    background-color: #ffb300 !important;
+    color: white !important;
 }
+
 .btn.background\:amber-1:hover {
-  background-color: #cc8f00 !important;
-  color: white !important;
+    background-color: #cc8f00 !important;
+    color: white !important;
 }
+
 .btn.border\:amber-2:hover {
-  background-color: #ffa000 !important;
-  color: white !important;
+    background-color: #ffa000 !important;
+    color: white !important;
 }
+
 .btn.background\:amber-2:hover {
-  background-color: #cc8000 !important;
-  color: white !important;
+    background-color: #cc8000 !important;
+    color: white !important;
 }
+
 .btn.border\:amber-3:hover {
-  background-color: #ff8f00 !important;
-  color: white !important;
+    background-color: #ff8f00 !important;
+    color: white !important;
 }
+
 .btn.background\:amber-3:hover {
-  background-color: #cc7200 !important;
-  color: white !important;
+    background-color: #cc7200 !important;
+    color: white !important;
 }
+
 .btn.border\:amber-4:hover {
-  background-color: #ff6f00 !important;
-  color: white !important;
+    background-color: #ff6f00 !important;
+    color: white !important;
 }
+
 .btn.background\:amber-4:hover {
-  background-color: #cc5900 !important;
-  color: white !important;
+    background-color: #cc5900 !important;
+    color: white !important;
 }
+
 .btn.border\:yellow:hover {
-  background-color: #ffeb3b !important;
-  color: white !important;
+    background-color: #ffeb3b !important;
+    color: white !important;
 }
+
 .btn.background\:yellow:hover {
-  background-color: #ffe608 !important;
-  color: white !important;
+    background-color: #ffe608 !important;
+    color: white !important;
 }
+
 .btn.border\:yellow-1:hover {
-  background-color: #fdd835 !important;
-  color: white !important;
+    background-color: #fdd835 !important;
+    color: white !important;
 }
+
 .btn.background\:yellow-1:hover {
-  background-color: #fdce03 !important;
-  color: white !important;
+    background-color: #fdce03 !important;
+    color: white !important;
 }
+
 .btn.border\:yellow-2:hover {
-  background-color: #fbc02d !important;
-  color: white !important;
+    background-color: #fbc02d !important;
+    color: white !important;
 }
+
 .btn.background\:yellow-2:hover {
-  background-color: #f0ad05 !important;
-  color: white !important;
+    background-color: #f0ad05 !important;
+    color: white !important;
 }
+
 .btn.border\:yellow-3:hover {
-  background-color: #f9a825 !important;
-  color: white !important;
+    background-color: #f9a825 !important;
+    color: white !important;
 }
+
 .btn.background\:yellow-3:hover {
-  background-color: #e59006 !important;
-  color: white !important;
+    background-color: #e59006 !important;
+    color: white !important;
 }
+
 .btn.border\:yellow-4:hover {
-  background-color: #f57f17 !important;
-  color: white !important;
+    background-color: #f57f17 !important;
+    color: white !important;
 }
+
 .btn.background\:yellow-4:hover {
-  background-color: #d06609 !important;
-  color: white !important;
+    background-color: #d06609 !important;
+    color: white !important;
 }
+
 .btn.border\:light-grey-4:hover {
-  background-color: #fafafa !important;
-  color: black !important;
+    background-color: #fafafa !important;
+    color: black !important;
 }
+
 .btn.background\:light-grey-4:hover {
-  background-color: #e1e1e1 !important;
-  color: black !important;
+    background-color: #e1e1e1 !important;
+    color: black !important;
 }
+
 .btn.border\:light-grey-3:hover {
-  background-color: #f5f5f5 !important;
-  color: black !important;
+    background-color: #f5f5f5 !important;
+    color: black !important;
 }
+
 .btn.background\:light-grey-3:hover {
-  background-color: gainsboro !important;
-  color: black !important;
+    background-color: gainsboro !important;
+    color: black !important;
 }
+
 .btn.border\:light-grey-2:hover {
-  background-color: #eeeeee !important;
-  color: black !important;
+    background-color: #eeeeee !important;
+    color: black !important;
 }
+
 .btn.background\:light-grey-2:hover {
-  background-color: #d5d5d5 !important;
-  color: black !important;
+    background-color: #d5d5d5 !important;
+    color: black !important;
 }
+
 .btn.border\:light-grey-1:hover {
-  background-color: #e0e0e0 !important;
-  color: black !important;
+    background-color: #e0e0e0 !important;
+    color: black !important;
 }
+
 .btn.background\:light-grey-1:hover {
-  background-color: #c7c7c7 !important;
-  color: black !important;
+    background-color: #c7c7c7 !important;
+    color: black !important;
 }
+
 .btn.border\:light-grey:hover {
-  background-color: #9e9e9e !important;
-  color: black !important;
+    background-color: #9e9e9e !important;
+    color: black !important;
 }
+
 .btn.background\:light-grey:hover {
-  background-color: #858585 !important;
-  color: black !important;
+    background-color: #858585 !important;
+    color: black !important;
 }
+
 .btn.border\:grey:hover {
-  background-color: #bdbdbd !important;
-  color: black !important;
+    background-color: #bdbdbd !important;
+    color: black !important;
 }
+
 .btn.background\:grey:hover {
-  background-color: #a4a4a4 !important;
-  color: black !important;
+    background-color: #a4a4a4 !important;
+    color: black !important;
 }
+
 .btn.border\:grey-1:hover {
-  background-color: #757575 !important;
-  color: white !important;
+    background-color: #757575 !important;
+    color: white !important;
 }
+
 .btn.background\:grey-1:hover {
-  background-color: #5c5c5c !important;
-  color: white !important;
+    background-color: #5c5c5c !important;
+    color: white !important;
 }
+
 .btn.border\:grey-2:hover {
-  background-color: #616161 !important;
-  color: white !important;
+    background-color: #616161 !important;
+    color: white !important;
 }
+
 .btn.background\:grey-2:hover {
-  background-color: #484848 !important;
-  color: white !important;
+    background-color: #484848 !important;
+    color: white !important;
 }
+
 .btn.border\:grey-3:hover {
-  background-color: #424242 !important;
-  color: white !important;
+    background-color: #424242 !important;
+    color: white !important;
 }
+
 .btn.background\:grey-3:hover {
-  background-color: #292929 !important;
-  color: white !important;
+    background-color: #292929 !important;
+    color: white !important;
 }
+
 .btn.border\:grey-4:hover {
-  background-color: #212121 !important;
-  color: white !important;
+    background-color: #212121 !important;
+    color: white !important;
 }
+
 .btn.background\:grey-4:hover {
-  background-color: #080808 !important;
-  color: white !important;
+    background-color: #080808 !important;
+    color: white !important;
 }
+
 .btn.border\:black:hover {
-  background-color: #000000 !important;
-  color: white !important;
+    background-color: #000000 !important;
+    color: white !important;
 }
+
 .btn.background\:black:hover {
-  background-color: black !important;
-  color: white !important;
+    background-color: black !important;
+    color: white !important;
 }
 
 .hero {
-  position: relative;
-  padding: 2rem 1rem;
-  min-height: 60vh;
-}
-@media (min-width: 768px) {
-  .hero {
-    padding: 2rem 2rem;
-  }
-}
-@media (min-width: 1024px) {
-  .hero {
-    padding: 2rem 4rem;
-  }
-}
-@media (min-width: 1280px) {
-  .hero {
-    padding: 2rem 6rem;
-  }
-}
-@media (min-width: 768px) {
-  .hero {
-    min-height: 50vh;
-  }
-}
-@media (min-width: 1024px) {
-  .hero {
-    min-height: 75vh;
-  }
-}
-@media (min-width: 1280px) {
-  .hero {
+    position: relative;
+    padding: 2rem 1rem;
     min-height: 60vh;
-  }
+}
+
+@media (min-width: 768px) {
+    .hero {
+        padding: 2rem 2rem;
+    }
+}
+
+@media (min-width: 1024px) {
+    .hero {
+        padding: 2rem 4rem;
+    }
+}
+
+@media (min-width: 1280px) {
+    .hero {
+        padding: 2rem 6rem;
+    }
+}
+
+@media (min-width: 768px) {
+    .hero {
+        min-height: 50vh;
+    }
+}
+
+@media (min-width: 1024px) {
+    .hero {
+        min-height: 75vh;
+    }
+}
+
+@media (min-width: 1280px) {
+    .hero {
+        min-height: 60vh;
+    }
 }
 
 .dropdown {
-  position: relative;
-  display: inline-block;
+    position: relative;
+    display: inline-block;
 }
+
 .dropdown .dropdown-toggler {
-  height: 100%;
-  border: none;
-  background-color: inherit;
-  color: inherit;
-  cursor: pointer;
+    height: 100%;
+    border: none;
+    background-color: inherit;
+    color: inherit;
+    cursor: pointer;
 }
+
 .dropdown .dropdown-toggler:focus {
-  outline: none;
-  border: none;
+    outline: none;
+    border: none;
 }
+
 .dropdown .dropdown-toggler::after {
-  content: attr(dropdown-arrow);
-  padding-left: 0.5rem;
+    content: attr(dropdown-arrow);
+    padding-left: 0.5rem;
 }
+
 .dropdown .dropdown-container {
-  display: none;
-  background-color: white;
-  min-width: 160px;
-  -webkit-box-shadow: 0px 1px 5px 0px rgba(0, 0, 0, 0.25);
-  -moz-box-shadow: 0px 1px 5px 0px rgba(0, 0, 0, 0.25);
-  box-shadow: 0px 1px 5px 0px rgba(0, 0, 0, 0.25);
-  z-index: 1;
-  position: initial;
-  max-width: 100%;
+    display: none;
+    background-color: white;
+    min-width: 160px;
+    -webkit-box-shadow: 0px 1px 5px 0px rgba(0, 0, 0, 0.25);
+    -moz-box-shadow: 0px 1px 5px 0px rgba(0, 0, 0, 0.25);
+    box-shadow: 0px 1px 5px 0px rgba(0, 0, 0, 0.25);
+    z-index: 1;
+    position: initial;
+    max-width: 100%;
 }
+
 @media (min-width: 768px) {
-  .dropdown .dropdown-container {
-    position: absolute;
-  }
+    .dropdown .dropdown-container {
+        position: absolute;
+    }
 }
+
 .dropdown .dropdown-container.show {
-  display: block;
+    display: block;
 }
+
 .dropdown .dropdown-container * {
-  color: rgba(0, 0, 0, 0.65) !important;
-  padding: 12px 16px;
-  text-decoration: none;
-  display: block;
-  cursor: pointer;
+    color: rgba(0, 0, 0, 0.65) !important;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    cursor: pointer;
 }
+
 .dropdown .dropdown-container *:hover {
-  background-color: #f0f0f0;
+    background-color: #f0f0f0;
 }
 
 /*# sourceMappingURL=fetcher.css.map */

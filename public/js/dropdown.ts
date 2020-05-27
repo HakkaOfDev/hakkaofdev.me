@@ -17,7 +17,7 @@ export const Dropdown = () => {
         if (getItems(button, 'dropdown-arrow')) button.setAttribute('dropdown-arrow', getItems(button, 'dropdown-arrow')?.value.toString().toLowerCase())
 
         datas.setAttribute('style', `${position}: 0`)
-        
+
         switch (action) {
             case "hover":
                 dropdown.addEventListener('mouseenter', () => datas.classList.toggle('show'))

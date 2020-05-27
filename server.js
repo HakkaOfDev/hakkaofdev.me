@@ -7,7 +7,7 @@ dotenvExpand(dotenv)
 
 const port = parseInt(process.env.PORT, 10) || 3000
 const dev = process.env.NODE_ENV !== 'production'
-const app = next({ dev })
+const app = next({dev})
 const handle = app.getRequestHandler()
 
 app.prepare()
@@ -17,7 +17,7 @@ app.prepare()
         server.use(cookieParser())
 
         server.get('/signin', (req, res) => {
-            if(req.cookies.token) {
+            if (req.cookies.token) {
                 res.redirect('/')
             } else {
                 return app.render(req, res, '/signin', req.query)
@@ -25,7 +25,7 @@ app.prepare()
         })
 
         server.get('/signup', (req, res) => {
-            if(req.cookies.token) {
+            if (req.cookies.token) {
                 res.redirect('/')
             } else {
                 return app.render(req, res, '/signup', req.query)

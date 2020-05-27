@@ -1,6 +1,5 @@
-
 /**
- * 
+ *
  * @param configuration
  */
 export const ResponsiveNavbar = (): void => {
@@ -14,7 +13,7 @@ export const ResponsiveNavbar = (): void => {
         container: document.querySelector('.navbar-container') as HTMLElement
     }
 
-    const { navbar, toggler, overlay, container, timer, initialPosition, finalPosition } = configuration
+    const {navbar, toggler, overlay, container, timer, initialPosition, finalPosition} = configuration
     toggler.addEventListener('click', () => {
         container.setAttribute('style', `animation: navbar-toggle-on ${timer / 1000}s both`)
         overlay.setAttribute('style', `animation: opacity-on ${timer / 1000}s both; transform:translate(${finalPosition});`)
@@ -34,7 +33,7 @@ export const AnimateNavbar = () => {
         navbar: document.querySelector('.navbar.animate-top') as HTMLElement
     }
 
-    const { navbar } = configuration
+    const {navbar} = configuration
 
     window.addEventListener('scroll', () => {
         let elements = navbar.getBoundingClientRect()
