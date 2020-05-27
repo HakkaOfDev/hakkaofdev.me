@@ -5,13 +5,13 @@ import Project from "../components/Projects/Project";
 import React, {Fragment, useEffect} from "react";
 import './i18n';
 import {Parallax} from "react-parallax";
-import {Fade, Rotate, Zoom} from "react-reveal";
 import {useTranslation} from "react-i18next";
 import Typed from 'typed.js';
 import About from "../components/About/About";
 import Citation from "../components/Citation/Citation";
 import Header from "../components/Header/Header";
 import Skills from "../components/Skills/Skills";
+import Footer from "../components/Footer/Footer";
 
 const Index = () => {
     const projects = [
@@ -63,14 +63,14 @@ const Index = () => {
     const {t, i18n} = useTranslation();
 
     const options = {
-        title:"HakkaOfDev",
-        describe:"Official website of HakkaOfDev",
-        image:"/img/citation.jpg"
+        title: "HakkaOfDev",
+        describe: "Official website of HakkaOfDev",
+        image: "/img/citation.jpg"
     }
 
     return (
         <Layout title={options.title} describe={options.describe} image={options.image}>
-            <Header />
+            <Header/>
 
             <About/>
 
@@ -79,11 +79,11 @@ const Index = () => {
                 bgImageAlt="Citation Newton"
                 blur={{min: -100, max: 100}}
                 strength={-250}>
-                <Citation data={{citation:"Citation-Newton", author:"Isaac Newton"}}/>
+                <Citation data={{citation: "Citation-Newton", author: "Isaac Newton"}}/>
             </Parallax>
 
             <div id="skills">
-                <Skills />
+                <Skills/>
             </div>
 
             <Parallax
@@ -91,7 +91,7 @@ const Index = () => {
                 bgImageAlt="Citation Voltaire"
                 blur={{min: -100, max: 100}}
                 strength={-250}>
-                <Citation data={{citation:"Citation-Voltaire", author:"Voltaire"}}/>
+                <Citation data={{citation: "Citation-Voltaire", author: "Voltaire"}}/>
             </Parallax>
 
             <div id="projects"></div>
@@ -111,8 +111,10 @@ const Index = () => {
                 bgImageAlt="Citation Gossard"
                 blur={{min: -100, max: 100}}
                 strength={-250}>
-                <Citation data={{citation:"Citation-Gossard", author:"Alexandre Gossard"}}/>
+                <Citation data={{citation: "Citation-Gossard", author: "Alexandre Gossard"}}/>
             </Parallax>
+
+            <Footer/>
         </Layout>
     );
 }

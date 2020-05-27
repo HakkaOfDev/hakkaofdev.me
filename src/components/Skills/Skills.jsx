@@ -331,12 +331,13 @@ const Skills = () => {
     return (
 
         <div className="hero skills-container columns">
+            <Slide left>
+                <div className="lg:col-12">
+                    <div className="tree">
 
-            <div className="lg:col-12">
-                <div className="tree">
-
+                    </div>
                 </div>
-            </div>
+            </Slide>
         </div>
 
     );

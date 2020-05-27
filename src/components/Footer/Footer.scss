@@ -1,0 +1,70 @@
+.footer-container {
+  height: 50vh;
+  background-color: #212121;
+  max-height: 50vh;
+
+  .footer-item {
+    margin: 40px 40px;
+
+    .footer-item-title {
+      font-family: Oswald, sans-serif;
+      text-transform: uppercase;
+      font-size: 1.8rem;
+      color: #ffa000
+    }
+
+    p {
+      color: white;
+      line-height: 1.6rem;
+      font-family: GeosansLight, sans-serif;
+      font-size: 1.4rem;
+    }
+
+    ul {
+      li {
+        line-height: 2rem;
+
+        a {
+          text-decoration: none;
+          color: white;
+
+          &:hover {
+            color: darkorange;
+          }
+        }
+      }
+    }
+
+  }
+
+  img {
+    max-height: 50vh;
+    border-right: #ff6f00 solid 4px;
+    border-left: #ff6f00 solid 4px;
+  }
+}
+
+.copyright {
+  height: 7vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+  p {
+    color: white;
+    font-family: Montserrat, sans-serif;
+    font-size: 1.3rem;
+
+    a {
+      text-decoration: none;
+      color: #212121;
+      font-family: Montserrat, sans-serif;
+      font-size: 1.3rem;
+
+      &:hover {
+        color: orange;
+      }
+    }
+  }
+}

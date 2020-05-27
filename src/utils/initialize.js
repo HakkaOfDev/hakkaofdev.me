@@ -1,6 +1,6 @@
 import Router from 'next/router';
 import actions from '../redux/actions';
-import { getCookie } from '../utils/cookie';
+import {getCookie} from '../utils/cookie';
 
 
 export default (ctx) => {

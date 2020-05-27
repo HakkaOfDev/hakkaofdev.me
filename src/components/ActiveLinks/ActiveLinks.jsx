@@ -1,9 +1,9 @@
-import { useRouter } from 'next/router'
+import {useRouter} from 'next/router'
 import Link from 'next/link'
 
-function ActiveLinks({ children, target, toggle }) {
-    const { pathname } = useRouter()
-    
+function ActiveLinks({children, target, toggle}) {
+    const {pathname} = useRouter()
+
     const handleNavbar = () => {
         toggle()
     }

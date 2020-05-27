@@ -5,7 +5,7 @@ const Header = () => {
 
     const {t, i18n} = useTranslation();
 
-    return(
+    return (
         <div className="hero header-container">
             <p id="typing" className="sm:text:center textheader text:amber-2 hover:text:amber"></p>
             <div id="typed"><p>ALEXANDRE GOSSARD</p></div>

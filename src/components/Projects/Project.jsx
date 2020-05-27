@@ -1,4 +1,4 @@
-import React, {Fragment} from "react";
+import React from "react";
 import {Fade} from "react-reveal";
 import {useTranslation} from "react-i18next";
 

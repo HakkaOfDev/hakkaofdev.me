@@ -2,7 +2,6 @@
 // https://github.com/carlos-peru/next-with-api/blob/master/lib/session.js
 
 import cookie from 'js-cookie';
-import JwtDecode from 'jwt-decode';
 
 export const setCookie = (key, value) => {
     if (process.browser) {

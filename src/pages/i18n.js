@@ -1,6 +1,6 @@
 import React from "react";
 import i18n from "i18next";
-import { initReactI18next } from "react-i18next";
+import {initReactI18next} from "react-i18next";
 
 const resources = {
     en: {
@@ -51,7 +51,13 @@ const resources = {
             "Project-Workers-Feature-4": "Easy to configure.",
             "Project-Workers-Feature-5": "Interactions available ! (click listener)",
 
-            "HeaderText-Lore": "Developer & Designer"
+            "HeaderText-Lore": "Developer & Designer",
+
+            "Description-1": "A computer fan since I was 7 years old, I learn new things every day in various fields and I share my progress to make it a story that I tell you.",
+            "Description-2": "Developer since recently, I am heading towards a better future with the possibility of changing this low world in which we live.",
+            "Useful-Links": "Useful Links",
+
+            "Copyright": "All right reserved."
         }
     },
     fr: {
@@ -102,7 +108,13 @@ const resources = {
             "Project-Workers-Feature-4": "Simple à configurer.",
             "Project-Workers-Feature-5": "Intéractions disponible ! (click listener)",
 
-            "HeaderText-Lore": "Développeur & Graphiste"
+            "HeaderText-Lore": "Développeur & Graphiste",
+
+            "Description-1": "Fan d'informatique depuis mes 7 ans, j'apprends chaque jour des nouveautés dans divers domaines et je vous partage mon avancée afin d'en faire un récit que je vous raconte.",
+            "Description-2": "Développeur depuis peu, je me dirige vers un avenir meilleur avec la possibilité de changer ce bas monde dans lequel nous vivons.",
+            "Useful-Links": "Liens Utiles",
+
+            "Copyright": "Tous droits réservés."
         }
     }
 };

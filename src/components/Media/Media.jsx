@@ -1,4 +1,4 @@
-import React, {useEffect} from "react";
+import React from "react";
 import {Fade} from "react-reveal";
 
 const Media = () => {
@@ -9,7 +9,8 @@ const Media = () => {
                 <div className="social-container">
                     <div className="social-item">
                         <div className="social-anim">
-                            <a href="#" role="button" className="text:amber-2"><i className="ti ti-instagram social-logo"></i></a>
+                            <a href="#" role="button" className="text:amber-2"><i
+                                className="ti ti-instagram social-logo"></i></a>
                         </div>
                     </div>
                     <div className="social-item">

@@ -1,4 +1,3 @@
-import Link from 'next/link';
 import Head from 'next/head';
 import {connect} from 'react-redux';
 import actions from '../redux/actions';

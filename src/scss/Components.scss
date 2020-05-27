@@ -2,7 +2,7 @@
  * Creating a scss styling file for each component is a very good practice.
  * Please import all your styles dedicated to your components here
  */
- 
+
 @import '../components/ActiveLinks/ActiveLinks';
 @import '../components/Breadcrumbs/Breadcumbs';
 @import '../components/Fields/Fields';
@@ -12,3 +12,4 @@
 @import '../components/Projects/Project';
 @import '../components/Media/Media';
 @import '../components/Skills/Skills';
+@import '../components/Footer/Footer';
