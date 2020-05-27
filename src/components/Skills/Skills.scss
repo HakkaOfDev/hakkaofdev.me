@@ -1,6 +1,7 @@
 .skills-container {
-  height: 90vh;
+  height: 100vh;
   background: url('/img/about.jpg') no-repeat center;
+  background-size: cover;
 }
 
 .mid-skill-container {
@@ -36,15 +37,17 @@
 .node circle {
   fill: #fff;
   stroke: darkorange;
-  stroke-width: 3px;
+  stroke-width: 3.5px;
 }
 
 .node text {
-  font: 24px sans-serif; /* Font size */
+  font-family: Oswald, sans-serif;
+  font-size: 18px;
+  text-transform: uppercase;
 }
 
 .link {
   fill: none;
-  stroke: #ccc;
-  stroke-width: 2px;
+  stroke: darkorange;
+  stroke-width: 3px;
 }

@@ -32,7 +32,7 @@ const Index = () => {
             features: ["Project-Heavenmoon-Feature-1", "Project-Heavenmoon-Feature-2", "Project-Heavenmoon-Feature-3", "Project-Heavenmoon-Feature-4", "Project-Heavenmoon-Feature-5"],
             dateStart: new Date("2020-04-24"),
             dateEnd: -1,
-            cta: "https://www.hakkaofdev.me/heavenmoon.pdf",
+            cta: "https://www.heavenmoon.fr",
             img: "/img/heavenmoon.jpg"
         },
         {
@@ -82,7 +82,9 @@ const Index = () => {
                 <Citation data={{citation:"Citation-Newton", author:"Isaac Newton"}}/>
             </Parallax>
 
-            <Skills />
+            <div id="skills">
+                <Skills />
+            </div>
 
             <Parallax
                 bgImage={'/img/citation.jpg'}
@@ -92,7 +94,9 @@ const Index = () => {
                 <Citation data={{citation:"Citation-Voltaire", author:"Voltaire"}}/>
             </Parallax>
 
-            <div id="projects" className="projects">
+            <div id="projects"></div>
+
+            <div className="projects">
                 <div className="container">
                     {projects.map((project) => (
                         <Fragment>

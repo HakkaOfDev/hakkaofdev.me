@@ -6,161 +6,174 @@ const Skills = () => {
     const {t, i18n} = useTranslation();
 
     const tree = () => {
-        // let emdData = [
-        //     {
-        //         "name": "Web",
-        //         "parent": "null",
-        //         "value": 25,
-        //         "children": [
-        //             {
-        //                 "name": "Front End",
-        //                 "parent": "Web",
-        //                 "value": 20,
-        //                 "children": [
-        //                     {
-        //                         "name": "HTML",
-        //                         "parent": "Front End",
-        //                         "value": 15,
-        //                     },
-        //                     {
-        //                         "name": "CSS",
-        //                         "parent": "Front End",
-        //                         "value": 15,
-        //                     },
-        //                     {
-        //                         "name": "Javascript",
-        //                         "parent": "Front End",
-        //                         "value": 7,
-        //                         "children": [
-        //                             {
-        //                                 "name": "ReactJS",
-        //                                 "parent": "Javascript",
-        //                                 "value": 10,
-        //                             },
-        //                             {
-        //                                 "name": "NextJS",
-        //                                 "parent": "Javascript",
-        //                                 "value": 10,
-        //                             },
-        //                             {
-        //                                 "name": "AdonisJS",
-        //                                 "parent": "Javascript",
-        //                                 "value": 10,
-        //                             },
-        //                             {
-        //                                 "name": "Node.js",
-        //                                 "parent": "Javascript",
-        //                                 "value": 10,
-        //                             }
-        //                         ]
-        //                     }
-        //                 ]
-        //             },
-        //             {
-        //                 "name": "Back End",
-        //                 "parent": "Web",
-        //                 "value": 20,
-        //                 "children": [
-        //                     {
-        //                         "name": "PHP",
-        //                         "parent": "Back End",
-        //                         "value": 15,
-        //                         "children": [
-        //                             {
-        //                                 "name": "Symphony",
-        //                                 "parent": "PHP",
-        //                                 "value": 10,
-        //                             }
-        //                         ]
-        //                     },
-        //                     {
-        //                         "name": "Ruby",
-        //                         "parent": "Back End",
-        //                         "value": 15,
-        //                     }
-        //                 ]
-        //             },
-        //         ]
-        //     }
-        // ];
         let treeData = [
             {
-                "name": "Web",
+                "name": "Root",
                 "parent": "null",
                 "_children": [
                     {
-                        "name": "Front End",
-                        "parent": "Web",
+                        "name": "Web",
+                        "parent": "Root",
                         "_children": [
                             {
-                                "name": "HTML",
-                                "parent": "Front End",
-                                "_children": []
-                            },
-                            {
-                                "name": "CSS",
-                                "parent": "Front End",
-                                "_children": []
-                            },
-                            {
-                                "name": "Javascript",
-                                "parent": "Front End",
+                                "name": "Front End",
+                                "parent": "Web",
                                 "_children": [
                                     {
-                                        "name": "ReactJS",
-                                        "parent": "Javascript",
+                                        "name": "HTML",
+                                        "parent": "Front End",
                                         "_children": []
                                     },
                                     {
-                                        "name": "NextJS",
-                                        "parent": "Javascript",
+                                        "name": "CSS",
+                                        "parent": "Front End",
                                         "_children": []
                                     },
                                     {
-                                        "name": "AdonisJS",
-                                        "parent": "Javascript",
-                                        "_children": []
-                                    },
-                                    {
-                                        "name": "Node.js",
-                                        "parent": "Javascript",
-                                        "_children": []
+                                        "name": "Javascript",
+                                        "parent": "Front End",
+                                        "_children": [
+                                            {
+                                                "name": "ReactJS",
+                                                "parent": "Javascript",
+                                                "_children": []
+                                            },
+                                            {
+                                                "name": "NextJS",
+                                                "parent": "Javascript",
+                                                "_children": []
+                                            },
+                                            {
+                                                "name": "AdonisJS",
+                                                "parent": "Javascript",
+                                                "_children": []
+                                            },
+                                            {
+                                                "name": "Node.js",
+                                                "parent": "Javascript",
+                                                "_children": []
+                                            },
+                                            {
+                                                "name": "D3.js",
+                                                "parent": "Javascript",
+                                                "_children": []
+                                            }
+                                        ]
                                     }
                                 ]
+                            },
+                            {
+                                "name": "Back End",
+                                "parent": "Web",
+                                "_children": [
+                                    {
+                                        "name": "PHP",
+                                        "parent": "Back End",
+                                        "_children": [
+                                            {
+                                                "name": "Symphony",
+                                                "parent": "PHP",
+                                                "_children": []
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "name": "Ruby",
+                                        "parent": "Back End",
+                                        "_children": []
+                                    },
+                                ]
+                            },
+                        ]
+                    },
+                    {
+                        "name": "Java",
+                        "parent": "Root",
+                        "_children": [
+                            {
+                                "name": "Spigot/Bukkit",
+                                "parent": "Java",
+                                "_children": []
+                            },
+                            {
+                                "name": "Java SE 8 - 14",
+                                "parent": "Java",
+                                "_children": []
+                            },
+                            {
+                                "name": "Applications",
+                                "parent": "Java",
+                                "_children": []
+                            },
+                            {
+                                "name": "API",
+                                "parent": "Java",
+                                "_children": []
                             }
                         ]
                     },
                     {
-                        "name": "Back End",
-                        "parent": "Web",
+                        "name": "Python",
+                        "parent": "Root",
                         "_children": [
                             {
-                                "name": "PHP",
-                                "parent": "Back End",
-                                "_children": [
-                                    {
-                                        "name": "Symphony",
-                                        "parent": "PHP",
-                                        "_children": []
-                                    }
-                                ]
-                            },
-                            {
-                                "name": "Ruby",
-                                "parent": "Back End",
+                                "name": "Python Socket",
+                                "parent": "Python",
                                 "_children": []
                             },
+                            {
+                                "name": "PyGame",
+                                "parent": "Python",
+                                "_children": []
+                            },
+                            {
+                                "name": "Django",
+                                "parent": "Python",
+                                "_children": []
+                            },
+                            {
+                                "name": "Rest API",
+                                "parent": "Python",
+                                "_children": []
+                            }
                         ]
                     },
+                    {
+                        "name": "Workflow",
+                        "parent": "Root",
+                        "_children": [
+                            {
+                                "name": "Git",
+                                "parent": "Workflow",
+                                "_children": []
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Compiler",
+                        "parent": "Root",
+                        "_children": [
+                            {
+                                "name": "Maven",
+                                "parent": "Compiler",
+                                "_children": []
+                            },
+                            {
+                                "name": "Gradle",
+                                "parent": "Compiler",
+                                "_children": []
+                            }
+                        ]
+                    },
+
                 ]
-            }
-        ];
+            }];
 
 
 // ************** Generate the tree diagram  *****************
         let margin = {top: 40, right: 120, bottom: 40, left: 120},
             width = 1000 - margin.right - margin.left,
-            height = 500 - margin.top - margin.bottom;
+            height = 800 - margin.top - margin.bottom;
 
         let i = 0,
             duration = 750,
@@ -216,13 +229,15 @@ const Skills = () => {
 
             nodeEnter.append("circle")
                 .attr("r", 1e-6)
-                .style("fill", function(d) { return d._children ? "white" : "lightgray"; });
+                .style("fill", function (d) {
+                    return d._children ? "white" : "lightgray";
+                });
 
             nodeEnter.append("text")  // adjust parameters on next couple lines
                 .attr("x", function (d) {
                     return d.children || d._children ? -5 : 14;
                 })
-                .attr("dy", "1.4em")
+                .attr("dy", "1.75em")
                 .attr("text-anchor", function (d) {
                     return d.children || d._children ? "end" : "start";
                 })
@@ -239,8 +254,10 @@ const Skills = () => {
                 });
 
             nodeUpdate.select("circle")
-                .attr("r", 20)
-                .style("fill", function(d) { return d._children ? "white" : "lightgray"; });
+                .attr("r", 15)
+                .style("fill", function (d) {
+                    return d._children ? "white" : "lightgray";
+                });
 
             nodeUpdate.select("text")
                 .style("fill-opacity", 1);
@@ -315,15 +332,7 @@ const Skills = () => {
 
         <div className="hero skills-container columns">
 
-            <div className="lg:col-5">
-                <div className="">
-
-                </div>
-            </div>
-            <div className="lg:col-2">
-
-            </div>
-            <div className="lg:col-5">
+            <div className="lg:col-12">
                 <div className="tree">
 
                 </div>
