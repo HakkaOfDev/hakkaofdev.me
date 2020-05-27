@@ -50,6 +50,8 @@ const Layout = ({children, title = '', image = '', describe = ''}) => {
                 {children}
             </div>
 
+            <script src="https://d3js.org/d3.v3.min.js"></script>
+
             <Media/>
         </>
     )
