@@ -14,6 +14,7 @@ const resources = {
             "Citation-Newton": "If I could see further, it was because I was standing on the shoulders of giants.",
             "Citation-Voltaire": "Man wasn't born for rest.",
             "Citation-Gossard": "Software development is the way of wisdom.",
+            "Citation-Hugo": "Happiness is sometimes hidden in the unknown.",
 
             "About-Lore-1": "Prodigy of mathematics, I was passionate about computer science with the aim of exploiting my abilities and sharing them at all times.",
             "About-Lore-2": "Blinded by the thirst for knowledge, I develop every day to give you ideas, projects, open-sources, etc...",
@@ -71,6 +72,7 @@ const resources = {
             "Citation-Newton": "Si j'ai pu voir plus loin, c'est que je me tenais sur les épaules de géants.",
             "Citation-Voltaire": "L'homme n'est pas né pour le repos.",
             "Citation-Gossard": "Le développement informatique est la voie de la sagesse.",
+            "Citation-Hugo": "Le bonheur est parfois caché dans l'inconnu.",
 
             "About-Lore-1": "Prodige des mathématiques, je me suis passionné dans l'informatique dans le but d'exploiter mes capacités et de les partager à tout va.",
             "About-Lore-2": "Aveuglé par la soif de connaissances, je développe chaque jour afin de vous donner des idées, des projets, des open-sources, etc...",

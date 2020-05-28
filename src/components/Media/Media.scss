@@ -38,8 +38,8 @@
 
   &:hover {
     .social-anim {
-      animation: socialanim 1s both;
-      transition: 3s ease-in-out;
+      animation: socialanim 0.8s both;
+      transition: 2.5s ease-in-out;
     }
   }
 
@@ -53,7 +53,7 @@
     transform: rotate3d(0, 0, 0, 0) scale(1);
   }
   to {
-    transform: rotate3d(5, 5, 5, 360deg) scale(1.3);
+    transform: rotate3d(5, 5, 5, 360deg) scale(1.1);
   }
 }
 

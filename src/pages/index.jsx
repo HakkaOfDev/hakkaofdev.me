@@ -12,6 +12,8 @@ import Citation from "../components/Citation/Citation";
 import Header from "../components/Header/Header";
 import Skills from "../components/Skills/Skills";
 import Footer from "../components/Footer/Footer";
+import Portfolio from "../components/Portfolio/Portfolio";
+import Contact from "../components/Contact/Contact";
 
 const Index = () => {
     const projects = [
@@ -113,6 +115,36 @@ const Index = () => {
                 strength={-250}>
                 <Citation data={{citation: "Citation-Gossard", author: "Alexandre Gossard"}}/>
             </Parallax>
+
+            <div id="portfolio"></div>
+
+            <Parallax
+                bgImage={'/img/flat.jpg'}
+                bgImageAlt="Soon"
+                blur={{min: -100, max: 100}}
+                strength={-250}>
+                <Citation data={{citation: "PORTFOLIO", author: "Comming Soon"}}/>
+            </Parallax>
+            {/*<Portfolio/>*/}
+
+            <Parallax
+                bgImage={'/img/citation.jpg'}
+                bgImageAlt="Citation Hugo"
+                blur={{min: -100, max: 100}}
+                strength={-250}>
+                <Citation data={{citation: "Citation-Hugo", author: "Victor Hugo"}}/>
+            </Parallax>
+
+            <div id="contact"></div>
+
+            <Parallax
+                bgImage={'/img/flat.jpg'}
+                bgImageAlt="Soon"
+                blur={{min: -100, max: 100}}
+                strength={-250}>
+                <Citation data={{citation: "CONTACT", author: "Comming Soon"}}/>
+            </Parallax>
+            {/*<Contact/>*/}
 
             <Footer/>
         </Layout>
