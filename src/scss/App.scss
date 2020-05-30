@@ -9,8 +9,13 @@
 @import '../components/Citation/Citation';
 @import '../components/Skills/Skills';
 
+html{
+  overflow-x: hidden;
+}
+
 body {
   background-color: #f6f1f8;
+  overflow-x: hidden;
 }
 
 .img-responsive {

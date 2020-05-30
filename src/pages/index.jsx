@@ -3,7 +3,7 @@ import initialize from '../utils/initialize'
 import Layout from '../components/Layout'
 import Project from "../components/Projects/Project";
 import React, {Fragment, useEffect} from "react";
-import './i18n';
+import '../../public/js/i18n';
 import {Parallax} from "react-parallax";
 import {useTranslation} from "react-i18next";
 import Typed from 'typed.js';
@@ -13,7 +13,6 @@ import Header from "../components/Header/Header";
 import Skills from "../components/Skills/Skills";
 import Footer from "../components/Footer/Footer";
 import Portfolio from "../components/Portfolio/Portfolio";
-import Contact from "../components/Contact/Contact";
 
 const Index = () => {
     const projects = [
@@ -118,14 +117,7 @@ const Index = () => {
 
             <div id="portfolio"></div>
 
-            <Parallax
-                bgImage={'/img/flat.jpg'}
-                bgImageAlt="Soon"
-                blur={{min: -100, max: 100}}
-                strength={-250}>
-                <Citation data={{citation: "PORTFOLIO", author: "Comming Soon"}}/>
-            </Parallax>
-            {/*<Portfolio/>*/}
+            <Portfolio/>
 
             <Parallax
                 bgImage={'/img/citation.jpg'}

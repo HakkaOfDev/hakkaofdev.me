@@ -8,12 +8,15 @@
       position: absolute;
       max-height: 100%;
     }
-    width: 100%;
+    @media screen and (min-width: 1280px) {
+      width: 100%;
+    }
+    width: 95%;
     border: 5px solid #ffa000;
   }
 
   .about-text {
-    padding-left: 2rem;
+    padding: 0;
     @media screen and (min-width: 1280px) {
       padding: 1rem 1rem 1rem 2rem;
     }

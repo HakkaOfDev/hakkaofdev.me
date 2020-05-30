@@ -23,12 +23,5 @@
     "isolatedModules": true,
     "noEmit": true,
     "jsx": "preserve"
-  },
-  "include": [
-    "src/ts/**/*"
-  ],
-  "exclude": [
-    "node_modules",
-    "**/*.spec.ts"
-  ]
+  }
 }

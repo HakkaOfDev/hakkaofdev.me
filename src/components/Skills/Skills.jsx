@@ -110,6 +110,22 @@ const Skills = () => {
                                 "name": "API",
                                 "parent": "Java",
                                 "_children": []
+                            },
+                            {
+                                "name": "Compiler",
+                                "parent": "Java",
+                                "_children": [
+                                    {
+                                        "name": "Maven",
+                                        "parent": "Compiler",
+                                        "_children": []
+                                    },
+                                    {
+                                        "name": "Gradle",
+                                        "parent": "Compiler",
+                                        "_children": []
+                                    }
+                                ]
                             }
                         ]
                     },
@@ -149,23 +165,7 @@ const Skills = () => {
                                 "_children": []
                             }
                         ]
-                    },
-                    {
-                        "name": "Compiler",
-                        "parent": "Root",
-                        "_children": [
-                            {
-                                "name": "Maven",
-                                "parent": "Compiler",
-                                "_children": []
-                            },
-                            {
-                                "name": "Gradle",
-                                "parent": "Compiler",
-                                "_children": []
-                            }
-                        ]
-                    },
+                    }
 
                 ]
             }];

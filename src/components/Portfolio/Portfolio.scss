@@ -1,0 +1,113 @@
+$amber: #ffa000;
+
+.portfolio-container {
+  height: 100vh;
+
+  img {
+    width: 100%;
+    height: 30vh;
+    display: block;
+    transition: all .4s ease-in-out;
+  }
+
+  .portfolio {
+    margin: 0;
+    overflow: hidden;
+    padding: 0;
+
+
+    li {
+      float: left;
+      width: 100%;
+      list-style: none;
+      transition: all .4s ease-in-out;
+    }
+
+    figure {
+      margin: 0 20px 20px 0;
+      position: relative;
+      text-align: center;
+      border: 3px solid #000;
+      border-radius: 8px;
+      overflow: hidden;
+      transition: all .4s ease-in-out;
+    }
+
+    figure:hover {
+      border: 3px solid $amber;
+
+      img {
+        opacity: .3;
+        transform: scale(5);
+
+      }
+
+      figcaption {
+        top: 50%;
+        margin-top: -20px;
+      }
+
+      h3 {
+        bottom: 70%;
+      }
+    }
+
+    figcaption {
+      position: absolute;
+      width: 100%;
+      top: 100%;
+      left: 0;
+      transition: all .2s ease-in-out .2s;
+    }
+  }
+
+  a {
+    background-color: $amber;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-weight: bold;
+    text-shadow: 0 -1px 1px saturate(darken($amber, 20%), 20%);
+    text-decoration: none;
+    color: #fff;
+    width: 50px;
+    height: 50px;
+    line-height: 50px;
+    border-radius: 50%;
+    display: inline-block;
+    transition: all .2s ease-in-out;
+
+    &:hover {
+      background-color: saturate($amber, 20%);
+    }
+  }
+
+  h3 {
+    color: #fff;
+    font-family: Helvetica, Arial, sans-serif;
+    font-weight: 300;
+    text-transform: uppercase;
+    text-shadow: 0 0 5px rgba(black, .6);
+    font-weight: 500;
+    padding: 1em .7em;
+    border-radius: 50%;
+    position: absolute;
+    bottom: 100%;
+    left: 0;
+    width: 100%;
+    display: inline-block;
+    padding: 0;
+    margin: 0;
+    transition: all .15s ease-in-out .4s;
+  }
+
+  @media (min-width: 460px) {
+    .portfolio li {
+      width: 50%;
+    }
+  }
+
+  @media (min-width: 740px) {
+    .portfolio li {
+      width: 33%;
+    }
+  }
+}

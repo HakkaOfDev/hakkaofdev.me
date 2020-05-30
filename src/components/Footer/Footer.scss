@@ -1,7 +1,9 @@
 .footer-container {
-  height: 50vh;
+  height: 100%;
+  @media screen and (min-width: 1280px) {
+    height: 50vh;
+  }
   background-color: #212121;
-  max-height: 50vh;
 
   .footer-item {
     margin: 40px 40px;
@@ -45,12 +47,15 @@
   .footer-media {
     display: flex;
     align-items: center;
-    justify-content: space-around;
+    justify-content: space-between;
     margin-top: 20px;
-    width: 50%;
-
+    width: 100%;
+    @media screen and (min-width: 1280px) {
+      width: 50%;
+    }
     a {
       text-decoration: none;
+      margin: 0 0.3rem;
       font-size: 25px;
       max-width: 45px;
     }
@@ -58,7 +63,7 @@
 }
 
 .copyright {
-  height: 7vh;
+  height: 10vh;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -67,18 +72,21 @@
   p {
     color: white;
     font-family: Montserrat, sans-serif;
-    font-size: 1rem;
+    font-size: 0.8rem;
     text-transform: uppercase;
+    margin: 0;
+    padding: 0;
+  }
 
-    a {
-      text-decoration: none;
-      color: #212121;
-      font-family: Montserrat, sans-serif;
-      font-size: 1rem;
+  a {
+    text-decoration: none;
+    color: #212121;
+    text-transform: uppercase;
+    font-family: Montserrat, sans-serif;
+    font-size: 1rem;
 
-      &:hover {
-        color: orange;
-      }
+    &:hover {
+      color: orange;
     }
   }
 }
