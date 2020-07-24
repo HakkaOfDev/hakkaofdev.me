@@ -1,16 +1,20 @@
+# HakkaOfDev.me
 
-# Next.js JWT Authentication
+[![heart](https://img.shields.io/static/v1?label=Build%20With&message=❤&color=darkred&labelColor=red&style=for-the-badge)]()
+[![foryou](https://img.shields.io/static/v1?label=For&message=You&color=aqua&labelColor=blue&style=for-the-badge)]()
+[![license](https://img.shields.io/static/v1?label=License&message=GNU%20V3&color=green&labelColor=darkgreen&style=for-the-badge)]()
 
-### Starting the app:
-```bash
+## It's me official website
 
-git clone https://github.com/Freeze455/next-express-jwt.git
-cd next-express-jwt
+I made this for me, expand my area of expertise.
 
-# Run in dev mode:
-yarn dev
+## Technologies used
 
-# Run in production:
-yarn build
-yarn start
-```
+* [SASS](https://sass-lang.com/)
+* [JavaScript](https://developer.mozilla.org/fr/docs/Web/JavaScript)
+* [TypeScript](https://www.typescriptlang.org/)
+* [React](https://fr.reactjs.org/)
+
+## Liscence
+
+Distributed under the GNU GENERAL PUBLIC LICENSE Version 3. See License for more information.
