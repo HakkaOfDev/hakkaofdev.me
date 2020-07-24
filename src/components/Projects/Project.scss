@@ -1,7 +1,8 @@
 .projects {
   .container {
     padding: 0;
-
+    background-color: whitesmoke;
+    z-index: 0;
     .item-container {
       display: flex;
       flex: 1;
@@ -19,7 +20,6 @@
         flex: 1;
 
         .container {
-          height: 100%;
           padding: .5rem 1rem;
 
           @media screen and (min-width: 1024px) {
@@ -107,32 +107,32 @@
 .title {
   text-transform: uppercase;
   font-family: Oswald, sans-serif;
-  font-size: 38px;
+  font-size: 40px;
 }
 
 .subtitle {
   font-family: Montserrat, sans-serif;
-  font-size: 25px;
+  font-size: 27px;
 }
 
 .time {
   font-family: Montserrat, sans-serif;
-  font-size: 22px;
+  font-size: 24px;
 }
 
 .desc {
   font-family: GeosansLight;
-  font-size: 20px;
+  font-size: 22px;
 }
 
 .desctitle {
-  font-size: 22px;
+  font-size: 24px;
 }
 
 .features {
   list-style-type: none;
   padding-left: 10px;
-  font-size: 1.5rem;
+  font-size: 1.6rem;
 
   li {
     padding-top: 3px;

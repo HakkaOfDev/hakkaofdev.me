@@ -47,11 +47,22 @@
   .footer-media {
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: center;
     margin-top: 20px;
     width: 100%;
+    padding: 0!important;
+
     @media screen and (min-width: 1280px) {
       width: 50%;
+      margin-top: 20px;
+      width: 100%;
+      padding: 0 40px;
+      a {
+        text-decoration: none;
+        margin: 0 0.3rem;
+        font-size: 25px;
+        max-width: 45px;
+      }
     }
     a {
       text-decoration: none;

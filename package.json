@@ -28,6 +28,7 @@
     "react-dom": "^16.8.0",
     "react-i18next": "^11.4.0",
     "react-parallax": "^3.0.3",
+    "react-particles-js": "^3.3.0",
     "react-redux": "^6.0.0",
     "react-reveal": "^1.2.2",
     "redux": "^4.0.1",

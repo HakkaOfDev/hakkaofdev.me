@@ -51,6 +51,7 @@ const Layout = ({children, title = '', image = '', describe = ''}) => {
 
             <script src="https://d3js.org/d3.v3.min.js"></script>
             <script src="/js/portfolio.js"></script>
+            <script src="https://smtpjs.com/v3/smtp.js"></script>
 
             <Media/>
         </>

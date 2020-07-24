@@ -1,4 +1,4 @@
-import React, {useEffect} from "react";
+import React, {Fragment, useEffect} from "react";
 import {useTranslation} from "react-i18next";
 import {Slide} from "react-reveal";
 
@@ -312,7 +312,7 @@ const Skills = () => {
             });
         }
 
-// Toggle children on click.
+        // Toggle children on click.
         function click(d) {
             if (d.children) {
                 d._children = d.children;
@@ -330,17 +330,24 @@ const Skills = () => {
     }, []);
 
     return (
+        <Fragment>
+            <div className="hero skills-container sm:hide lg:show columns">
+                <Slide left>
+                    <div className="lg:col-12">
+                        <div className="tree">
 
-        <div className="hero skills-container columns">
-            <Slide left>
-                <div className="lg:col-12">
-                    <div className="tree">
-
+                        </div>
                     </div>
-                </div>
-            </Slide>
-        </div>
-
+                </Slide>
+            </div>
+            <div className="skills-no-pc sm:show lg:hide">
+                <Slide left>
+                    <div className="lg:col-12">
+                        <p className="check-lg-message">Afin de regarder l'arbre de mes compétences, veuillez vous rendre sur un écran lg.</p>
+                    </div>
+                </Slide>
+            </div>
+        </Fragment>
     );
 
 }

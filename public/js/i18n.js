@@ -22,6 +22,8 @@ const resources = {
             "About-Lore-SubCitation": "This is my philosophy...",
             "About-Lore-End": "Developer Java/Web & Designer",
 
+            "Check-LG-Message": "In order to watch the tree of my skills, please go to an lg screen.",
+
             "Project-Duration": "Duration",
             "Project-Progress": "IN PROGRESS",
             "Project-Button": "Discover",
@@ -54,6 +56,26 @@ const resources = {
 
             "HeaderText-Lore": "Developer & Designer",
 
+            "Hydraulic-Ascent-Title": "The hydraulic ascent",
+            "Hydraulic-Ascent-SubTitle": "~ Spirit of the sea",
+            "Hydraulic-Ascent-Desc": "Phoho from a photo montage, reworked for hours, the result speaks for itself.",
+
+            "Background-Title": "Power Manga",
+            "Background-SubTitle": "Wallpaper",
+            "Background-Desc": "My personal wallpaper, one of my first designs.",
+
+            "Marianne-Title": "Marian",
+            "Marianne-SubTitle": "~ Street Art",
+            "Marianne-Desc": "A very specific picture showing the moral and material damage of the war.",
+
+            "Brothers-Title": "Brothers Family",
+            "Brothers-SubTitle": "Logo",
+            "Brothers-Desc": "Logo for the e-sport team Brothers Family.",
+
+            "HeavenMoon-Title": "HeavenMoon",
+            "HeavenMoon-SubTitle": "Logo",
+            "HeavenMoon-Desc": "Logo for my minecraft server HeavenMoon.",
+
             "Description-1": "A computer fan since I was 7 years old, I learn new things every day in various fields and I share my progress to make it a story that I tell you.",
             "Description-2": "Developer since recently, I am heading towards a better future with the possibility of changing this low world in which we live.",
             "Useful-Links": "Useful Links",
@@ -79,6 +101,8 @@ const resources = {
             "About-Lore-Citation": "Vis comme si tu devais mourir demain. Apprends comme si tu devais vivre toujours.",
             "About-Lore-SubCitation": "Telle est ma philosophie...",
             "About-Lore-End": "Développeur Java/Web & Graphiste",
+
+            "Check-LG-Message": "Afin de regarder l'arbre de mes compétences, veuillez vous rendre sur un écran lg.",
 
             "Project-Duration": "Durée",
             "Project-Progress": "EN COURS",
@@ -111,6 +135,26 @@ const resources = {
             "Project-Workers-Feature-5": "Intéractions disponible ! (click listener)",
 
             "HeaderText-Lore": "Développeur & Graphiste",
+
+            "Hydraulic-Ascent-Title": "L'ascension hydraulique",
+            "Hydraulic-Ascent-SubTitle": "~ Esprit de la mer",
+            "Hydraulic-Ascent-Desc": "Phoho issue d'un photo montage, retravaillée pendant des heures, le résultat parle de lui même.",
+
+            "Background-Title": "Power Manga",
+            "Background-SubTitle": "Fond d'écran",
+            "Background-Desc": "Mon fond d'écran personnel, un de mes premiers design.",
+
+            "Marianne-Title": "Marianne",
+            "Marianne-SubTitle": "~ Street Art",
+            "Marianne-Desc": "Un tableau très spécifique montrant les dégâts moraux et matériels de la guerre.",
+
+            "Brothers-Title": "Brothers Family",
+            "Brothers-SubTitle": "Logo",
+            "Brothers-Desc": "Logo pour la team e-sport Brothers Family.",
+
+            "HeavenMoon-Title": "HeavenMoon",
+            "HeavenMoon-SubTitle": "Logo",
+            "HeavenMoon-Desc": "Logo pour mon serveur minecraft HeavenMoon.",
 
             "Description-1": "Fan d'informatique depuis mes 7 ans, j'apprends chaque jour des nouveautés dans divers domaines et je vous partage mon avancée afin d'en faire un récit que je vous raconte.",
             "Description-2": "Développeur depuis peu, je me dirige vers un avenir meilleur avec la possibilité de changer ce bas monde dans lequel nous vivons.",

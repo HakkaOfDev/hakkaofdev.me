@@ -8,14 +8,14 @@ const About = () => {
 
     return (
         <div id="about" className="about-container hero">
-            <div className="container lg:py-5 lg:grid-lg">
+            <div className="lg:py-5 lg:grid-lg">
                 <div className="columns">
-                    <div className="p:relative sm:col-12 md:col-4 lg:col-6">
+                    <div className="avatar-container p:relative sm:col-12 md:col-4 lg:col-6">
                         <Fade bottom>
                             <img src="/img/profil.jpg" className="about-avatar img-responsive"/>
                         </Fade>
                     </div>
-                    <div className="sm:col-12 md:col-8 lg:col-6">
+                    <div className="sm:col-12 md:col-8 lg:col-4">
                         <Fade right cascade>
                             <div className="about-text">
                                 <h1 className="author-title text:amber-2">

@@ -13,6 +13,8 @@ import Header from "../components/Header/Header";
 import Skills from "../components/Skills/Skills";
 import Footer from "../components/Footer/Footer";
 import Portfolio from "../components/Portfolio/Portfolio";
+import Contact from "../components/Contact/Contact";
+import Separator from "../components/Separator/Separator";
 
 const Index = () => {
     const projects = [
@@ -95,15 +97,16 @@ const Index = () => {
                 <Citation data={{citation: "Citation-Voltaire", author: "Voltaire"}}/>
             </Parallax>
 
-            <div id="projects"></div>
-
-            <div className="projects">
-                <div className="container">
-                    {projects.map((project) => (
-                        <Fragment>
-                            <Project {...project}/>
-                        </Fragment>
-                    ))}
+            <div id="projects">
+                <Separator content="redissonClient.getTopic(serverType.getName()).addListener(platform.getMessageEvent());"/>
+                <div className="projects">
+                    <div className="container">
+                        {projects.map((project) => (
+                            <Fragment>
+                                <Project {...project}/>
+                            </Fragment>
+                        ))}
+                    </div>
                 </div>
             </div>
 
@@ -115,9 +118,10 @@ const Index = () => {
                 <Citation data={{citation: "Citation-Gossard", author: "Alexandre Gossard"}}/>
             </Parallax>
 
-            <div id="portfolio"></div>
-
-            <Portfolio/>
+            <div id="portfolio">
+                <Separator content="return teams.stream().filter(t -> t.getName().equals(name)).findFirst().get();"/>
+                <Portfolio/>
+            </div>
 
             <Parallax
                 bgImage={'/img/citation.jpg'}
@@ -127,16 +131,9 @@ const Index = () => {
                 <Citation data={{citation: "Citation-Hugo", author: "Victor Hugo"}}/>
             </Parallax>
 
-            <div id="contact"></div>
-
-            <Parallax
-                bgImage={'/img/flat.jpg'}
-                bgImageAlt="Soon"
-                blur={{min: -100, max: 100}}
-                strength={-250}>
-                <Citation data={{citation: "CONTACT", author: "Comming Soon"}}/>
-            </Parallax>
-            {/*<Contact/>*/}
+            <div id="contact">
+                <Contact/>
+            </div>
 
             <Footer/>
         </Layout>
