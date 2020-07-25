@@ -4,6 +4,7 @@ import withRedux from 'next-redux-wrapper'
 import {initStore} from '../redux'
 
 import '../../public/css/themify-icons/themify-icons.css'
+import '../../public/css/devicon-master/devicon.css'
 import '../../public/css/architect.css'
 import '../../public/js/navbar'
 

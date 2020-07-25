@@ -22,20 +22,25 @@ const Footer = () => {
                                 </p>
                             </div>
                             <div className="footer-media">
-                                <a href="https://github.com/HakkaOfDev/" role="button" className="btn btn:rounded background:amber-2"><i
+                                <a href="https://github.com/HakkaOfDev/" role="button"
+                                   className="btn btn:rounded background:amber-2"><i
                                     className="ti ti-github"></i></a>
-                                <a href="https://www.instagram.com/hakkaofdev" role="button" className="btn btn:rounded background:amber-2"><i
+                                <a href="https://www.instagram.com/hakkaofdev" role="button"
+                                   className="btn btn:rounded background:amber-2"><i
                                     className="ti ti-instagram"></i></a>
-                                <a href="https://twitter.com/MZMdev" role="button" className="btn btn:rounded background:amber-2"><i
+                                <a href="https://twitter.com/MZMdev" role="button"
+                                   className="btn btn:rounded background:amber-2"><i
                                     className="ti ti-twitter"></i></a>
-                                <a href="https://www.linkedin.com/in/hakkaofdev" role="button" className="btn btn:rounded background:amber-2"><i
+                                <a href="https://www.linkedin.com/in/hakkaofdev" role="button"
+                                   className="btn btn:rounded background:amber-2"><i
                                     className="ti ti-linkedin"></i></a>
-                                <a href="https://www.youtube.com/channel/UCL2DQSKkbk4JoTtrrguSqmA?view_as=subscriber" role="button" className="btn btn:rounded background:amber-2"><i
+                                <a href="https://www.youtube.com/channel/UCL2DQSKkbk4JoTtrrguSqmA?view_as=subscriber"
+                                   role="button" className="btn btn:rounded background:amber-2"><i
                                     className="ti ti-youtube"></i></a>
                             </div>
                         </div>
                     </Fade>
-                    <div className="lg:col-3 sm:hide sm:order-3 lg:order-2">
+                    <div className="lg:col-3 sm:hide md:hide sm:order-3 lg:order-2">
                         <img src="/img/avatar.jpg" className="img-responsive w-100 h-100"/>
                     </div>
                     <Fade right>

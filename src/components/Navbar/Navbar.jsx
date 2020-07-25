@@ -35,19 +35,24 @@ const Navbar = () => {
             </div>
             <div className="navbar-container">
                 <div className="nav-link link-animated">
-                   <a className="hover:text:amber-2" onClick={(event) => handleScroll(event, "#about", "center")}>{t("Link-About")}</a>
+                    <a className="hover:text:amber-2"
+                       onClick={(event) => handleScroll(event, "#about", "center")}>{t("Link-About")}</a>
                 </div>
                 <div className="nav-link link-animated">
-                    <a className="hover:text:amber-2" onClick={(event) => handleScroll(event, "#skills", "center")}>{t("Link-Skills")}</a>
+                    <a className="hover:text:amber-2"
+                       onClick={(event) => handleScroll(event, "#skills", "center")}>{t("Link-Skills")}</a>
                 </div>
                 <div className="nav-link link-animated">
-                    <a className="hover:text:amber-2" onClick={(event) => handleScroll(event, "#projects", "start")}>{t("Link-Projects")}</a>
+                    <a className="hover:text:amber-2"
+                       onClick={(event) => handleScroll(event, "#projects", "start")}>{t("Link-Projects")}</a>
                 </div>
                 <div className="nav-link link-animated">
-                    <a className="hover:text:amber-2" onClick={(event) => handleScroll(event, "#portfolio", "start")}>{t("Link-Portfolio")}</a>
+                    <a className="hover:text:amber-2"
+                       onClick={(event) => handleScroll(event, "#portfolio", "start")}>{t("Link-Portfolio")}</a>
                 </div>
                 <div className="nav-link link-animated">
-                    <a className="hover:text:amber-2" onClick={(event) => handleScroll(event, "#contact", "start")}>{t("Link-Contact")}</a>
+                    <a className="hover:text:amber-2"
+                       onClick={(event) => handleScroll(event, "#contact", "start")}>{t("Link-Contact")}</a>
                 </div>
                 <a href="https://www.github.com/HakkaOfDev"
                    className="btn btn:rounded github-button background:amber-2"><i className="ti ti-github"></i> Github

@@ -98,7 +98,8 @@ const Index = () => {
             </Parallax>
 
             <div id="projects">
-                <Separator content="redissonClient.getTopic(serverType.getName()).addListener(platform.getMessageEvent());"/>
+                <Separator
+                    content="redissonClient.getTopic(serverType.getName()).addListener(platform.getMessageEvent());"/>
                 <div className="projects">
                     <div className="container">
                         {projects.map((project) => (

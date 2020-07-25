@@ -19,9 +19,9 @@ const Contact = () => {
 
         const {pseudo, email, content} = input;
 
-        if(!pseudo && pseudo == undefined) return;
-        if(!email && email == undefined) return;
-        if(!content && content == undefined) return;
+        if (!pseudo && pseudo == undefined) return;
+        if (!email && email == undefined) return;
+        if (!content && content == undefined) return;
 
         const sendMail = await Axios.post("https://formspree.io/mwkrqekd", input);
         if (sendMail.status === 200) {

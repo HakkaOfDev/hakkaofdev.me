@@ -32,15 +32,20 @@ const About = () => {
                                     <span className="about-subcitation">{t("About-Lore-SubCitation")}</span>
                                 </p>
                                 <div className="about-media">
-                                    <a href="https://github.com/HakkaOfDev/" role="button" className="btn btn:rounded background:amber-2"><i
+                                    <a href="https://github.com/HakkaOfDev/" role="button"
+                                       className="btn btn:rounded background:amber-2"><i
                                         className="ti ti-github"></i></a>
-                                    <a href="https://www.instagram.com/hakkaofdev" role="button" className="btn btn:rounded background:amber-2"><i
+                                    <a href="https://www.instagram.com/hakkaofdev" role="button"
+                                       className="btn btn:rounded background:amber-2"><i
                                         className="ti ti-instagram"></i></a>
-                                    <a href="https://twitter.com/MZMdev" role="button" className="btn btn:rounded background:amber-2"><i
+                                    <a href="https://twitter.com/MZMdev" role="button"
+                                       className="btn btn:rounded background:amber-2"><i
                                         className="ti ti-twitter"></i></a>
-                                    <a href="https://www.linkedin.com/in/hakkaofdev" role="button" className="btn btn:rounded background:amber-2"><i
+                                    <a href="https://www.linkedin.com/in/hakkaofdev" role="button"
+                                       className="btn btn:rounded background:amber-2"><i
                                         className="ti ti-linkedin"></i></a>
-                                    <a href="https://www.youtube.com/channel/UCL2DQSKkbk4JoTtrrguSqmA?view_as=subscriber" role="button" className="btn btn:rounded background:amber-2"><i
+                                    <a href="https://www.youtube.com/channel/UCL2DQSKkbk4JoTtrrguSqmA?view_as=subscriber"
+                                       role="button" className="btn btn:rounded background:amber-2"><i
                                         className="ti ti-youtube"></i></a>
                                 </div>
                             </div>
