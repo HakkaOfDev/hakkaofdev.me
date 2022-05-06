@@ -44,7 +44,7 @@ const Portfolio = () => {
         <p className="portfolio-title">{t("Link-Portfolio")}</p>
         <div className="cards-container">
           {datas.map((card) => (
-            <Fragment>
+            <Fragment key={card.title}>
               <CardImage {...card} />
             </Fragment>
           ))}

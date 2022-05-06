@@ -14,7 +14,6 @@ const Footer = () => {
               <div className="footer-item">
                 <p>
                   <span className="footer-item-title">Description</span>
-                  <hr />
                   {t("Description-1")}
                   <br />
                   {t("Description-2")}
@@ -65,27 +64,25 @@ const Footer = () => {
           <Fade right>
             <div className="lg:col-3 sm:col-12 sm:order-2 lg:order-3">
               <div className="footer-item">
-                <p>
-                  <span className="footer-item-title">{t("Useful-Links")}</span>
-                  <hr />
-                  <ul>
-                    <li>
-                      <a href="#about">{t("Link-About")}</a>
-                    </li>
-                    <li>
-                      <a href="#skills">{t("Link-Skills")}</a>
-                    </li>
-                    <li>
-                      <a href="#projects">{t("Link-Projects")}</a>
-                    </li>
-                    <li>
-                      <a href="#portfolio">{t("Link-Portfolio")}</a>
-                    </li>
-                    <li>
-                      <a href="#contact">{t("Link-Contact")}</a>
-                    </li>
-                  </ul>
-                </p>
+                <span className="footer-item-title">{t("Useful-Links")}</span>
+                <hr />
+                <ul>
+                  <li>
+                    <a href="#about">{t("Link-About")}</a>
+                  </li>
+                  <li>
+                    <a href="#skills">{t("Link-Skills")}</a>
+                  </li>
+                  <li>
+                    <a href="#projects">{t("Link-Projects")}</a>
+                  </li>
+                  <li>
+                    <a href="#portfolio">{t("Link-Portfolio")}</a>
+                  </li>
+                  <li>
+                    <a href="#contact">{t("Link-Contact")}</a>
+                  </li>
+                </ul>
               </div>
             </div>
           </Fade>

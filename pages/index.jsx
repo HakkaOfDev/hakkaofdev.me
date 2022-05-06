@@ -1,18 +1,18 @@
-import Layout from "../components/Layout";
-import Project from "../components/Projects/Project";
+import Layout from "src/components/Layout";
+import Project from "src/components/Projects/Project";
 import React, { Fragment, useEffect } from "react";
-import "../../public/js/i18n";
+import "../public/js/i18n.js";
 import { Parallax } from "react-parallax";
 import { useTranslation } from "react-i18next";
 import Typed from "typed.js";
-import About from "../components/About/About";
-import Citation from "../components/Citation/Citation";
-import Header from "../components/Header/Header";
-import Skills from "../components/Skills/Skills";
-import Footer from "../components/Footer/Footer";
-import Portfolio from "../components/Portfolio/Portfolio";
-import Contact from "../components/Contact/Contact";
-import Separator from "../components/Separator/Separator";
+import About from "src/components/About/About";
+import Citation from "src/components/Citation/Citation";
+import Header from "src/components/Header/Header";
+import Skills from "src/components/Skills/Skills";
+import Footer from "src/components/Footer/Footer";
+import Portfolio from "src/components/Portfolio/Portfolio";
+import Contact from "src/components/Contact/Contact";
+import Separator from "src/components/Separator/Separator";
 
 const Index = () => {
   const projects = [

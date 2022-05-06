@@ -44,7 +44,7 @@ const Project = ({
                 <ul className="features">
                   {features.map((feature) => {
                     return (
-                      <li>
+                      <li key={feature}>
                         <i className="ti ti-shift-right sm:mr-2"></i>{" "}
                         {t(feature)}
                       </li>

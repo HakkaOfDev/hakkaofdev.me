@@ -1,8 +1,8 @@
 import React, { useEffect } from "react";
 import { useRouter } from "next/router";
-import { ResponsiveNavbar } from "../../../public/js/navbar";
+import { ResponsiveNavbar } from "../../../public/js/navbar.ts";
 import { useTranslation } from "react-i18next";
-import { Dropdown } from "../../../public/js/dropdown";
+import { Dropdown } from "../../../public/js/dropdown.ts";
 
 const Navbar = () => {
   const { pathname } = useRouter();
@@ -98,6 +98,7 @@ const Navbar = () => {
                     <a
                       role="button"
                       className="background:amber-2 sm:text:center"
+                      key={lang}
                     >
                       {lang.toUpperCase()}
                     </a>
@@ -108,6 +109,7 @@ const Navbar = () => {
                       role="button"
                       className="border:amber-2 lang-link hover:background:amber-1 sm:text:center"
                       onClick={() => i18n.changeLanguage(lang)}
+                      key={lang}
                     >
                       {lang.toUpperCase()}
                     </a>
