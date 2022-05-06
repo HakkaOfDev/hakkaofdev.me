@@ -7,3 +7,5 @@ public/img/
 *.log
 .DS_Store
 sitemap.xml
+
+package-lock.json

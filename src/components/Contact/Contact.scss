@@ -1,35 +1,35 @@
 .contact-container {
-    padding: 0 0 30px 0;
+  padding: 0 0 30px 0;
 
-    .contact-title {
-        font-family: Montserrat, sans-serif;
-        font-size: 35px;
-        text-align: center;
+  .contact-title {
+    font-family: Montserrat, sans-serif;
+    font-size: 35px;
+    text-align: center;
+  }
+
+  form {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+
+    div {
+      width: 70%;
+      flex: 1;
+      margin: 0 0 15px 0;
     }
 
-    form {
-        display: flex;
-        align-items: center;
-        flex-direction: column;
-        justify-content: center;
-        width: 100%;
-
-        div {
-            width: 70%;
-            flex: 1;
-            margin: 0 0 15px 0;
-        }
-
-        button {
-            margin-top: 10px;
-        }
-
-        @media screen and (min-width: 1280px) {
-            div {
-                width: 45%;
-                flex: 1;
-                margin: 0 0 15px 0;
-            }
-        }
+    button {
+      margin-top: 10px;
     }
+
+    @media screen and (min-width: 1280px) {
+      div {
+        width: 45%;
+        flex: 1;
+        margin: 0 0 15px 0;
+      }
+    }
+  }
 }
